@@ -88,6 +88,19 @@ const config: Config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "wiggle": "wiggle 2s ease-in-out infinite",
+      },
+      fontFamily: {
+        sans: ["IBM Plex Sans", "system-ui", "sans-serif"],
+        serif: ["Baloo 2", "system-ui", "sans-serif"],
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        glow: "var(--shadow-glow)",
       },
     },
   },
