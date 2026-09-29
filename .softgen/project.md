@@ -14,3 +14,4 @@ Mascot: cute jade-teal kirin/dragon with amber flame tail, cream belly, speech b
 
 ## Features
 Landing page: header/nav, hero with mascot + CTA, trust logos, feature sections (auto-hide spam, AI replies in brand voice, automations/DM triggers, sentiment analysis, multi-platform), stats/proof, testimonials, comparison vs FeedGuardians/manual moderation, pricing tiers, extensive FAQ (SEO-targeted), footer with keyword-rich links.
+Free tool: "Moderator Rush" — a 10-round comment/DM moderation quiz at /tools/spot-the-spam-comment-quiz with server-side scoring, rank titles, shareable result pages, an email gate that unlocks a category breakdown, and a referral waitlist flow. Linked from the header ("Free Tools") and the home page.
