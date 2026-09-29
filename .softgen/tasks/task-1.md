@@ -14,17 +14,17 @@ Social Kirin differentiator: friendly guardian-kirin mascot, cute-but-profession
 Logo asset at public/generated/social-kirin-logo.jpg (jade teal + amber gradient bg — extract mascot only for header/favicon use where possible, use full image for hero).
 
 ## Checklist
-- [ ] Design system: update globals.css (jade/amber/cream palette, Baloo 2 + IBM Plex Sans fonts) and tailwind.config.ts (fontFamily registration)
-- [ ] Header/Nav: logo + Social Kirin wordmark, links (Features, How it Works, Pricing, FAQ), CTA button "Start Free Trial"
-- [ ] Hero section: headline targeting "AI comment moderation" + "DM automation" intent, subheadline, mascot illustration, dual CTA, trust bar (platform icons: Instagram/Facebook/TikTok)
-- [ ] Features section (6 cards): Auto-Hide Spam Comments, AI-Powered Replies in Your Brand Voice, DM Automation & Keyword Triggers, Sentiment Analysis, Multi-Platform Dashboard, Human Escalation for Sensitive Comments
-- [ ] How It Works: 3-step process (Connect accounts → Train brand voice → Go live in minutes)
-- [ ] Stats/proof section: hours saved/week, response time, engagement boost, accuracy % (styled cards with big numbers)
-- [ ] Comparison section: Social Kirin vs Manual Moderation vs Generic Chatbots vs FeedGuardians (table) targeting "FeedGuardians alternative" keyword
-- [ ] Testimonials: 3 fictional DTC brand testimonials with named persona, company, quote
-- [ ] Pricing: 3-4 tiers (Starter/Growth/Business/Enterprise) with feature lists, monthly pricing
-- [ ] FAQ section: 10-12 SEO-targeted Q&As (setup time, safety, platforms supported, pricing, accuracy, brand voice training, comparison to social media managers, is it safe/will it hide real customers)
-- [ ] Footer: keyword-rich link columns (Platforms: Instagram/Facebook/TikTok moderation, Use cases, Company, Legal), social links, copyright
+- [x] Design system: update globals.css (jade/amber/cream palette, Baloo 2 + IBM Plex Sans fonts) and tailwind.config.ts (fontFamily registration)
+- [x] Header/Nav: logo + Social Kirin wordmark, links (Features, How it Works, Pricing, FAQ), CTA button "Start Free Trial"
+- [x] Hero section: headline targeting "AI comment moderation" + "DM automation" intent, subheadline, mascot illustration, dual CTA, trust bar (platform icons: Instagram/Facebook/TikTok)
+- [x] Features section (6 cards): Auto-Hide Spam Comments, AI-Powered Replies in Your Brand Voice, DM Automation & Keyword Triggers, Sentiment Analysis, Multi-Platform Dashboard, Human Escalation for Sensitive Comments
+- [x] How It Works: 3-step process (Connect accounts → Train brand voice → Go live in minutes)
+- [x] Stats/proof section: hours saved/week, response time, engagement boost, accuracy % (styled cards with big numbers)
+- [x] Comparison section: Social Kirin vs Manual Moderation vs Generic Chatbots vs FeedGuardians (table) targeting "FeedGuardians alternative" keyword
+- [x] Testimonials: 3 fictional DTC brand testimonials with named persona, company, quote
+- [x] Pricing: 3-4 tiers (Starter/Growth/Business/Enterprise) with feature lists, monthly pricing
+- [x] FAQ section: 10-12 SEO-targeted Q&As (setup time, safety, platforms supported, pricing, accuracy, brand voice training, comparison to social media managers, is it safe/will it hide real customers)
+- [x] Footer: keyword-rich link columns (Platforms: Instagram/Facebook/TikTok moderation, Use cases, Company, Legal), social links, copyright
 - [ ] SEO: update SEO.tsx defaults (title, description, og image), add JSON-LD Organization/SoftwareApplication schema, robots.txt, sitemap.xml
 - [ ] Generate supporting images: hero mascot scene, feature icons/illustrations as needed
 
