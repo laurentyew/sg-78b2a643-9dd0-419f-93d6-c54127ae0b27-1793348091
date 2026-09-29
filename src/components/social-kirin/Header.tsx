@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Features", href: "#features" },
   { label: "How It Works", href: "#how-it-works" },
   { label: "Pricing", href: "#pricing" },
+  { label: "Waitlist", href: "#waitlist" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -45,10 +46,13 @@ export function Header() {
           <Button variant="ghost" className="text-foreground/80 hover:text-primary">
             Log In
           </Button>
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-soft gap-1.5">
+          <a
+            href="#waitlist"
+            className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
+          >
             <ShieldCheck className="h-4 w-4" />
-            Start Free Trial
-          </Button>
+            Join Waitlist
+          </a>
         </div>
 
         <button

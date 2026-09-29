@@ -2,6 +2,7 @@ import React from "react";
 import { SEO } from "@/components/SEO";
 import { Header } from "@/components/social-kirin/Header";
 import { Hero } from "@/components/social-kirin/Hero";
+import { Waitlist } from "@/components/social-kirin/Waitlist";
 import { Features } from "@/components/social-kirin/Features";
 import { HowItWorks } from "@/components/social-kirin/HowItWorks";
 import { Stats } from "@/components/social-kirin/Stats";
@@ -45,6 +46,7 @@ export default function Home() {
       <main className="min-h-screen bg-background">
         <Header />
         <Hero />
+        <Waitlist />
         <Features />
         <HowItWorks />
         <Stats />
