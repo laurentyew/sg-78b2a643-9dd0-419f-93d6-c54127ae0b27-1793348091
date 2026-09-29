@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ShieldCheck } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const navLinks = [
   { label: "Features", href: "#features" },
