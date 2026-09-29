@@ -2,12 +2,22 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ShieldCheck } from "lucide-react";
 
-const navLinks = [
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Waitlist", href: "#waitlist" },
-  { label: "FAQ", href: "#faq" },
+interface NavLink {
+  label: string;
+  href: string;
+  internal: boolean;
+}
+
+const navLinks: NavLink[] = [
+  { label: "Features", href: "#features", internal: false },
+  { label: "How It Works", href: "#how-it-works", internal: false },
+  { label: "Pricing", href: "#pricing", internal: false },
+  {
+    label: "Free Tools",
+    href: "/tools/spot-the-spam-comment-quiz",
+    internal: true,
+  },
+  { label: "FAQ", href: "#faq", internal: false },
 ];
 
 export function Header() {
@@ -29,19 +39,29 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
+        <nav className="hidden lg:flex items-center gap-7">
+          {navLinks.map((link) =>
+            link.internal ? (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              >
+                {link.label}
+              </a>
+            ),
+          )}
         </nav>
 
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <a
             href="#waitlist"
             className="inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
@@ -58,7 +78,7 @@ export function Header() {
         </div>
 
         <button
-          className="md:hidden text-foreground p-2"
+          className="lg:hidden text-foreground p-2"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
@@ -67,17 +87,28 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-border bg-background px-4 py-4 space-y-3">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={() => setOpen(false)}
-              className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
-            >
-              {link.label}
-            </a>
-          ))}
+        <div className="lg:hidden border-t border-border bg-background px-4 py-4 space-y-3">
+          {navLinks.map((link) =>
+            link.internal ? (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+              >
+                {link.label}
+              </a>
+            ),
+          )}
           <a
             href="#waitlist"
             onClick={() => setOpen(false)}

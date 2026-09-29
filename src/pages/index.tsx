@@ -8,6 +8,7 @@ import { Features } from "@/components/social-kirin/Features";
 import { ModerationGrid } from "@/components/social-kirin/ModerationGrid";
 import { HowItWorks } from "@/components/social-kirin/HowItWorks";
 import { Stats } from "@/components/social-kirin/Stats";
+import { FreeTools } from "@/components/social-kirin/FreeTools";
 import { Comparison } from "@/components/social-kirin/Comparison";
 import { FoundingBrands } from "@/components/social-kirin/FoundingBrands";
 import { Pricing } from "@/components/social-kirin/Pricing";
@@ -60,6 +61,7 @@ export default function Home() {
         <ModerationGrid />
         <HowItWorks />
         <Stats />
+        <FreeTools />
         <Comparison />
         <FoundingBrands />
         <Pricing />
