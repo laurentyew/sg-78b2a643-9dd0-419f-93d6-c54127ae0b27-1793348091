@@ -1,11 +1,11 @@
 ---
 title: Quiz SEO, navigation and abuse protection
-status: todo
+status: done
 priority: high
 type: chore
-tags: [seo, analytics, security]
+tags: [quiz, seo, nav]
 created_by: agent
-created_at: 2026-09-29T08:52:00Z
+created_at: 2026-09-29T08:55:00Z
 position: 10
 ---
 

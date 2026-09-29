@@ -1,11 +1,11 @@
 ---
 title: Email gate, waitlist and referral
-status: todo
+status: done
 priority: high
 type: feature
-tags: [leads, email, referral]
+tags: [quiz, leads, email]
 created_by: agent
-created_at: 2026-09-29T08:52:00Z
+created_at: 2026-09-29T08:55:00Z
 position: 9
 ---
 

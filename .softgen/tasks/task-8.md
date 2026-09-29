@@ -1,11 +1,11 @@
 ---
 title: Quiz game UI and result page
-status: todo
+status: done
 priority: urgent
 type: feature
-tags: [game, ui, og-image]
+tags: [quiz, ui]
 created_by: agent
-created_at: 2026-09-29T08:52:00Z
+created_at: 2026-09-29T08:55:00Z
 position: 8
 ---
 

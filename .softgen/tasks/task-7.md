@@ -1,11 +1,11 @@
 ---
 title: Comment moderation quiz game engine
-status: in_progress
+status: done
 priority: urgent
 type: feature
-tags: [game, supabase, api]
+tags: [quiz, api, supabase]
 created_by: agent
-created_at: 2026-09-29T08:52:00Z
+created_at: 2026-09-29T08:55:00Z
 position: 7
 ---
 
