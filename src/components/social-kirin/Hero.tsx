@@ -84,11 +84,19 @@ export function Hero() {
 
         <div className="relative">
           <div className="relative mx-auto max-w-[280px] rounded-[1.75rem] border border-border bg-card p-2 shadow-soft transition-transform duration-500 hover:rotate-0 sm:max-w-md sm:rotate-1 sm:rounded-[2rem] sm:p-3">
-            <img
-              src="/generated/social-kirin-logo.jpg"
-              alt="Social Kirin mascot, a cute jade dragon guardian for your social comments"
-              className="h-auto w-full rounded-[1.35rem] sm:rounded-[1.5rem]"
-            />
+            <video
+              src="/hf_20260929_040059_ee0b6e6d-0100-4f38-87cb-a03c4b21a26c.mp4"
+              poster="/generated/social-kirin-logo.jpg"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="metadata"
+              aria-label="Social Kirin product demo showing AI moderation and DM automation"
+              className="h-auto w-full rounded-[1.35rem] object-cover sm:rounded-[1.5rem]"
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
           <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card px-4 py-3 shadow-soft sm:block">
             <p className="text-xs text-muted-foreground">Spam auto-hidden</p>
