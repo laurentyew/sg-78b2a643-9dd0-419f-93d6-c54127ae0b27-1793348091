@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <SEO
         title="Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & TikTok"
-        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and TikTok. Setup in minutes. The friendly FeedGuardians alternative."
+        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and TikTok. Setup in minutes. No code required."
       />
       <script
         type="application/ld+json"

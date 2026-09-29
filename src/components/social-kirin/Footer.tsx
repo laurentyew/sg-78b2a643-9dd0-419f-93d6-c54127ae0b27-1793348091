@@ -18,7 +18,7 @@ const columns = [
       { label: "Spam Comment Filter", href: "#features" },
       { label: "AI Auto-Reply in Brand Voice", href: "#features" },
       { label: "Sentiment Analysis & PR Alerts", href: "#features" },
-      { label: "FeedGuardians Alternative", href: "#comparison" },
+      { label: "Compare Alternatives", href: "#comparison" },
     ],
   },
   {

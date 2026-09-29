@@ -2,13 +2,13 @@ import React from "react";
 import { Check, X, Minus } from "lucide-react";
 
 const rows = [
-  { feature: "Auto-hide spam comments", kirin: true, manual: false, generic: true, feedguardians: true },
-  { feature: "Replies in your exact brand voice", kirin: true, manual: true, generic: false, feedguardians: true },
-  { feature: "DM automation & keyword triggers", kirin: true, manual: false, generic: "partial", feedguardians: true },
-  { feature: "Sentiment analysis & PR alerts", kirin: true, manual: false, generic: false, feedguardians: false },
-  { feature: "Cute, memorable brand identity", kirin: true, manual: false, generic: false, feedguardians: false },
-  { feature: "Setup time", kirin: "< 1 hour", manual: "N/A", generic: "1-2 weeks", feedguardians: "~48 hours" },
-  { feature: "Human escalation for sensitive issues", kirin: true, manual: true, generic: false, feedguardians: true },
+  { feature: "Auto-hide spam comments", kirin: true, manual: false, generic: true },
+  { feature: "Replies in your exact brand voice", kirin: true, manual: true, generic: false },
+  { feature: "DM automation & keyword triggers", kirin: true, manual: false, generic: "partial" },
+  { feature: "Sentiment analysis & PR alerts", kirin: true, manual: false, generic: false },
+  { feature: "Runs 24/7 without hiring", kirin: true, manual: false, generic: true },
+  { feature: "Setup time", kirin: "< 1 hour", manual: "N/A", generic: "1-2 weeks" },
+  { feature: "Human escalation for sensitive issues", kirin: true, manual: true, generic: false },
 ];
 
 function Cell({ value }: { value: boolean | string }) {
@@ -27,7 +27,7 @@ export function Comparison() {
             Why switch
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground text-balance">
-            Social Kirin vs. manual moderation, generic chatbots & FeedGuardians
+            Social Kirin vs. manual moderation & generic chatbots
           </h2>
           <p className="text-muted-foreground text-lg">
             See how an AI comment and DM moderation platform built for brand voice
@@ -43,7 +43,6 @@ export function Comparison() {
                 <th className="p-4 font-serif font-bold text-primary bg-primary/5">Social Kirin</th>
                 <th className="p-4 font-medium text-muted-foreground">Manual Moderation</th>
                 <th className="p-4 font-medium text-muted-foreground">Generic Chatbots</th>
-                <th className="p-4 font-medium text-muted-foreground">FeedGuardians</th>
               </tr>
             </thead>
             <tbody>
@@ -53,7 +52,6 @@ export function Comparison() {
                   <td className="p-4 text-center bg-primary/5"><Cell value={row.kirin} /></td>
                   <td className="p-4 text-center"><Cell value={row.manual} /></td>
                   <td className="p-4 text-center"><Cell value={row.generic} /></td>
-                  <td className="p-4 text-center"><Cell value={row.feedguardians} /></td>
                 </tr>
               ))}
             </tbody>

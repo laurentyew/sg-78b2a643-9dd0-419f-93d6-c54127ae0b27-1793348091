@@ -28,8 +28,8 @@ const faqs = [
     a: "Instagram, Facebook, and TikTok are fully supported today, covering comments, replies, and direct messages. We're expanding platform coverage based on customer demand — let us know what you need in onboarding.",
   },
   {
-    q: "Is Social Kirin a good FeedGuardians alternative?",
-    a: "Social Kirin covers the same core ground as FeedGuardians — spam auto-hiding, brand-voice AI replies, and DM automation — with a friendlier setup experience, sentiment analysis with PR-risk alerts, and pricing built for growing DTC brands rather than agencies. See our full comparison table above.",
+    q: "How is Social Kirin different from hiring a social media manager?",
+    a: "Hiring a community manager gives you human judgment but limited hours — they can't watch comments 24/7, and response times slip overnight and on weekends. Social Kirin runs continuously across Instagram, Facebook, and TikTok, hiding spam instantly and drafting brand-voice replies, while escalating sensitive threads to your team. Most brands use it to multiply their existing team's reach rather than replace it.",
   },
   {
     q: "How accurate is the AI reply and sentiment analysis?",
