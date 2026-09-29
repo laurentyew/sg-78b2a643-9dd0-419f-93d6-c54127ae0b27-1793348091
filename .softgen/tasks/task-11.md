@@ -1,11 +1,11 @@
 ---
 title: Waitlist popup after 30 seconds
-status: in_progress
+status: done
 priority: medium
 type: feature
-tags: [waitlist, landing-page, conversion]
+tags: [waitlist, landing]
 created_by: agent
-created_at: 2026-09-29T10:22:00Z
+created_at: 2026-09-29T10:20:00Z
 position: 11
 ---
 
