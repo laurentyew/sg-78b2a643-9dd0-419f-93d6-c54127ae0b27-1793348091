@@ -29,11 +29,14 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
             <Button
+              asChild
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-glow gap-2 h-13 px-7 text-base"
             >
-              Start Free 14-Day Trial
-              <ArrowRight className="h-4 w-4" />
+              <a href="#waitlist">
+                Claim 3 Months Free
+                <ArrowRight className="h-4 w-4" />
+              </a>
             </Button>
             <Button
               size="lg"

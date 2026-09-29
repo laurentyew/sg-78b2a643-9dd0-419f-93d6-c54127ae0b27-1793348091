@@ -43,9 +43,12 @@ export function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <Button variant="ghost" className="text-foreground/80 hover:text-primary">
+          <a
+            href="#waitlist"
+            className="inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
+          >
             Log In
-          </Button>
+          </a>
           <a
             href="#waitlist"
             className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
@@ -76,9 +79,14 @@ export function Header() {
               {link.label}
             </a>
           ))}
-          <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full mt-2">
-            Start Free Trial
-          </Button>
+          <a
+            href="#waitlist"
+            onClick={() => setOpen(false)}
+            className="mt-2 inline-flex h-10 w-full items-center justify-center gap-1.5 rounded-full bg-primary text-sm font-medium text-primary-foreground"
+          >
+            <ShieldCheck className="h-4 w-4" />
+            Join Waitlist
+          </a>
         </div>
       )}
     </header>
