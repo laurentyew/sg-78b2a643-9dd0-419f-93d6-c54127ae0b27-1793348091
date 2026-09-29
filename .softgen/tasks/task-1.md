@@ -9,8 +9,8 @@ created_at: 2026-09-29T02:19:20Z
 position: 1
 ---
 ## Notes
-Competitor researched: feedguardians.com — single-purpose AI comment/DM moderation across Instagram, Facebook, TikTok, Bluesky. Positioning: "auto-hide spam + AI replies in brand voice," $49-99/mo, 48hr setup, 80%-automation-or-refund guarantee, heavy FAQ block for SEO.
-Social Kirin differentiator: friendly guardian-kirin mascot, cute-but-professional tone, same feature depth (spam auto-hide, AI reply in brand voice, DM automation/keyword triggers, sentiment analysis, multi-platform) but warmer brand voice and comparison content targeting "FeedGuardians alternative" search intent.
+Competitor context: single-purpose AI comment/DM moderation across Instagram, Facebook, TikTok, Bluesky. Category positioning: "auto-hide spam + AI replies in brand voice," $49-99/mo, 48hr setup, 80%-automation-or-refund guarantee, heavy FAQ block for SEO.
+Social Kirin differentiator: friendly guardian-kirin mascot, cute-but-professional tone, same feature depth (spam auto-hide, AI reply in brand voice, DM automation/keyword triggers, sentiment analysis, multi-platform) but warmer brand voice and comparison content targeting "best AI comment moderation tool" search intent.
 Logo asset at public/generated/social-kirin-logo.jpg (jade teal + amber gradient bg — extract mascot only for header/favicon use where possible, use full image for hero).
 
 ## Checklist

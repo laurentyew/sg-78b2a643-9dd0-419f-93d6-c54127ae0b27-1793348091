@@ -20,7 +20,7 @@ const testimonials = [
     name: "Priya Nandakumar",
     role: "Marketing Lead, Sunroot Coffee Co.",
     quote:
-      "We tried FeedGuardians first but the setup felt clinical. Social Kirin's dashboard is friendlier and the sentiment alerts caught a brewing complaint before it went viral. Worth the switch.",
+      "We were drowning in DMs before Social Kirin. The sentiment alerts caught a brewing complaint before it went viral, and the dashboard was simple enough that our whole team picked it up in a day.",
     stat: "Zero PR incidents since switch",
   },
 ];
