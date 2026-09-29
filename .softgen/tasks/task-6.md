@@ -1,6 +1,6 @@
 ---
 title: Remove fabricated social proof
-status: in_progress
+status: done
 priority: urgent
 type: bug
 tags: [content, trust, seo]
@@ -19,12 +19,12 @@ Rules for the rewrite:
 - Any metric that stays must be labeled as a projected or typical result, never presented as measured from real accounts.
 
 ## Checklist
-- [ ] Hero: replace invented stat badges (spam auto-hidden count, reply accuracy) with capability-based badges
-- [ ] Stats: remove or reframe fabricated platform metrics as pre-launch/benchmark language
-- [ ] Testimonials: remove or clearly reframe fake named customer quotes
-- [ ] Comparison: verify no invented usage or customer numbers presented as real
-- [ ] index.tsx: remove the fake aggregateRating block from the SoftwareApplication JSON-LD
-- [ ] Add a founding-brands / early-access CTA block so the removed proof sections still convert
+- [x] Hero: replace invented stat badges (spam auto-hidden count, reply accuracy) with capability-based badges
+- [x] Stats: remove or reframe fabricated platform metrics as pre-launch/benchmark language
+- [x] Testimonials: remove or clearly reframe fake named customer quotes
+- [x] Comparison: verify no invented usage or customer numbers presented as real
+- [x] index.tsx: remove the fake aggregateRating block from the SoftwareApplication JSON-LD
+- [x] Add a founding-brands / early-access CTA block so the removed proof sections still convert
 
 ## Acceptance
 - No page section claims Social Kirin has existing customers, measured usage volumes, or customer reviews.
