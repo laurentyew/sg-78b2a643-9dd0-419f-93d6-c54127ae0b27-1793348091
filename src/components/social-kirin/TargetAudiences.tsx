@@ -42,41 +42,37 @@ const audiences = [
 
 export function TargetAudiences() {
   return (
-    <section id="audiences" className="bg-muted/30 py-20 md:py-24">
-      <div className="container space-y-12">
-        <div className="mx-auto max-w-3xl space-y-4 text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-accent">
+    <section id="audiences" className="bg-muted/30 py-16 md:py-24">
+      <div className="container space-y-10 md:space-y-12">
+        <div className="mx-auto max-w-3xl space-y-3 text-center md:space-y-4">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-accent sm:text-sm">
             Who it is for
           </span>
-          <h2 className="text-balance font-serif text-3xl font-bold text-foreground sm:text-4xl">
+          <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
             Built for teams drowning in comments, DMs, and spam
           </h2>
-          <p className="text-lg text-muted-foreground">
-            If you manage social accounts that get frequent questions, promo traffic, bot spam,
+          <p className="text-base leading-7 text-muted-foreground sm:text-lg">
+            If you manage social accounts with frequent questions, promo traffic, bot spam,
             or community messages, Social Kirin helps you respond faster without sounding like a bot.
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {audiences.map((audience, index) => (
             <article
               key={audience.label}
-              className="rounded-[1.75rem] border border-border bg-card p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-glow"
+              className="rounded-[1.5rem] border border-border bg-card p-5 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-glow sm:p-6"
             >
-              <div className="mb-5 flex items-center justify-between gap-3">
+              <div className="mb-4 flex items-center justify-between gap-3">
                 <span className={`inline-flex rounded-full px-3 py-1 text-xs font-semibold ${audience.tone}`}>
                   Best fit
                 </span>
-                <span className="font-serif text-lg font-bold text-foreground/25">
-                  0{index + 1}
-                </span>
+                <span className="font-serif text-lg font-bold text-foreground/25">0{index + 1}</span>
               </div>
 
-              <h3 className="text-xl font-serif font-bold text-foreground">
-                {audience.label}
-              </h3>
+              <h3 className="font-serif text-lg font-bold text-foreground sm:text-xl">{audience.label}</h3>
 
-              <div className="mt-5 space-y-4 text-sm leading-relaxed">
+              <div className="mt-4 space-y-3 text-sm leading-6">
                 <div>
                   <p className="font-semibold text-foreground">Pain point</p>
                   <p className="mt-1 text-muted-foreground">{audience.pain}</p>
@@ -87,7 +83,7 @@ export function TargetAudiences() {
                   <p className="mt-1 text-muted-foreground">{audience.benefit}</p>
                 </div>
 
-                <div className="rounded-2xl bg-muted/60 p-4">
+                <div className="rounded-2xl bg-muted/60 p-3.5">
                   <p className="font-semibold text-foreground">What you get</p>
                   <p className="mt-1 text-muted-foreground">{audience.result}</p>
                 </div>
@@ -97,13 +93,13 @@ export function TargetAudiences() {
         </div>
 
         <div className="flex flex-col items-center gap-4 text-center">
-          <p className="max-w-2xl text-sm text-muted-foreground">
+          <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
             If that sounds like your team, join the waitlist now and lock in 3 free months if you're among the first 50 signups.
           </p>
           <Button
             asChild
             size="lg"
-            className="rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90"
+            className="w-full rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90 sm:w-auto"
           >
             <Link href="#waitlist">See if spots are still open</Link>
           </Button>

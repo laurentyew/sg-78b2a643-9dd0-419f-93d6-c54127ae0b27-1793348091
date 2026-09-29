@@ -76,26 +76,25 @@ export function Waitlist() {
   }
 
   return (
-    <section id="waitlist" className="scroll-mt-24 bg-background py-20 md:py-28">
-      <div className="container grid items-center gap-12 lg:grid-cols-2">
-        <div className="space-y-6">
-          <div className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent">
+    <section id="waitlist" className="scroll-mt-24 bg-background py-16 md:py-24">
+      <div className="container grid items-center gap-8 md:gap-10 lg:grid-cols-2 lg:gap-12">
+        <div className="space-y-5 sm:space-y-6">
+          <div className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-3.5 py-1.5 text-xs font-medium text-accent sm:px-4 sm:text-sm">
             <Gift className="h-4 w-4" />
             Founding member offer
           </div>
 
-          <h2 className="font-serif text-3xl font-bold leading-tight text-foreground text-balance md:text-4xl">
-            Be first in line and get{" "}
-            <span className="text-primary">3 months free</span>
+          <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
+            Be first in line and get <span className="text-primary">3 months free</span>
           </h2>
 
-          <p className="max-w-lg text-lg text-muted-foreground">
+          <p className="max-w-lg text-base leading-7 text-muted-foreground sm:text-lg">
             If your team spends too much time cleaning comment sections, answering the same questions,
             or chasing DMs, join the waitlist. The first {WAITLIST_CAP} signups get 3 free months at launch.
           </p>
 
-          <div className="rounded-2xl border border-border bg-card p-5 shadow-soft">
-            <div className="flex items-center justify-between gap-4">
+          <div className="rounded-2xl border border-border bg-card p-4 shadow-soft sm:p-5">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <span className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
                 <Users className="h-4 w-4 text-primary" />
                 {countAvailable ? "Founding spots" : "Founding offer"}
@@ -114,7 +113,7 @@ export function Waitlist() {
               </div>
             )}
 
-            <p className="mt-3 text-sm text-muted-foreground">
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">
               {offerOpen
                 ? "Claimed spots are locked in for 3 months free at launch."
                 : "All founding spots are claimed — join anyway and we'll offer early-access pricing."}
@@ -122,14 +121,14 @@ export function Waitlist() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] border border-border bg-card p-6 shadow-soft md:p-8">
+        <div className="rounded-[1.75rem] border border-border bg-card p-5 shadow-soft sm:p-6 md:rounded-[2rem] md:p-8">
           {result ? (
-            <div className="space-y-5 text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                <CheckCircle2 className="h-8 w-8 text-primary" />
+            <div className="space-y-4 text-center sm:space-y-5">
+              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 sm:h-16 sm:w-16">
+                <CheckCircle2 className="h-7 w-7 text-primary sm:h-8 sm:w-8" />
               </div>
 
-              <h3 className="font-serif text-2xl font-bold text-foreground">
+              <h3 className="font-serif text-xl font-bold text-foreground sm:text-2xl">
                 {result.status === "duplicate"
                   ? "You're already on the list"
                   : result.position <= WAITLIST_CAP
@@ -137,7 +136,7 @@ export function Waitlist() {
                     : "You're on the waitlist"}
               </h3>
 
-              <p className="text-muted-foreground">
+              <p className="mx-auto max-w-md text-sm leading-7 text-muted-foreground sm:text-base">
                 {result.status === "duplicate"
                   ? `We already have ${email.trim()} saved. You're number ${result.position} on the founding list.`
                   : result.position <= WAITLIST_CAP
@@ -146,7 +145,7 @@ export function Waitlist() {
               </p>
 
               {result.status !== "duplicate" && remaining > 0 && (
-                <p className="text-sm font-medium text-accent">
+                <p className="text-sm font-medium leading-6 text-accent">
                   {remaining} founding {remaining === 1 ? "spot" : "spots"} still available — share the link with your team.
                 </p>
               )}
@@ -156,18 +155,20 @@ export function Waitlist() {
               </div>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-5" noValidate>
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5" noValidate>
               <div>
-                <h3 className="font-serif text-2xl font-bold text-foreground">
+                <h3 className="font-serif text-xl font-bold text-foreground sm:text-2xl">
                   Join the founding waitlist
                 </h3>
-                <p className="mt-1 text-sm text-muted-foreground">
+                <p className="mt-1 text-sm leading-6 text-muted-foreground">
                   Three fields. About twenty seconds. No card required.
                 </p>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="waitlist-name">Full name</Label>
+                <Label htmlFor="waitlist-name" className="text-sm">
+                  Full name
+                </Label>
                 <Input
                   id="waitlist-name"
                   name="name"
@@ -176,6 +177,7 @@ export function Waitlist() {
                   placeholder="Amara Okonkwo"
                   autoComplete="name"
                   aria-invalid={name.length > 0 && !nameValid}
+                  className="h-11"
                 />
                 {name.length > 0 && !nameValid && (
                   <p className="text-xs text-destructive">Please enter your full name.</p>
@@ -183,7 +185,9 @@ export function Waitlist() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="waitlist-email">Work email</Label>
+                <Label htmlFor="waitlist-email" className="text-sm">
+                  Work email
+                </Label>
                 <Input
                   id="waitlist-email"
                   name="email"
@@ -193,6 +197,7 @@ export function Waitlist() {
                   placeholder="you@yourbrand.com"
                   autoComplete="email"
                   aria-invalid={email.length > 0 && !emailValid}
+                  className="h-11"
                 />
                 {email.length > 0 && !emailValid && (
                   <p className="text-xs text-destructive">Please enter a valid email address.</p>
@@ -200,7 +205,9 @@ export function Waitlist() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="waitlist-handle">Social handle</Label>
+                <Label htmlFor="waitlist-handle" className="text-sm">
+                  Social handle
+                </Label>
                 <Input
                   id="waitlist-handle"
                   name="social_handle"
@@ -209,13 +216,14 @@ export function Waitlist() {
                   placeholder="@yourbrand"
                   autoComplete="off"
                   aria-invalid={handle.length > 0 && !handleValid}
+                  className="h-11"
                 />
                 {handle.length > 0 && !handleValid && (
                   <p className="text-xs text-destructive">
                     Enter the handle you want moderated, like @yourbrand.
                   </p>
                 )}
-                <p className="text-xs text-muted-foreground">
+                <p className="text-xs leading-5 text-muted-foreground">
                   The Instagram, Facebook, or TikTok account you'd like Social Kirin to watch.
                 </p>
               </div>
@@ -230,7 +238,7 @@ export function Waitlist() {
               <Button
                 type="submit"
                 disabled={!formValid || submitting}
-                className="h-12 w-full gap-2 rounded-full bg-primary text-base text-primary-foreground shadow-glow hover:bg-primary/90 disabled:opacity-50"
+                className="h-11 w-full gap-2 rounded-full bg-primary text-sm text-primary-foreground shadow-glow hover:bg-primary/90 disabled:opacity-50 sm:h-12 sm:text-base"
               >
                 {submitting ? (
                   <>
@@ -245,7 +253,7 @@ export function Waitlist() {
                 )}
               </Button>
 
-              <p className="text-center text-xs text-muted-foreground">
+              <p className="text-center text-xs leading-5 text-muted-foreground">
                 No spam, no card required. We'll only email you about your early access.
               </p>
             </form>

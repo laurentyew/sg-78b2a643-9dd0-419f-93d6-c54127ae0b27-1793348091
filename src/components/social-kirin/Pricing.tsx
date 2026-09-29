@@ -63,35 +63,35 @@ const tiers = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="bg-background py-24">
+    <section id="pricing" className="bg-background py-16 md:py-24">
       <div className="container">
-        <div className="mx-auto mb-14 max-w-3xl space-y-4 text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-accent">
+        <div className="mx-auto mb-10 max-w-3xl space-y-3 text-center md:mb-14 md:space-y-4">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-accent sm:text-sm">
             Planned pricing
           </span>
-          <h2 className="text-balance font-serif text-3xl font-bold text-foreground sm:text-4xl">
+          <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
             Clear pricing once Social Kirin launches
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-base leading-7 text-muted-foreground sm:text-lg">
             These are the planned monthly tiers after launch. If you join the waitlist early,
             the first 50 signups get 3 months free before paid billing begins.
           </p>
         </div>
 
-        <div className="mb-8 rounded-[1.75rem] border border-accent/20 bg-accent/10 p-5 text-center shadow-soft">
-          <p className="text-sm font-medium text-foreground">
+        <div className="mb-6 rounded-[1.5rem] border border-accent/20 bg-accent/10 p-4 text-center shadow-soft sm:mb-8 sm:p-5">
+          <p className="text-sm leading-6 text-foreground">
             Not ready to buy yet? Join the waitlist now and lock in the early-access offer while spots are still available.
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {tiers.map((tier) => (
             <div
               key={tier.name}
               className={cn(
-                "relative flex flex-col gap-5 rounded-2xl border p-6",
+                "relative flex flex-col gap-5 rounded-2xl border p-5 sm:p-6",
                 tier.highlighted
-                  ? "scale-[1.03] border-primary bg-primary text-primary-foreground shadow-glow"
+                  ? "border-primary bg-primary text-primary-foreground shadow-glow lg:-translate-y-2"
                   : "border-border bg-card shadow-soft"
               )}
             >
@@ -105,8 +105,8 @@ export function Pricing() {
                 <h3 className="font-serif text-xl font-bold">{tier.name}</h3>
                 <p
                   className={cn(
-                    "mt-1 text-sm",
-                    tier.highlighted ? "text-primary-foreground/75" : "text-muted-foreground"
+                    "mt-1 text-sm leading-6",
+                    tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"
                   )}
                 >
                   {tier.description}
@@ -114,12 +114,12 @@ export function Pricing() {
               </div>
 
               <div className="flex items-baseline gap-1">
-                <span className="font-serif text-4xl font-bold">{tier.price}</span>
+                <span className="font-serif text-3xl font-bold sm:text-4xl">{tier.price}</span>
                 {tier.price !== "Custom" && (
                   <span
                     className={cn(
                       "text-sm",
-                      tier.highlighted ? "text-primary-foreground/75" : "text-muted-foreground"
+                      tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"
                     )}
                   >
                     /mo
@@ -129,7 +129,7 @@ export function Pricing() {
 
               <ul className="flex-1 space-y-2.5">
                 {tier.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-2 text-sm">
+                  <li key={feature} className="flex items-start gap-2.5 text-sm leading-6">
                     <Check
                       className={cn(
                         "mt-0.5 h-4 w-4 shrink-0",
@@ -147,7 +147,7 @@ export function Pricing() {
                 asChild
                 variant={tier.highlighted ? "secondary" : "outline"}
                 className={cn(
-                  "w-full rounded-xl font-semibold",
+                  "w-full rounded-full font-semibold",
                   !tier.highlighted && "border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 )}
               >

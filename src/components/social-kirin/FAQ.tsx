@@ -59,31 +59,31 @@ const faqs = [
 
 export function FAQ() {
   return (
-    <section id="faq" className="bg-muted/40 py-24">
+    <section id="faq" className="bg-muted/40 py-16 md:py-24">
       <div className="container max-w-3xl">
-        <div className="mb-12 space-y-4 text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-accent">
+        <div className="mb-10 space-y-3 text-center md:mb-12 md:space-y-4">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-accent sm:text-sm">
             Questions
           </span>
-          <h2 className="text-balance font-serif text-3xl font-bold text-foreground sm:text-4xl">
+          <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
             Common questions before you join
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-base leading-7 text-muted-foreground sm:text-lg">
             Short answers about AI comment moderation, spam filtering, DM automation, and how Social Kirin helps social teams save time.
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="space-y-3">
+        <Accordion type="single" collapsible className="space-y-2.5 sm:space-y-3">
           {faqs.map((faq, index) => (
             <AccordionItem
               key={faq.q}
               value={`item-${index}`}
-              className="rounded-2xl border border-border bg-card px-5 shadow-soft"
+              className="rounded-[1.5rem] border border-border bg-card px-4 shadow-soft sm:px-5"
             >
-              <AccordionTrigger className="text-left font-serif font-bold text-foreground hover:no-underline">
+              <AccordionTrigger className="py-5 text-left font-serif text-base font-bold leading-6 text-foreground hover:no-underline sm:text-lg">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="leading-relaxed text-muted-foreground">
+              <AccordionContent className="pb-5 text-sm leading-7 text-muted-foreground sm:text-base">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>
