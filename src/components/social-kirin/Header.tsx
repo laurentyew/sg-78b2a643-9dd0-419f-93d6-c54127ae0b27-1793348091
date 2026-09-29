@@ -1,0 +1,82 @@
+import React, { useState } from "react";
+import Link from "next/link";
+import { Menu, X, ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+const navLinks = [
+  { label: "Features", href: "#features" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "FAQ", href: "#faq" },
+];
+
+export function Header() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/90 backdrop-blur-md">
+      <div className="container flex h-20 items-center justify-between">
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <span className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-primary shadow-soft overflow-hidden">
+            <img
+              src="/generated/social-kirin-logo.jpg"
+              alt="Social Kirin mascot logo"
+              className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+          </span>
+          <span className="font-serif text-xl font-bold text-foreground">
+            Social Kirin
+          </span>
+        </Link>
+
+        <nav className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
+
+        <div className="hidden md:flex items-center gap-3">
+          <Button variant="ghost" className="text-foreground/80 hover:text-primary">
+            Log In
+          </Button>
+          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full shadow-soft gap-1.5">
+            <ShieldCheck className="h-4 w-4" />
+            Start Free Trial
+          </Button>
+        </div>
+
+        <button
+          className="md:hidden text-foreground p-2"
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle menu"
+        >
+          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </button>
+      </div>
+
+      {open && (
+        <div className="md:hidden border-t border-border bg-background px-4 py-4 space-y-3">
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+            >
+              {link.label}
+            </a>
+          ))}
+          <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full mt-2">
+            Start Free Trial
+          </Button>
+        </div>
+      )}
+    </header>
+  );
+}
