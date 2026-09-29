@@ -136,8 +136,16 @@ export function Game() {
   useEffect(() => {
     sessionRef.current = sessionId();
     try {
-      refCodeRef.current = window.localStorage.getItem(REF_KEY);
-      const utm = new URLSearchParams(window.location.search).get("utm_source");
+      const params = new URLSearchParams(window.location.search);
+      const ref = params.get("ref");
+      const storedRef = window.localStorage.getItem(REF_KEY);
+      if (ref) {
+        window.localStorage.setItem(REF_KEY, ref);
+        refCodeRef.current = ref;
+      } else {
+        refCodeRef.current = storedRef;
+      }
+      const utm = params.get("utm_source");
       if (utm) window.localStorage.setItem(UTM_KEY, utm);
     } catch {
       refCodeRef.current = null;
