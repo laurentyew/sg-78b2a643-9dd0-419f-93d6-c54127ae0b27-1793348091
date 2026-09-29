@@ -1,6 +1,6 @@
 ---
 title: Social Kirin Landing Page
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [design-system, landing, seo]
@@ -25,8 +25,8 @@ Logo asset at public/generated/social-kirin-logo.jpg (jade teal + amber gradient
 - [x] Pricing: 3-4 tiers (Starter/Growth/Business/Enterprise) with feature lists, monthly pricing
 - [x] FAQ section: 10-12 SEO-targeted Q&As (setup time, safety, platforms supported, pricing, accuracy, brand voice training, comparison to social media managers, is it safe/will it hide real customers)
 - [x] Footer: keyword-rich link columns (Platforms: Instagram/Facebook/TikTok moderation, Use cases, Company, Legal), social links, copyright
-- [ ] SEO: update SEO.tsx defaults (title, description, og image), add JSON-LD Organization/SoftwareApplication schema, robots.txt, sitemap.xml
-- [ ] Generate supporting images: hero mascot scene, feature icons/illustrations as needed
+- [x] SEO: update SEO.tsx defaults (title, description, og image), add JSON-LD Organization/SoftwareApplication schema, robots.txt, sitemap.xml
+- [x] Generate supporting images: hero mascot scene, feature icons/illustrations as needed
 
 ## Acceptance
 - Landing page loads with full header-to-footer content, no lorem ipsum, cute-professional jade/amber/cream branding consistent with logo
