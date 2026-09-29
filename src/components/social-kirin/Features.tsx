@@ -1,82 +1,82 @@
 import React from "react";
 import {
-  ShieldOff,
-  MessageCircleHeart,
-  Zap,
   BarChart3,
   LayoutGrid,
+  MessageCircleHeart,
+  ShieldOff,
   UserCheck,
+  Zap,
 } from "lucide-react";
 
 const features = [
   {
     icon: ShieldOff,
-    title: "Auto-Hide Spam Comments",
+    title: "Hide spam before customers see it",
     description:
-      "Detect and auto-hide spam, bots, scams, and toxic comments in real time across Instagram, Facebook, and TikTok — before your audience even sees them.",
+      "Block bots, scam links, fake giveaways, and abusive comments in real time so your posts stay clean and trustworthy.",
   },
   {
     icon: MessageCircleHeart,
-    title: "AI Replies in Your Brand Voice",
+    title: "Reply like your team would",
     description:
-      "Train Social Kirin on your tone, FAQs, and product details once. It replies to comments and DMs like a real member of your team — never generic, never robotic.",
+      "Train Social Kirin on your FAQs, products, and tone so routine replies sound on-brand instead of robotic.",
   },
   {
     icon: Zap,
-    title: "DM Automation & Keyword Triggers",
+    title: "Send DMs when people ask for links",
     description:
-      "Turn comments like \"link please\" into instant, automated DMs. Set keyword triggers for giveaways, product drops, and lead capture — fully hands-off.",
+      "Turn comments like “price?”, “link?”, or “send details” into instant DMs that keep buyers moving.",
   },
   {
     icon: BarChart3,
-    title: "Sentiment Analysis",
+    title: "Catch unhappy conversations early",
     description:
-      "Every comment is scored for sentiment so you can spot brewing PR issues, happy customers worth featuring, and trends in real time.",
+      "Spot negative sentiment fast so your team can step in before a complaint turns into a bigger public issue.",
   },
   {
     icon: LayoutGrid,
-    title: "Multi-Platform Dashboard",
+    title: "Manage every account in one place",
     description:
-      "Manage comment and DM moderation for Instagram, Facebook, and TikTok from one unified inbox — no more switching between apps.",
+      "Moderate Instagram, Facebook, and TikTok from one dashboard instead of bouncing between apps and tabs.",
   },
   {
     icon: UserCheck,
-    title: "Human Escalation, Built In",
+    title: "Escalate sensitive messages to humans",
     description:
-      "Sensitive complaints, legal mentions, or angry customers are automatically flagged and routed to your team instead of an automated reply.",
+      "When a message needs care, legal review, or a real person, Social Kirin flags it instead of forcing automation.",
   },
 ];
 
 export function Features() {
   return (
-    <section id="features" className="py-24 bg-background">
+    <section id="features" className="bg-background py-24">
       <div className="container">
-        <div className="max-w-2xl mx-auto text-center space-y-4 mb-16">
+        <div className="mx-auto mb-16 max-w-3xl space-y-4 text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
-            Everything you need
+            What it actually does
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground text-balance">
-            One AI guardian, every comment covered
+          <h2 className="text-balance font-serif text-3xl font-bold text-foreground sm:text-4xl">
+            Built to solve the social inbox problems teams deal with every day
           </h2>
-          <p className="text-muted-foreground text-lg">
-            Social Kirin replaces manual moderation and generic chatbots with a
-            single AI system built specifically for social comment & DM management.
+          <p className="text-lg text-muted-foreground">
+            Instead of another generic chatbot, Social Kirin is focused on the exact jobs that eat up time on social:
+            moderation, repetitive replies, keyword DMs, and fast escalation when something gets messy.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="group rounded-2xl border border-border bg-card p-7 shadow-soft hover:shadow-glow hover:-translate-y-1 transition-all duration-300"
+              className="group rounded-2xl border border-border bg-card p-7 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-glow"
             >
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
-                <feature.icon className="h-6 w-6 text-primary group-hover:text-primary-foreground transition-colors" />
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 transition-all duration-300 group-hover:scale-110 group-hover:bg-primary">
+                <feature.icon className="h-6 w-6 text-primary transition-colors group-hover:text-primary-foreground" />
               </div>
-              <h3 className="font-serif text-lg font-bold text-foreground mb-2">
+              <h3 className="mb-3 font-serif text-xl font-bold text-foreground">
                 {feature.title}
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm leading-relaxed text-muted-foreground">
                 {feature.description}
               </p>
             </div>

@@ -9,78 +9,81 @@ import {
 const faqs = [
   {
     q: "What is AI comment moderation and how does Social Kirin do it?",
-    a: "AI comment moderation uses machine learning to automatically scan comments on your Instagram, Facebook, and TikTok posts, detect spam, bots, and abusive content, and hide or remove it in real time. Social Kirin scans every incoming comment within seconds of posting and applies your custom rules alongside its trained spam-detection model.",
+    a: "AI comment moderation means software checks each new comment for spam, scams, abuse, or repeat junk and takes action automatically. Social Kirin watches your Instagram, Facebook, and TikTok comments in real time, applies your rules, and keeps a review log so your team can step in when needed.",
   },
   {
-    q: "How does the spam comment filter tell real customers apart from bots?",
-    a: "Social Kirin's spam filter analyzes comment patterns, account age, link presence, emoji spam, repeated phrasing, and known scam templates (crypto pumps, follower bots, fake giveaways). It's tuned to avoid false positives on genuine questions or complaints, and every hidden comment is logged so you can review and restore it anytime.",
+    q: "How does the spam comment filter avoid hiding real customers?",
+    a: "Social Kirin looks at patterns like scam links, repeated phrases, bot-style posting, fake giveaway language, and suspicious account behavior. You can review every hidden comment, restore anything legitimate, and set how aggressive the filter should be.",
   },
   {
-    q: "Can Social Kirin reply to comments and DMs in my brand's actual voice?",
-    a: "Yes. During onboarding you upload past replies, FAQs, and product details. Social Kirin's AI reply engine learns your tone, vocabulary, and even emoji habits, then drafts or auto-sends replies that sound like your team wrote them — not a generic bot.",
+    q: "Can Social Kirin reply to comments and DMs in my brand's voice?",
+    a: "Yes. You train it on your FAQs, product details, and past replies. That gives Social Kirin the context it needs to answer routine questions in a tone that feels like your team, not a generic auto-responder.",
   },
   {
-    q: "What is DM automation and can it handle order questions?",
-    a: "DM automation lets you set keyword triggers (e.g. 'shipping', 'discount', 'sizing') that fire instant, brand-voice replies or route to a human. It can answer FAQs, share order-status links, and tag conversations that need a real person — reducing your DM backlog without losing the personal touch.",
+    q: "What is DM automation and can it handle common sales questions?",
+    a: "DM automation lets you trigger instant replies when people comment or message with phrases like “price”, “link”, “shipping”, or “restock”. It helps move buyers forward fast while still handing sensitive questions to a real human when needed.",
   },
   {
     q: "Which platforms does Social Kirin support?",
-    a: "Instagram, Facebook, and TikTok are fully supported today, covering comments, replies, and direct messages. We're expanding platform coverage based on customer demand — let us know what you need in onboarding.",
+    a: "Instagram, Facebook, and TikTok are the core platforms. Social Kirin is designed for comments, replies, and direct messages across those channels.",
   },
   {
-    q: "How is Social Kirin different from hiring a social media manager?",
-    a: "Hiring a community manager gives you human judgment but limited hours — they can't watch comments 24/7, and response times slip overnight and on weekends. Social Kirin runs continuously across Instagram, Facebook, and TikTok, hiding spam instantly and drafting brand-voice replies, while escalating sensitive threads to your team. Most brands use it to multiply their existing team's reach rather than replace it.",
+    q: "Who is Social Kirin best for?",
+    a: "It's built for ecommerce brands, creators, agencies, and lean community teams that get enough social traffic to make manual moderation painful. If your team is repeating the same replies, missing DMs, or cleaning spam every day, it's a strong fit.",
   },
   {
-    q: "How accurate is the AI reply and sentiment analysis?",
-    a: "Our brand-voice reply engine maintains roughly 97% accuracy against your trained tone profile in customer testing, and sentiment analysis flags negative-trending threads before they escalate, giving your team early warning on potential PR issues.",
+    q: "How accurate are the AI replies and sentiment alerts?",
+    a: "The reply engine is trained to stay close to your saved tone and approved messaging, while sentiment alerts help surface risky or frustrated conversations early. The goal is faster first response and better triage, not replacing human judgment everywhere.",
   },
   {
     q: "How long does setup take?",
-    a: "Most brands are live in under an hour: connect your accounts (5 minutes), upload brand voice samples (10-15 minutes), and configure spam and DM rules (15-20 minutes). No developer or agency required.",
+    a: "Most teams can get set up in under an hour. You connect your accounts, add a few brand voice examples, define key automations, and choose what should always go to a human.",
   },
   {
-    q: "Will Social Kirin ever hide a real customer's comment by mistake?",
-    a: "Every auto-hidden comment is logged in your moderation queue with the reason it was flagged, so you can review and restore any comment in one click. You can also set sensitivity levels per account if you want a lighter touch.",
+    q: "Can I control what gets an auto-reply versus human escalation?",
+    a: "Yes. You can define rules for complaints, legal topics, safety issues, negative sentiment, or VIP customers so those conversations route to a real person instead of being auto-handled.",
   },
   {
-    q: "Can I control which comments get automated replies vs. human escalation?",
-    a: "Yes. You can define escalation rules for sensitive topics (complaints, legal mentions, safety concerns, negative sentiment above a threshold) so those always route to a human teammate instead of receiving an automated reply.",
+    q: "Do I need technical skills to use Social Kirin?",
+    a: "No. Social Kirin is designed for marketing, support, and community teams. You should not need a developer just to set up moderation and reply workflows.",
   },
   {
-    q: "Do I need technical or developer skills to use Social Kirin?",
-    a: "No. Social Kirin connects through official platform login flows — no API keys or code. The dashboard is built for marketing and community teams, not engineers.",
+    q: "Will I still be able to review what the AI did?",
+    a: "Yes. Social Kirin is meant to reduce manual work, not hide what happened. Teams can review moderation actions, see why something was flagged, and step in on important threads.",
   },
   {
-    q: "Is there a free trial?",
-    a: "Every plan includes a 14-day free trial with full feature access. No credit card required to start, and you can cancel anytime from your billing settings.",
+    q: "What does the waitlist offer include?",
+    a: "The first 50 waitlist signups get 3 months free when Social Kirin launches. If the founding spots are gone, you can still join the waitlist for early access and launch updates.",
   },
 ];
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-24 bg-muted/40">
+    <section id="faq" className="bg-muted/40 py-24">
       <div className="container max-w-3xl">
-        <div className="text-center space-y-4 mb-12">
+        <div className="mb-12 space-y-4 text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
             Questions
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-foreground text-balance">
-            Everything about AI comment & DM moderation
+          <h2 className="text-balance font-serif text-3xl font-bold text-foreground sm:text-4xl">
+            Common questions before you join
           </h2>
+          <p className="text-lg text-muted-foreground">
+            Short answers about AI comment moderation, spam filtering, DM automation, and how Social Kirin helps social teams save time.
+          </p>
         </div>
 
         <Accordion type="single" collapsible className="space-y-3">
-          {faqs.map((faq, i) => (
+          {faqs.map((faq, index) => (
             <AccordionItem
-              key={i}
-              value={`item-${i}`}
-              className="bg-card rounded-2xl border border-border px-5 shadow-soft"
+              key={faq.q}
+              value={`item-${index}`}
+              className="rounded-2xl border border-border bg-card px-5 shadow-soft"
             >
-              <AccordionTrigger className="font-serif font-bold text-left text-foreground hover:no-underline">
+              <AccordionTrigger className="text-left font-serif font-bold text-foreground hover:no-underline">
                 {faq.q}
               </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground leading-relaxed">
+              <AccordionContent className="leading-relaxed text-muted-foreground">
                 {faq.a}
               </AccordionContent>
             </AccordionItem>

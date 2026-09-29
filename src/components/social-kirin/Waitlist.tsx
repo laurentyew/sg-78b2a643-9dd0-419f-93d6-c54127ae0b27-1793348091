@@ -85,14 +85,13 @@ export function Waitlist() {
           </div>
 
           <h2 className="font-serif text-3xl font-bold leading-tight text-foreground text-balance md:text-4xl">
-            Join the waitlist, get{" "}
+            Be first in line and get{" "}
             <span className="text-primary">3 months free</span>
           </h2>
 
           <p className="max-w-lg text-lg text-muted-foreground">
-            Social Kirin opens soon. The first {WAITLIST_CAP} brands on the waitlist
-            get three months of complete comment and DM moderation free — no card, no
-            commitment.
+            If your team spends too much time cleaning comment sections, answering the same questions,
+            or chasing DMs, join the waitlist. The first {WAITLIST_CAP} signups get 3 free months at launch.
           </p>
 
           <div className="rounded-2xl border border-border bg-card p-5 shadow-soft">
@@ -160,10 +159,10 @@ export function Waitlist() {
             <form onSubmit={handleSubmit} className="space-y-5" noValidate>
               <div>
                 <h3 className="font-serif text-2xl font-bold text-foreground">
-                  Get early access
+                  Join the founding waitlist
                 </h3>
                 <p className="mt-1 text-sm text-muted-foreground">
-                  Three fields. Takes about twenty seconds.
+                  Three fields. About twenty seconds. No card required.
                 </p>
               </div>
 
