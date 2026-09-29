@@ -9,9 +9,9 @@ interface SEOProps {
 
 // SEO elements that can be used in _document.tsx (returns JSX without Head wrapper)
 export function SEOElements({
-  title = "Hello World",
-  description = "Welcome to my app",
-  image = "/og-image.png",
+  title = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & TikTok",
+  description = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and TikTok. The friendly, faster FeedGuardians alternative.",
+  image = "/generated/social-kirin-logo.jpg",
   url,
 }: SEOProps) {
   return (
@@ -39,9 +39,9 @@ export function SEOElements({
 // SEO component for use in pages/_app.tsx or individual pages (uses next/head)
 // Note: Flattened structure (no fragment) for better Next.js Head compatibility during hot reload
 export function SEO({
-  title = "Hello World",
-  description = "Welcome to my app",
-  image = "/og-image.png",
+  title = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & TikTok",
+  description = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and TikTok. The friendly, faster FeedGuardians alternative.",
+  image = "/generated/social-kirin-logo.jpg",
   url,
 }: SEOProps) {
   return (
