@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ShareWaitlist } from "@/components/social-kirin/ShareWaitlist";
+import { markWaitlistSeen } from "@/lib/waitlist-popup";
 import {
   WAITLIST_CAP,
   getWaitlistCount,
@@ -68,6 +69,7 @@ export function Waitlist() {
       setResult(response);
       setCount(WAITLIST_CAP - response.remaining);
       setCountAvailable(true);
+      markWaitlistSeen();
     } catch {
       setError("We couldn't add you right now. Please try again in a moment.");
     } finally {

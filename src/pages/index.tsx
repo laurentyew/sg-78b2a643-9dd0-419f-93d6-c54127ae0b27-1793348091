@@ -4,6 +4,7 @@ import { Header } from "@/components/social-kirin/Header";
 import { Hero } from "@/components/social-kirin/Hero";
 import { TargetAudiences } from "@/components/social-kirin/TargetAudiences";
 import { Waitlist } from "@/components/social-kirin/Waitlist";
+import { WaitlistPopup } from "@/components/social-kirin/WaitlistPopup";
 import { Features } from "@/components/social-kirin/Features";
 import { ModerationGrid } from "@/components/social-kirin/ModerationGrid";
 import { HowItWorks } from "@/components/social-kirin/HowItWorks";
@@ -67,6 +68,7 @@ export default function Home() {
         <Pricing />
         <FAQ />
         <Footer />
+        <WaitlistPopup />
       </main>
     </>
   );
