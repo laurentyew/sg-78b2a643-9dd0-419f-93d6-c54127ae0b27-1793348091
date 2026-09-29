@@ -3,6 +3,7 @@ import { AlertCircle, CheckCircle2, Gift, Loader2, ShieldCheck, Users } from "lu
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { ShareWaitlist } from "@/components/social-kirin/ShareWaitlist";
 import {
   WAITLIST_CAP,
   getWaitlistCount,
@@ -150,6 +151,10 @@ export function Waitlist() {
                   {remaining} founding {remaining === 1 ? "spot" : "spots"} still available — share the link with your team.
                 </p>
               )}
+
+              <div className="border-t border-border pt-5">
+                <ShareWaitlist position={result.position} />
+              </div>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-5" noValidate>
