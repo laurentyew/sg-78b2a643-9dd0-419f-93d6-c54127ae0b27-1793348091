@@ -5,6 +5,7 @@ import { Hero } from "@/components/social-kirin/Hero";
 import { TargetAudiences } from "@/components/social-kirin/TargetAudiences";
 import { Waitlist } from "@/components/social-kirin/Waitlist";
 import { Features } from "@/components/social-kirin/Features";
+import { ModerationGrid } from "@/components/social-kirin/ModerationGrid";
 import { HowItWorks } from "@/components/social-kirin/HowItWorks";
 import { Stats } from "@/components/social-kirin/Stats";
 import { Comparison } from "@/components/social-kirin/Comparison";
@@ -50,6 +51,7 @@ export default function Home() {
         <TargetAudiences />
         <Waitlist />
         <Features />
+        <ModerationGrid />
         <HowItWorks />
         <Stats />
         <Comparison />
