@@ -27,10 +27,16 @@ const jsonLd = {
     price: "39",
     priceCurrency: "USD",
   },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.8",
-    ratingCount: "127",
+  featureList: [
+    "Automatically hide spam and scam comments",
+    "AI replies in your brand voice",
+    "Keyword-triggered Instagram and Facebook DM automation",
+    "Sentiment and toxic language detection",
+    "Multi-platform moderation for Instagram, Facebook, and TikTok",
+  ],
+  audience: {
+    "@type": "BusinessAudience",
+    audienceType: "Social media managers, eCommerce brands, and agencies",
   },
 };
 

@@ -146,12 +146,12 @@ export function Hero() {
             </div>
           </div>
           <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-card px-4 py-3 shadow-soft sm:block">
-            <p className="text-xs text-muted-foreground">Spam auto-hidden</p>
-            <p className="font-serif text-2xl font-bold text-primary">1,204</p>
+            <p className="text-xs text-muted-foreground">Comment triage</p>
+            <p className="font-serif text-2xl font-bold text-primary">Real time</p>
           </div>
           <div className="absolute -right-4 -top-6 hidden rounded-2xl border border-border bg-card px-4 py-3 shadow-soft sm:block">
-            <p className="text-xs text-muted-foreground">Reply accuracy</p>
-            <p className="font-serif text-2xl font-bold text-accent">97%</p>
+            <p className="text-xs text-muted-foreground">Setup time</p>
+            <p className="font-serif text-2xl font-bold text-accent">Under 10 min</p>
           </div>
         </div>
       </div>
