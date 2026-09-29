@@ -70,7 +70,9 @@ export default async function handler(
     };
   });
 
-  const byType = buildBreakdown(typed as ScoredAnswer[] & { type: CommentType }[]);
+  const byType = buildBreakdown(
+    typed as (ScoredAnswer & { type: CommentType })[],
+  );
 
   const missed: MissedRoundRow[] = typed
     .filter((row) => !row.correct)
