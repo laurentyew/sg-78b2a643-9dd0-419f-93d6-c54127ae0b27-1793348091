@@ -3,6 +3,9 @@ import { SEO } from "@/components/SEO";
 import { Header } from "@/components/social-kirin/Header";
 import { Hero } from "@/components/social-kirin/Hero";
 import { Features } from "@/components/social-kirin/Features";
+import { HowItWorks } from "@/components/social-kirin/HowItWorks";
+import { Stats } from "@/components/social-kirin/Stats";
+import { Comparison } from "@/components/social-kirin/Comparison";
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
         <Header />
         <Hero />
         <Features />
+        <HowItWorks />
+        <Stats />
+        <Comparison />
       </main>
     </>
   );
