@@ -8,7 +8,7 @@ export type CommentType =
 
 export type ModAction = "keep" | "hide" | "reply" | "ban";
 
-export type Platform = "instagram" | "youtube" | "facebook" | "x";
+export type Platform = "instagram" | "youtube" | "facebook";
 
 export type CommentKind = "comment" | "dm";
 

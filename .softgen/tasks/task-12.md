@@ -1,6 +1,6 @@
 ---
 title: Legal pages pack (privacy, terms, data deletion, platform compliance)
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [legal, compliance, meta, google, seo]
@@ -33,8 +33,8 @@ Open items the owner handles outside code (not published): OpenRouter zero-reten
 - [x] Footer: Legal column links to all four docs, Platform Compliance link live, TikTok removed from copy
 - [x] Remove TikTok claims from SEO defaults, hero, FAQ, features, how-it-works, moderation grid, stats, waitlist, share text, homepage JSON-LD
 - [x] Add the four legal URLs to sitemap.xml
-- [ ] Verify meta/OG defaults and homepage link visibility
-- [ ] Quiz (Moderator Rush): align platform set with supported platforms
+- [x] Verify meta/OG defaults and homepage link visibility
+- [x] Quiz (Moderator Rush): align platform set with supported platforms
 
 ## Acceptance
 - All four legal URLs return the pack text verbatim over HTTPS with no login and a visible Privacy Policy link on the homepage.
