@@ -2,7 +2,7 @@ import type { PublicRound } from "@/lib/quiz/types";
 
 const PLATFORM_LABELS: Record<string, string> = {
   instagram: "Instagram",
-  tiktok: "TikTok",
+  youtube: "YouTube",
   facebook: "Facebook",
   x: "X",
 };
