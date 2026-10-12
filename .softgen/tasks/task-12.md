@@ -31,9 +31,10 @@ Open items the owner handles outside code (not published): OpenRouter zero-reten
 - [x] /data-deletion: Part C text verbatim (revoke steps, deletion request steps, 7-day/30-day timelines, non-customer path)
 - [x] /platform-compliance: Part D text verbatim (Meta, Google/YouTube, AI commitments, contacts)
 - [x] Footer: Legal column links to all four docs, Platform Compliance link live, TikTok removed from copy
-- [ ] Remove TikTok claims from SEO defaults, hero, FAQ, features, how-it-works, moderation grid, stats, waitlist, share text, homepage JSON-LD
-- [ ] Add the four legal URLs to sitemap.xml
+- [x] Remove TikTok claims from SEO defaults, hero, FAQ, features, how-it-works, moderation grid, stats, waitlist, share text, homepage JSON-LD
+- [x] Add the four legal URLs to sitemap.xml
 - [ ] Verify meta/OG defaults and homepage link visibility
+- [ ] Quiz (Moderator Rush): align platform set with supported platforms
 
 ## Acceptance
 - All four legal URLs return the pack text verbatim over HTTPS with no login and a visible Privacy Policy link on the homepage.

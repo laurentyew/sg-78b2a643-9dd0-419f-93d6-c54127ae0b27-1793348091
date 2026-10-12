@@ -1,5 +1,8 @@
 ## Vision
-Social Kirin — AI-powered comment and DM moderation/automation platform for social media (Instagram, Facebook, TikTok). Competes with FeedGuardians. Goal: SEO-optimized landing page ranking for niche keywords (AI comment moderation, spam comment filter, DM automation, auto-reply Instagram comments, brand voice AI).
+Social Kirin — AI-powered comment and DM moderation/automation platform for social media (Instagram, Facebook Pages, YouTube). Competes with FeedGuardians. Goal: SEO-optimized landing page ranking for niche keywords (AI comment moderation, spam comment filter, DM automation, auto-reply Instagram comments, brand voice AI).
+
+## Legal
+Privacy Policy (/privacy), Terms of Service (/terms), Data Deletion (/data-deletion), Platform Compliance (/platform-compliance), all published for Meta and Google API review. Operator: D AGE Technology (SSM PC0005997-A), Bayan Lepas, Malaysia. Contact: hello@b2bautomator.com.
 
 ## Design
 Mascot: cute jade-teal kirin/dragon with amber flame tail, cream belly, speech bubbles (guardian + conversation theme).
