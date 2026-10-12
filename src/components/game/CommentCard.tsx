@@ -4,7 +4,6 @@ const PLATFORM_LABELS: Record<string, string> = {
   instagram: "Instagram",
   youtube: "YouTube",
   facebook: "Facebook",
-  x: "X",
 };
 
 function initialsFor(handle: string): string {
