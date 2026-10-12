@@ -7,7 +7,7 @@ const steps = [
     number: "01",
     title: "Connect Your Accounts",
     description:
-      "Link Instagram, Facebook, and TikTok in a few clicks. No developer needed, no code required.",
+      "Link Instagram, Facebook, and YouTube in a few clicks. No developer needed, no code required.",
   },
   {
     icon: Sparkles,

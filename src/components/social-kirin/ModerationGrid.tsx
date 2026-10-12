@@ -82,7 +82,7 @@ export function ModerationGrid() {
           </h2>
           <p className="text-base leading-7 text-background/70 sm:text-lg">
             Stack AI detection with your own keyword and DM rules, then let Social Kirin enforce
-            them across every post, reel, and ad on Instagram, Facebook, and TikTok.
+            them across every post, reel, and ad on Instagram, Facebook, and YouTube.
           </p>
         </div>
 

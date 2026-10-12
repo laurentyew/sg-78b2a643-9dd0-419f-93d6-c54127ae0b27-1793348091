@@ -37,7 +37,7 @@ const features = [
     icon: LayoutGrid,
     title: "Manage every account in one place",
     description:
-      "Moderate Instagram, Facebook, and TikTok from one dashboard instead of bouncing between apps and tabs.",
+      "Moderate Instagram, Facebook, and YouTube from one dashboard instead of bouncing between apps and tabs.",
   },
   {
     icon: UserCheck,

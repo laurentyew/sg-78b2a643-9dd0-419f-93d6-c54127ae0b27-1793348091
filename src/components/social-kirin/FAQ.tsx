@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     q: "What is AI comment moderation and how does Social Kirin do it?",
-    a: "AI comment moderation means software checks each new comment for spam, scams, abuse, or repeat junk and takes action automatically. Social Kirin watches your Instagram, Facebook, and TikTok comments in real time, applies your rules, and keeps a review log so your team can step in when needed.",
+    a: "AI comment moderation means software checks each new comment for spam, scams, abuse, or repeat junk and takes action automatically. Social Kirin watches your Instagram, Facebook, and YouTube comments in real time, applies your rules, and keeps a review log so your team can step in when needed.",
   },
   {
     q: "How does the spam comment filter avoid hiding real customers?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Which platforms does Social Kirin support?",
-    a: "Instagram, Facebook, and TikTok are the core platforms. Social Kirin is designed for comments, replies, and direct messages across those channels.",
+    a: "Instagram, Facebook, and YouTube are the core platforms. Social Kirin is designed for comments, replies, and direct messages across those channels.",
   },
   {
     q: "Who is Social Kirin best for?",

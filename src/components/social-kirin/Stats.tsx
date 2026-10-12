@@ -1,7 +1,7 @@
 import React from "react";
 
 const stats = [
-  { value: "3 platforms", label: "Instagram, Facebook, and TikTok in one dashboard" },
+  { value: "3 platforms", label: "Instagram, Facebook, and YouTube in one dashboard" },
   { value: "Real time", label: "Spam and toxic comment detection speed" },
   { value: "24/7", label: "Comment moderation and auto-replies running" },
   { value: "Under 10 min", label: "Typical time to connect an account" },

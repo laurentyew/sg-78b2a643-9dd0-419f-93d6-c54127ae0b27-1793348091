@@ -226,7 +226,7 @@ export function Waitlist() {
                   </p>
                 )}
                 <p className="text-xs leading-5 text-muted-foreground">
-                  The Instagram, Facebook, or TikTok account you'd like Social Kirin to watch.
+                  The Instagram, Facebook, or YouTube account you'd like Social Kirin to watch.
                 </p>
               </div>
 

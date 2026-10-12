@@ -23,7 +23,7 @@ const jsonLd = {
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
   description:
-    "AI-powered comment and DM moderation and automation platform for Instagram, Facebook, and TikTok. Auto-hides spam comments and replies in your brand voice.",
+    "AI-powered comment and DM moderation and automation platform for Instagram, Facebook, and YouTube. Auto-hides spam comments and replies in your brand voice.",
   offers: {
     "@type": "Offer",
     price: "39",
@@ -34,7 +34,7 @@ const jsonLd = {
     "AI replies in your brand voice",
     "Keyword-triggered Instagram and Facebook DM automation",
     "Sentiment and toxic language detection",
-    "Multi-platform moderation for Instagram, Facebook, and TikTok",
+    "Multi-platform moderation for Instagram, Facebook, and YouTube",
   ],
   audience: {
     "@type": "BusinessAudience",
@@ -46,8 +46,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & TikTok"
-        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and TikTok. Setup in minutes. No code required."
+        title="Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube"
+        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes. No code required."
       />
       <script
         type="application/ld+json"
