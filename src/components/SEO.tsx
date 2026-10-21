@@ -1,11 +1,7 @@
 import Head from 'next/head';
+import { absoluteUrl } from "@/lib/site";
 
-const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://socialkirin.com").replace(/\/$/, "");
-
-const toAbsolute = (path: string): string => {
-  if (/^https?:\/\//.test(path)) return path;
-  return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
-};
+const toAbsolute = (path: string): string => absoluteUrl(path);
 
 const DEFAULT_TITLE = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube";
 const DEFAULT_DESCRIPTION = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.";

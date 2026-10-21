@@ -5,11 +5,10 @@ import { ChevronRight, Clock, ShieldCheck, Trophy } from "lucide-react";
 import { Header } from "@/components/social-kirin/Header";
 import { Footer } from "@/components/social-kirin/Footer";
 import { QuizSeoContent, FAQ_ITEMS } from "@/components/game/QuizSeoContent";
+import { getSiteUrl } from "@/lib/site";
 
 const QUIZ_PATH = "/tools/spot-the-spam-comment-quiz";
-const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://socialkirin.com"
-).replace(/\/$/, "");
+const SITE_URL = getSiteUrl();
 
 const PAGE_TITLE = "Spot the Spam: Free Comment Moderation Quiz | Social Kirin";
 const PAGE_DESCRIPTION =
