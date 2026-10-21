@@ -7,6 +7,13 @@ const toAbsolute = (path: string): string => {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 };
 
+const DEFAULT_TITLE = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube";
+const DEFAULT_DESCRIPTION = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.";
+const DEFAULT_IMAGE = "/og-image.png";
+const IMAGE_WIDTH = "1200";
+const IMAGE_HEIGHT = "590";
+const IMAGE_ALT = "Social Kirin — AI comment and DM moderation for social media";
+
 interface SEOProps {
   title?: string;
   description?: string;
@@ -16,9 +23,9 @@ interface SEOProps {
 
 // SEO elements that can be used in _document.tsx (returns JSX without Head wrapper)
 export function SEOElements({
-  title = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube",
-  description = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.",
-  image = "/og-image.png",
+  title = DEFAULT_TITLE,
+  description = DEFAULT_DESCRIPTION,
+  image = DEFAULT_IMAGE,
   url,
 }: SEOProps) {
   const absoluteImage = toAbsolute(image);
@@ -41,9 +48,9 @@ export function SEOElements({
       <meta property="og:image" content={absoluteImage} />
       <meta property="og:image:secure_url" content={absoluteImage} />
       <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Social Kirin — AI comment and DM moderation for social media" />
+      <meta property="og:image:width" content={IMAGE_WIDTH} />
+      <meta property="og:image:height" content={IMAGE_HEIGHT} />
+      <meta property="og:image:alt" content={IMAGE_ALT} />
       {absoluteUrl && <meta property="og:url" content={absoluteUrl} />}
 
       {/* X (Twitter) */}
@@ -53,7 +60,7 @@ export function SEOElements({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={absoluteImage} />
-      <meta name="twitter:image:alt" content="Social Kirin — AI comment and DM moderation for social media" />
+      <meta name="twitter:image:alt" content={IMAGE_ALT} />
       {absoluteUrl && <meta name="twitter:url" content={absoluteUrl} />}
 
       {absoluteUrl && <link rel="canonical" href={absoluteUrl} />}
@@ -61,12 +68,12 @@ export function SEOElements({
   );
 }
 
-// SEO component for use in pages/_app.tsx or individual pages (uses next/head)
+// SEO component for use in pages (uses next/head)
 // Note: Flattened structure (no fragment) for better Next.js Head compatibility during hot reload
 export function SEO({
-  title = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube",
-  description = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.",
-  image = "/og-image.png",
+  title = DEFAULT_TITLE,
+  description = DEFAULT_DESCRIPTION,
+  image = DEFAULT_IMAGE,
   url,
 }: SEOProps) {
   const absoluteImage = toAbsolute(image);
@@ -87,9 +94,9 @@ export function SEO({
       <meta property="og:image" content={absoluteImage} />
       <meta property="og:image:secure_url" content={absoluteImage} />
       <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Social Kirin — AI comment and DM moderation for social media" />
+      <meta property="og:image:width" content={IMAGE_WIDTH} />
+      <meta property="og:image:height" content={IMAGE_HEIGHT} />
+      <meta property="og:image:alt" content={IMAGE_ALT} />
       {absoluteUrl && <meta property="og:url" content={absoluteUrl} />}
 
       {/* X (Twitter) */}
@@ -99,7 +106,7 @@ export function SEO({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={absoluteImage} />
-      <meta name="twitter:image:alt" content="Social Kirin — AI comment and DM moderation for social media" />
+      <meta name="twitter:image:alt" content={IMAGE_ALT} />
       {absoluteUrl && <meta name="twitter:url" content={absoluteUrl} />}
 
       {absoluteUrl && <link rel="canonical" href={absoluteUrl} />}
