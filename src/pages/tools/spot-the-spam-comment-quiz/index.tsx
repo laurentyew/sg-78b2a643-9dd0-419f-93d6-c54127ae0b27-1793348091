@@ -80,7 +80,7 @@ export default function SpotTheSpamQuizPage() {
         <meta property="og:image:secure_url" content={SITE_URL + "/og-image.png"} />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="590" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Spot the spam: free comment moderation quiz by Social Kirin" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@socialkirin" />

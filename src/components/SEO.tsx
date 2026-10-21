@@ -7,7 +7,7 @@ const DEFAULT_TITLE = "Social Kirin — AI Comment & DM Moderation for Instagram
 const DEFAULT_DESCRIPTION = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.";
 const DEFAULT_IMAGE = "/og-image.png";
 const IMAGE_WIDTH = "1200";
-const IMAGE_HEIGHT = "590";
+const IMAGE_HEIGHT = "630";
 const IMAGE_ALT = "Social Kirin — AI comment and DM moderation for social media";
 
 interface SEOProps {
