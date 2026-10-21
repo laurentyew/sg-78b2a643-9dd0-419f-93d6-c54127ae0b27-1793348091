@@ -73,30 +73,41 @@ export default function QuizResultPage({
     ". Can you beat me? " +
     shareUrl;
 
+  const ogTitle = rankTitle + " — " + score + "/10 | Social Kirin quiz";
+  const ogDescription =
+    "I scored " + score + "/10 in " + seconds + "s moderating comments. Can you beat me?";
+
   return (
     <>
       <Head>
-        <title>{rankTitle + " — " + score + "/10 | Social Kirin quiz"}</title>
-        <meta
-          name="description"
-          content={
-            "A Social Kirin quiz result: " +
-            score +
-            "/10 in " +
-            seconds +
-            "s as a comment moderator."
-          }
-        />
+        <title>{ogTitle}</title>
+        <meta name="description" content={ogDescription} />
         <meta name="robots" content="noindex, follow" />
         <link rel="canonical" href={getSiteUrl() + QUIZ_PATH} />
+
+        {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={rankTitle + " — " + score + "/10"} />
-        <meta
-          property="og:description"
-          content="Can you beat me? Take the 60-second comment moderation quiz."
-        />
+        <meta property="og:site_name" content="Social Kirin" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:description" content={ogDescription} />
+        <meta property="og:url" content={shareUrl} />
         <meta property="og:image" content={ogImageUrl} />
+        <meta property="og:image:secure_url" content={ogImageUrl} />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={"Social Kirin quiz result: " + score + "/10, " + rankTitle} />
+
+        {/* X (Twitter) */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@socialkirin" />
+        <meta name="twitter:creator" content="@socialkirin" />
+        <meta name="twitter:title" content={ogTitle} />
+        <meta name="twitter:description" content={ogDescription} />
+        <meta name="twitter:image" content={ogImageUrl} />
+        <meta name="twitter:image:alt" content={"Social Kirin quiz result: " + score + "/10, " + rankTitle} />
+        <meta name="twitter:url" content={shareUrl} />
       </Head>
 
       <div className="min-h-screen bg-background">
