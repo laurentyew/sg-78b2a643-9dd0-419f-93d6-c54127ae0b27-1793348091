@@ -161,7 +161,13 @@ export function Pricing() {
                 )}
 
                 <div>
-                  <h3 className="font-serif text-2xl font-bold">{tier.name}</h3>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h3 className="font-serif text-2xl font-bold">{tier.name}</h3>
+                    <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-accent-foreground shadow-soft md:hidden">
+                      <Sparkles className="h-3 w-3" aria-hidden="true" />
+                      Limited Offer
+                    </span>
+                  </div>
                   <p
                     className={cn(
                       "mt-1 text-sm leading-6",
