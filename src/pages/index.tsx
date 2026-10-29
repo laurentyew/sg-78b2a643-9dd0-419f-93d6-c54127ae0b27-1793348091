@@ -27,9 +27,8 @@ const jsonLd = {
     "@type": "Offer",
     price: "25",
     priceCurrency: "USD",
-    description: `${PROMO.label} with code ${PROMO.code}`,
+    description: `${PROMO.label}: ${PROMO.discountPercent}% off any plan for the first ${PROMO.cap} brands, using code ${PROMO.code} at checkout`,
     availability: "https://schema.org/LimitedAvailability",
-    priceValidUntil: PROMO.endsOn,
   },
   featureList: [
     "Automatically hide spam and scam comments",
