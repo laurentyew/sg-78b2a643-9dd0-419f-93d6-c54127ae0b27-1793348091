@@ -143,7 +143,7 @@ export default function SocialMediaModerationSoftware() {
 
           <h3 className="mb-3 mt-6 font-heading text-xl font-semibold">Marketing Agencies Managing Multiple Clients</h3>
           <p>
-            Agencies need scalability. Social Kirin's Pro tier supports unlimited workspaces, so you can moderate 10, 20, or 50 client accounts from one dashboard. Moderator role permissions let your team members help without giving them full admin access. Perfect for scaling agencies.
+            Agencies need scalability. Social Kirin's Pro tier supports 50 channels, so you can moderate multiple client accounts from one dashboard. Moderator role permissions let your team members help without giving them full admin access. Perfect for scaling agencies.
           </p>
 
           <h3 className="mb-3 mt-6 font-heading text-xl font-semibold">Southeast Asian Brands with Multilingual Audiences</h3>
@@ -196,15 +196,15 @@ export default function SocialMediaModerationSoftware() {
           <div className="not-prose my-8 grid gap-6 sm:grid-cols-3">
             <Card className="p-6">
               <h3 className="mb-2 font-heading text-2xl font-bold">Starter</h3>
-              <p className="mb-4 text-3xl font-bold">$19<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$25<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1 workspace</span>
+                  <span>5 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1,000 comments/month</span>
+                  <span>5,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -220,15 +220,15 @@ export default function SocialMediaModerationSoftware() {
             <Card className="border-primary p-6">
               <Badge className="mb-2">Most Popular</Badge>
               <h3 className="mb-2 font-heading text-2xl font-bold">Growth</h3>
-              <p className="mb-4 text-3xl font-bold">$49<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$59<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>2 workspaces</span>
+                  <span>15 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>10,000 comments/month</span>
+                  <span>15,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -247,11 +247,11 @@ export default function SocialMediaModerationSoftware() {
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Unlimited workspaces</span>
+                  <span>50 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>50,000 comments/month</span>
+                  <span>35,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -266,7 +266,7 @@ export default function SocialMediaModerationSoftware() {
           </div>
 
           <p className="text-center text-sm text-muted-foreground">
-            <strong>Annual billing:</strong> Save 2 months (pay for 10 months, get 12). All plans include 7-day free trial after launch.
+            <strong>Annual billing:</strong> Save 2 months (pay for 10 months, get 12). All plans include 3-day free trial.
           </p>
 
           <h2 className="mb-6 mt-12 font-heading text-3xl font-bold">How Social Kirin Compares to Other Tools</h2>
@@ -355,7 +355,7 @@ export default function SocialMediaModerationSoftware() {
                 Can I manage multiple client accounts with one subscription?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. The Growth tier includes 2 workspaces, and the Pro tier includes unlimited workspaces. Each workspace can have its own connected Instagram, Facebook, and YouTube accounts, making Social Kirin ideal for agencies managing multiple clients.
+                Yes. The Growth tier includes 15 channels, and the Pro tier includes 50 channels. Each channel can connect to a different Instagram, Facebook, or YouTube account, making Social Kirin ideal for agencies managing multiple clients.
               </AccordionContent>
             </AccordionItem>
 

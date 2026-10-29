@@ -210,8 +210,8 @@ export default function AICommentModeration() {
           <div className="not-prose my-8 grid gap-6 sm:grid-cols-3">
             <Card className="p-6">
               <h3 className="mb-2 font-heading text-2xl font-bold">Starter</h3>
-              <p className="mb-4 text-3xl font-bold">$19<span className="text-base font-normal text-muted-foreground">/month</span></p>
-              <p className="mb-4 text-sm text-muted-foreground">1,000 comments/month</p>
+              <p className="mb-4 text-3xl font-bold">$25<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-sm text-muted-foreground">5,000 interactions/month</p>
               <Link href="/#waitlist">
                 <Button variant="outline" className="w-full">Join Waitlist</Button>
               </Link>
@@ -220,8 +220,8 @@ export default function AICommentModeration() {
             <Card className="border-primary p-6">
               <Badge className="mb-2">Most Popular</Badge>
               <h3 className="mb-2 font-heading text-2xl font-bold">Growth</h3>
-              <p className="mb-4 text-3xl font-bold">$49<span className="text-base font-normal text-muted-foreground">/month</span></p>
-              <p className="mb-4 text-sm text-muted-foreground">10,000 comments/month</p>
+              <p className="mb-4 text-3xl font-bold">$59<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-sm text-muted-foreground">15,000 interactions/month</p>
               <Link href="/#waitlist">
                 <Button className="w-full">Join Waitlist</Button>
               </Link>
@@ -230,7 +230,7 @@ export default function AICommentModeration() {
             <Card className="p-6">
               <h3 className="mb-2 font-heading text-2xl font-bold">Pro</h3>
               <p className="mb-4 text-3xl font-bold">$99<span className="text-base font-normal text-muted-foreground">/month</span></p>
-              <p className="mb-4 text-sm text-muted-foreground">50,000 comments/month</p>
+              <p className="mb-4 text-sm text-muted-foreground">35,000 interactions/month</p>
               <Link href="/#waitlist">
                 <Button variant="outline" className="w-full">Join Waitlist</Button>
               </Link>
@@ -238,7 +238,7 @@ export default function AICommentModeration() {
           </div>
 
           <p className="text-center text-sm text-muted-foreground">
-            All plans include AI spam detection, brand voice replies, sentiment analysis, DM automation, and multi-language support (6 languages). <strong>Annual billing saves 2 months.</strong> 7-day free trial after launch.
+            All plans include AI spam detection, brand voice replies, sentiment analysis, DM automation, and multi-language support (6 languages). <strong>Annual billing saves 2 months.</strong> 3-day free trial.
           </p>
 
           <div className="not-prose my-12 rounded-2xl border border-primary/20 bg-primary/5 p-8 text-center">
