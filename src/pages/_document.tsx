@@ -9,8 +9,6 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#189183" />
-        <meta property="og:image" content="/Social_Kirin_OG.jpg" />
-        <meta property="og:image:type" content="image/jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="/Social_Kirin_OG.jpg" />
         {/*
