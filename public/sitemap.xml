@@ -78,6 +78,50 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Phase 3: Comparison & Alternative Pages -->
+  <url>
+    <loc>https://socialkirin.com/vs/commentguard</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/vs/feedguardians</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/alternatives/commentguard</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/alternatives/feedguardians</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/best/facebook-comment-moderation-tools</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/best/instagram-comment-moderation-tools</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/best/content-moderation-tools</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Legal Pages -->
   <url>
     <loc>https://socialkirin.com/privacy</loc>
@@ -103,15 +147,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
-
-  <!-- Phase 3: Comparison & Alternative Pages (to be added) -->
-  <!-- /vs/commentguard -->
-  <!-- /vs/feedguardians -->
-  <!-- /alternatives/commentguard -->
-  <!-- /alternatives/feedguardians -->
-  <!-- /best/facebook-comment-moderation-tools -->
-  <!-- /best/instagram-comment-moderation-tools -->
-  <!-- /best/content-moderation-tools -->
 
   <!-- Phase 4: Guide Hubs (to be added) -->
   <!-- /guides/ -->
