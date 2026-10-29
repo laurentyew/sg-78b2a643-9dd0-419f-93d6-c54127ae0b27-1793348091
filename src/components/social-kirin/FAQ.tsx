@@ -52,8 +52,8 @@ const faqs = [
     a: "Yes. Social Kirin is meant to reduce manual work, not hide what happened. Teams can review moderation actions, see why something was flagged, and step in on important threads.",
   },
   {
-    q: "What does the waitlist offer include?",
-    a: "The first 50 waitlist signups get 3 months free when Social Kirin launches. If the founding spots are gone, you can still join the waitlist for early access and launch updates.",
+    q: "How much does Social Kirin cost?",
+    a: "Plans start at $25/month for 5 channels and 5,000 interactions, scaling to $59 and $99 for larger volumes. Every plan includes unlimited team seats and a 3-day free trial with no credit card required.",
   },
 ];
 
@@ -66,7 +66,7 @@ export function FAQ() {
             Questions
           </span>
           <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
-            Common questions before you join
+            Common questions, answered
           </h2>
           <p className="text-base leading-7 text-muted-foreground sm:text-lg">
             Short answers about AI comment moderation, spam filtering, DM automation, and how Social Kirin helps social teams save time.

@@ -193,19 +193,19 @@ export function Header() {
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <Link
-            href="https://app.socialkirin.com"
+          <a
+            href="https://app.socialkirin.com/login"
             className="inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
           >
             Log In
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://app.socialkirin.com"
             className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
           >
             <ShieldCheck className="h-4 w-4" />
             Get Started Free
-          </Link>
+          </a>
         </div>
 
         <button
@@ -410,14 +410,14 @@ export function Header() {
             Pricing
           </Link>
 
-          <Link
+          <a
             href="https://app.socialkirin.com"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex h-10 w-full items-center justify-center gap-1.5 rounded-full bg-primary text-sm font-medium text-primary-foreground"
           >
             <ShieldCheck className="h-4 w-4" />
             Get Started Free
-          </Link>
+          </a>
         </div>
       )}
     </header>

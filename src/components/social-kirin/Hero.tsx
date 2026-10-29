@@ -87,10 +87,10 @@ export function Hero() {
               size="lg"
               className="h-12 w-full gap-2 rounded-full bg-primary px-6 text-sm text-primary-foreground shadow-glow hover:bg-primary/90 sm:h-13 sm:w-auto sm:px-7 sm:text-base"
             >
-              <Link href="https://app.socialkirin.com">
+              <a href="https://app.socialkirin.com">
                 Get Started Free
                 <ArrowRight className="h-4 w-4" />
-              </Link>
+              </a>
             </Button>
             <Button
               asChild
