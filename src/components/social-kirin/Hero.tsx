@@ -103,6 +103,11 @@ export function Hero() {
             </Button>
           </div>
 
+          <p className="text-xs leading-6 text-muted-foreground sm:text-sm">
+            Launch offer: first {PROMO.cap} brands get {PROMO.discountPercent}% off any plan with code{" "}
+            <strong className="font-mono tracking-wider text-foreground">{PROMO.code}</strong>.
+          </p>
+
           <div className="pt-2">
             <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
               Moderation built for

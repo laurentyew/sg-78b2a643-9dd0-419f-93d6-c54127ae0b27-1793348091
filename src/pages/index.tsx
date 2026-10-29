@@ -12,6 +12,7 @@ import { Comparison } from "@/components/social-kirin/Comparison";
 import { Pricing } from "@/components/social-kirin/Pricing";
 import { FAQ } from "@/components/social-kirin/FAQ";
 import { Footer } from "@/components/social-kirin/Footer";
+import { PROMO } from "@/lib/promo";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -26,6 +27,9 @@ const jsonLd = {
     "@type": "Offer",
     price: "25",
     priceCurrency: "USD",
+    description: `${PROMO.label} with code ${PROMO.code}`,
+    availability: "https://schema.org/LimitedAvailability",
+    priceValidUntil: PROMO.endsOn,
   },
   featureList: [
     "Automatically hide spam and scam comments",
@@ -44,8 +48,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="AI Comment Moderation & DM Automation | Social Kirin"
-        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook and YouTube. Start free today."
+        title={`AI Comment Moderation & DM Automation | ${PROMO.discountPercent}% Off with ${PROMO.code} | Social Kirin`}
+        description={`Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook and YouTube. First ${PROMO.cap} brands get ${PROMO.discountPercent}% off with code ${PROMO.code}.`}
       />
       <script
         type="application/ld+json"

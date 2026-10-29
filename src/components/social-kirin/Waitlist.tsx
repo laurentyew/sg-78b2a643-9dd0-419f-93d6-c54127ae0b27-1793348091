@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ShareWaitlist } from "@/components/social-kirin/ShareWaitlist";
 import { markWaitlistSeen } from "@/lib/waitlist-popup";
+import { PROMO } from "@/lib/promo";
 import {
   WAITLIST_CAP,
   getWaitlistCount,
@@ -51,10 +52,10 @@ export function Waitlist() {
   const handleValid = normalizedHandle.length >= 2;
   const formValid = nameValid && emailValid && handleValid;
 
-  const joined = count ?? 0;
-  const remaining = Math.max(0, WAITLIST_CAP - joined);
+  const claimed = count ?? 0;
+  const remaining = Math.max(0, PROMO.cap - claimed);
   const offerOpen = remaining > 0;
-  const progress = Math.min(100, Math.round((joined / WAITLIST_CAP) * 100));
+  const progress = Math.min(100, Math.round((claimed / PROMO.cap) * 100));
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -83,26 +84,30 @@ export function Waitlist() {
         <div className="space-y-5 sm:space-y-6">
           <div className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-3.5 py-1.5 text-xs font-medium text-accent sm:px-4 sm:text-sm">
             <Gift className="h-4 w-4" />
-            Founding member offer
+            {PROMO.code} launch offer
           </div>
 
           <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
-            Be first in line and get <span className="text-primary">3 months free</span>
+            First {PROMO.cap} brands get{" "}
+            <span className="text-primary">{PROMO.discountPercent}% off</span> every plan
           </h2>
 
           <p className="max-w-lg text-base leading-7 text-muted-foreground sm:text-lg">
             If your team spends too much time cleaning comment sections, answering the same questions,
-            or chasing DMs, get started free. The first {WAITLIST_CAP} signups get 3 free months at launch.
+            or chasing DMs, start free today. Enter code <strong className="font-mono tracking-wider text-foreground">{PROMO.code}</strong> at
+            checkout in the app and pay half price on any plan for your first billing term.
           </p>
 
           <div className="rounded-2xl border border-border bg-card p-4 shadow-soft sm:p-5">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
               <span className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
                 <Users className="h-4 w-4 text-primary" />
-                {countAvailable ? "Founding spots" : "Founding offer"}
+                {countAvailable ? "Launch spots" : "Launch offer"}
               </span>
               <span className="font-serif text-sm font-bold text-foreground">
-                {countAvailable ? `${remaining} of ${WAITLIST_CAP} left` : `First ${WAITLIST_CAP} signups`}
+                {countAvailable
+                  ? `${remaining} of ${PROMO.cap} left`
+                  : `First ${PROMO.cap} brands`}
               </span>
             </div>
 
@@ -117,8 +122,8 @@ export function Waitlist() {
 
             <p className="mt-3 text-sm leading-6 text-muted-foreground">
               {offerOpen
-                ? "Claimed spots are locked in for 3 months free at launch."
-                : "All founding spots are claimed — join anyway and we'll offer early-access pricing."}
+                ? `${PROMO.discountPercent}% off is reserved for the first ${PROMO.cap} brands that subscribe — one code per account.`
+                : `All ${PROMO.cap} launch spots are claimed. Join the list and we'll share early-access pricing instead.`}
             </p>
           </div>
         </div>
@@ -133,22 +138,22 @@ export function Waitlist() {
               <h3 className="font-serif text-xl font-bold text-foreground sm:text-2xl">
                 {result.status === "duplicate"
                   ? "You're already on the list"
-                  : result.position <= WAITLIST_CAP
-                    ? "You're in — 3 months free locked in"
+                  : result.position <= PROMO.cap
+                    ? `You're in — ${PROMO.discountPercent}% off reserved`
                     : "You're on the waitlist"}
               </h3>
 
               <p className="mx-auto max-w-md text-sm leading-7 text-muted-foreground sm:text-base">
                 {result.status === "duplicate"
-                  ? `We already have ${email.trim()} saved. You're number ${result.position} on the founding list.`
-                  : result.position <= WAITLIST_CAP
-                    ? `You're number ${result.position} on the founding list. We'll email ${email.trim()} the moment your 3 free months are ready to activate.`
-                    : `Founding spots are full, but you're number ${result.position} in line — we'll email ${email.trim()} about early-access pricing.`}
+                  ? `We already have ${email.trim()} saved. You're number ${result.position} on the launch list.`
+                  : result.position <= PROMO.cap
+                    ? `You're number ${result.position} on the launch list. Use code ${PROMO.code} at checkout in the app for ${PROMO.discountPercent}% off any plan — we'll also email ${email.trim()} a reminder.`
+                    : `Launch spots are full, but you're number ${result.position} in line — we'll email ${email.trim()} about early-access pricing.`}
               </p>
 
               {result.status !== "duplicate" && remaining > 0 && (
                 <p className="text-sm font-medium leading-6 text-accent">
-                  {remaining} founding {remaining === 1 ? "spot" : "spots"} still available — share the link with your team.
+                  {remaining} launch {remaining === 1 ? "spot" : "spots"} still available — share the link with your team.
                 </p>
               )}
 
@@ -160,7 +165,7 @@ export function Waitlist() {
             <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5" noValidate>
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground sm:text-2xl">
-                  Get Started Free
+                  Reserve your {PROMO.discountPercent}% off
                 </h3>
                 <p className="mt-1 text-sm leading-6 text-muted-foreground">
                   Three fields. About twenty seconds. No card required.
@@ -245,18 +250,18 @@ export function Waitlist() {
                 {submitting ? (
                   <>
                     <Loader2 className="h-4 w-4 animate-spin" />
-                    Joining...
+                    Reserving...
                   </>
                 ) : (
                   <>
                     <ShieldCheck className="h-4 w-4" />
-                    Claim my free 3 months
+                    Reserve my {PROMO.discountPercent}% off
                   </>
                 )}
               </Button>
 
               <p className="text-center text-xs leading-5 text-muted-foreground">
-                No spam, no card required. We'll only email you about your early access.
+                No spam, no card required. We'll only email you about your spot and the {PROMO.code} code.
               </p>
             </form>
           )}
