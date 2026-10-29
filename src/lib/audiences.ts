@@ -28,9 +28,9 @@ export const audiences: Audience[] = [
     slug: "ecommerce",
     label: "eCommerce & DTC brands",
     cardCopy: "Scam replies under your ads, repeated buying questions, and support requests buried in comments.",
-    title: "Comment moderation for eCommerce & DTC brands",
+    title: "Comment Moderation for eCommerce Brands",
     description:
-      "Hide scam and impersonator comments, answer price and shipping questions in your brand voice, and turn comment intent into tracked leads across Instagram, Facebook, and YouTube.",
+      "Hide scam comments under your ads, answer price and shipping questions in your brand voice, and turn comment intent into leads on Instagram and Facebook.",
     eyebrow: "For eCommerce & DTC brands",
     headline: "Stop paying for ads that send shoppers into a comment section full of scams",
     intro:
@@ -85,9 +85,9 @@ export const audiences: Audience[] = [
     slug: "creators",
     label: "Creators & personal brands",
     cardCopy: "Comment volume and DMs outgrow your ability to reply personally without burning out.",
-    title: "Comment moderation for creators & personal brands",
+    title: "Comment Moderation for Creators & Influencers",
     description:
-      "Filter toxic comments, auto-reply to the questions you answer every day, and send links by DM so you can stay close to your audience without living in your notifications.",
+      "Filter toxic comments, auto-reply to the questions you answer daily, and send links by DM without living in your notifications.",
     eyebrow: "For creators & personal brands",
     headline: "Stay close to your audience without living in your notifications",
     intro:
@@ -142,7 +142,7 @@ export const audiences: Audience[] = [
     slug: "agencies",
     label: "Agencies & social media managers",
     cardCopy: "Too many client accounts, inconsistent brand voices, and escalation paths that live in someone's head.",
-    title: "Comment moderation for agencies & social media managers",
+    title: "Comment Moderation for Agencies & Managers",
     description:
       "Manage every client account from one dashboard with separate brand-voice rules, role-based access for your team, and clear escalation for sensitive threads.",
     eyebrow: "For agencies & social media managers",
@@ -199,7 +199,7 @@ export const audiences: Audience[] = [
     slug: "launches",
     label: "Launches, drops & giveaways",
     cardCopy: "A campaign spike turns your comment section into a wall of \"link?\" and prize spam.",
-    title: "Comment moderation for launches, drops & giveaways",
+    title: "Moderation for Launches & Giveaways",
     description:
       "Handle campaign comment spikes, turn keywords into instant DMs, and keep giveaway threads free of scam accounts — while the excitement is still high.",
     eyebrow: "For launches, drops & giveaways",
@@ -256,7 +256,7 @@ export const audiences: Audience[] = [
     slug: "support-teams",
     label: "Lean support & community teams",
     cardCopy: "No one can watch comments 24/7, so response times slip and small issues escalate.",
-    title: "Comment moderation for lean support & community teams",
+    title: "Moderation for Support & Community Teams",
     description:
       "Let AI cover repetitive moderation and first-response replies, with sentiment escalation routing sensitive threads to a human before they snowball.",
     eyebrow: "For lean support & community teams",

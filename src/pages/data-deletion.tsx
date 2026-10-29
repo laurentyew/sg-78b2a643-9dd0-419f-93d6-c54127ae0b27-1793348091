@@ -16,7 +16,7 @@ export default function DataDeletionPage() {
       title="Data Deletion Instructions"
       lastUpdated="12 October 2026"
       seoTitle="Data Deletion Instructions | Social Kirin"
-      seoDescription="How to revoke Social Kirin's access to Instagram, Facebook or YouTube and how to request deletion of your stored data, including the 7-day and 30-day timelines."
+      seoDescription="How to revoke Social Kirin's access to Instagram, Facebook or YouTube, and how to request deletion of your stored data within 7 to 30 days."
       url="https://socialkirin.com/data-deletion"
       relatedLinks={[
         { label: "Privacy Policy", href: "/privacy" },
