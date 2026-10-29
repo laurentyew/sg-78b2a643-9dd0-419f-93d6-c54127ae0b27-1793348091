@@ -1,0 +1,71 @@
+# Social Kirin
+
+> AI-powered comment and DM moderation for Instagram, Facebook, and YouTube
+
+## Product Summary
+
+Social Kirin automatically hides spam, scam, and abusive comments before customers see them, replies to routine questions in your brand voice, and sends instant DMs when people ask for links or prices. Built for social media managers, eCommerce brands, and agencies managing Instagram, Facebook, and YouTube accounts.
+
+## Key Features
+
+- **Auto-hide spam comments:** Block bots, scam links, fake giveaways in real time
+- **AI brand-voice replies:** Train on your FAQs and tone, auto-reply to routine questions
+- **Keyword-triggered DM automation:** "link?" or "price?" comments trigger instant DMs
+- **Sentiment analysis:** Catch negative conversations early, escalate to humans
+- **Multi-platform dashboard:** Manage Instagram, Facebook, YouTube in one inbox
+- **Team escalation:** Flag sensitive messages for manual human review
+
+## Supported Platforms
+
+- Instagram (posts, reels, stories, ads)
+- Facebook Pages (posts, ads, comments)
+- YouTube (video comments)
+
+## Pricing (Pre-Launch)
+
+- **Starter:** $19/mo — 1 workspace, 1,000 comments/month
+- **Growth:** $49/mo — 2 workspaces, 10,000 comments/month
+- **Pro:** $99/mo — Unlimited workspaces, 50,000 comments/month
+
+All plans include: AI replies, DM automation, sentiment analysis, multi-language support, 7-day free trial after launch.
+
+**Early access:** First 50 waitlist signups get 3 months free.
+
+## Key Pages
+
+- Homepage: https://socialkirin.com/
+- Free quiz tool: https://socialkirin.com/tools/spot-the-spam-comment-quiz
+- Privacy Policy: https://socialkirin.com/privacy
+- Terms of Service: https://socialkirin.com/terms
+- Platform Compliance: https://socialkirin.com/platform-compliance
+
+## Comparisons
+
+Social Kirin vs competitors:
+- Includes YouTube (CommentGuard does not)
+- DM automation built-in (not available in most competitors)
+- Sentiment analysis (vs keyword-only filtering)
+- Flat pricing with unlimited platforms (vs per-platform charges)
+
+## Company
+
+- **Operator:** D AGE Technology (SSM PC0005997-A)
+- **Location:** Bayan Lepas, Penang, Malaysia
+- **Founder:** Laurent Yew
+- **Contact:** hello@b2bautomator.com
+
+## Target Users
+
+Social media managers, eCommerce brands running Facebook/Instagram ads, marketing agencies, and online sellers who need to moderate high comment volumes without hiring more staff.
+
+## Technical
+
+- Web-based SaaS (no downloads)
+- Multi-language comment moderation
+- Real-time processing
+- Supabase backend
+- Meta API and YouTube API integrations
+
+## Last Updated
+
+2026-10-29
