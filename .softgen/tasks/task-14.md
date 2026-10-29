@@ -39,8 +39,8 @@ Build 10 high-intent commercial pages targeting keywords with CPC $11-$37. All p
 - [ ] Create /comment-moderation (head term, 40 monthly searches)
 - [ ] Create /facebook-comment-moderation ($11 CPC, 30 searches)
 - [ ] Create /instagram-comment-moderation (70 searches)
-- [ ] Create /ai-comment-moderation (30 searches, $30+ CPC)
-- [ ] Create /social-media-moderation-software (110 searches, $36.60 CPC)
+- [x] Create /ai-comment-moderation (30 searches, $30+ CPC)
+- [x] Create /social-media-moderation-software (110 searches, $36.60 CPC)
 - [ ] Create /ad-comment-moderation (Facebook/Instagram Ads specific)
 - [ ] Create /facebook-auto-comments (~231 ETV)
 - [ ] Create /instagram-auto-comments
