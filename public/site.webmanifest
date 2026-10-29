@@ -1,0 +1,24 @@
+{
+  "name": "Social Kirin — AI Comment & DM Moderation",
+  "short_name": "Social Kirin",
+  "description": "Auto-hide spam comments, reply in your brand voice and automate DMs on Instagram, Facebook and YouTube.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#189183",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}
