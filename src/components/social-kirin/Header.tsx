@@ -6,6 +6,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [moderationOpen, setModerationOpen] = useState(false);
   const [automationOpen, setAutomationOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/90 backdrop-blur-md">
@@ -116,19 +117,67 @@ export function Header() {
             </div>
           </div>
 
+          <div className="relative group">
+            <button className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              Resources
+              <ChevronDown className="h-4 w-4" />
+            </button>
+            <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="bg-background border border-border rounded-lg shadow-lg p-2 min-w-[260px]">
+                <div className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                  Comparisons
+                </div>
+                <Link
+                  href="/vs/commentguard"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  vs CommentGuard
+                </Link>
+                <Link
+                  href="/vs/feedguardians"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  vs FeedGuardians
+                </Link>
+                <div className="my-1 border-t border-border" />
+                <div className="px-4 py-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                  Best Tools
+                </div>
+                <Link
+                  href="/best/facebook-comment-moderation-tools"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Best Facebook Tools
+                </Link>
+                <Link
+                  href="/best/instagram-comment-moderation-tools"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Best Instagram Tools
+                </Link>
+                <Link
+                  href="/best/content-moderation-tools"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Best Content Moderation Tools
+                </Link>
+                <div className="my-1 border-t border-border" />
+                <Link
+                  href="/tools/spot-the-spam-comment-quiz"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Spam Comment Quiz (Free)
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <a
             href="/#pricing"
             className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
           >
             Pricing
           </a>
-
-          <Link
-            href="/tools/spot-the-spam-comment-quiz"
-            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-          >
-            Free Tools
-          </Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
@@ -264,6 +313,69 @@ export function Header() {
             )}
           </div>
 
+          <div>
+            <button
+              onClick={() => setResourcesOpen(!resourcesOpen)}
+              className="flex items-center justify-between w-full text-sm font-medium text-foreground/80 hover:text-primary py-2"
+            >
+              Resources
+              <ChevronDown className={`h-4 w-4 transition-transform ${resourcesOpen ? "rotate-180" : ""}`} />
+            </button>
+            {resourcesOpen && (
+              <div className="pl-4 mt-2 space-y-2">
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground py-1.5">
+                  Comparisons
+                </div>
+                <Link
+                  href="/vs/commentguard"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  vs CommentGuard
+                </Link>
+                <Link
+                  href="/vs/feedguardians"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  vs FeedGuardians
+                </Link>
+                <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground py-1.5 mt-2">
+                  Best Tools
+                </div>
+                <Link
+                  href="/best/facebook-comment-moderation-tools"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Best Facebook Tools
+                </Link>
+                <Link
+                  href="/best/instagram-comment-moderation-tools"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Best Instagram Tools
+                </Link>
+                <Link
+                  href="/best/content-moderation-tools"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Best Content Moderation Tools
+                </Link>
+                <div className="border-t border-border my-2" />
+                <Link
+                  href="/tools/spot-the-spam-comment-quiz"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Spam Comment Quiz (Free)
+                </Link>
+              </div>
+            )}
+          </div>
+
           <a
             href="/#pricing"
             onClick={() => setOpen(false)}
@@ -271,14 +383,6 @@ export function Header() {
           >
             Pricing
           </a>
-
-          <Link
-            href="/tools/spot-the-spam-comment-quiz"
-            onClick={() => setOpen(false)}
-            className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
-          >
-            Free Tools
-          </Link>
 
           <a
             href="/#waitlist"
