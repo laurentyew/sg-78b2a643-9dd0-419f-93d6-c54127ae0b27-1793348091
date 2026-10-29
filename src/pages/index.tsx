@@ -47,8 +47,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title={`AI Comment Moderation & DM Automation | ${PROMO.discountPercent}% Off with ${PROMO.code} | Social Kirin`}
-        description={`Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook and YouTube. First ${PROMO.cap} brands get ${PROMO.discountPercent}% off with code ${PROMO.code}.`}
+        title="AI Comment Moderation & DM Automation | Social Kirin"
+        description={`Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook and YouTube. First ${PROMO.cap} brands get ${PROMO.discountPercent}% off.`}
       />
       <script
         type="application/ld+json"
