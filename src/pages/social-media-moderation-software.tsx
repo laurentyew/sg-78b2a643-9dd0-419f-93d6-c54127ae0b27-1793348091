@@ -14,7 +14,7 @@ export default function SocialMediaModerationSoftware() {
       <SEO
         title="Social Media Moderation Software | AI Comment Filter"
         description="AI moderation software for Instagram, Facebook and YouTube. Auto-hide spam, reply in your brand voice, and automate DMs. Start free in minutes."
-        image="/generated/og-image-social-kirin.png"
+        image="/Social_Kirin_OG.jpg"
       />
 
       <script

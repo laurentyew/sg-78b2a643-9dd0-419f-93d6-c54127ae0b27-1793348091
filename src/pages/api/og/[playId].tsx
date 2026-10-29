@@ -89,6 +89,6 @@ export default async function handler(
     );
     res.status(200).send(buffer);
   } catch {
-    res.redirect(302, "/generated/og-image-social-kirin.png");
+    res.redirect(302, "/Social_Kirin_OG.jpg");
   }
 }

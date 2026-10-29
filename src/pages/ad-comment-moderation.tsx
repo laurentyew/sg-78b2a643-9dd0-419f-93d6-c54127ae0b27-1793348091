@@ -14,7 +14,7 @@ export default function AdCommentModeration() {
       <SEO
         title="Ad Comment Moderation | Protect Facebook & Instagram Ad ROI"
         description="Protect paid campaigns from spam, trolls and competitor links. AI moderates Facebook and Instagram ad comments in real time so budgets stay safe."
-        image="/generated/og-image-social-kirin.png"
+        image="/Social_Kirin_OG.jpg"
       />
 
       <script

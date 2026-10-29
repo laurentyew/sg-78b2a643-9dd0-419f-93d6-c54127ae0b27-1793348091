@@ -5,7 +5,7 @@ const toAbsolute = (path: string): string => absoluteUrl(path);
 
 const DEFAULT_TITLE = "Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube";
 const DEFAULT_DESCRIPTION = "Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes, no code required.";
-const DEFAULT_IMAGE = "/generated/og-image-social-kirin.png";
+const DEFAULT_IMAGE = "/Social_Kirin_OG.jpg";
 const IMAGE_WIDTH = "1200";
 const IMAGE_HEIGHT = "630";
 const IMAGE_ALT = "Social Kirin — AI comment and DM moderation for social media";
@@ -43,7 +43,7 @@ export function SEOElements({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={absoluteImage} />
       <meta property="og:image:secure_url" content={absoluteImage} />
-      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content={IMAGE_WIDTH} />
       <meta property="og:image:height" content={IMAGE_HEIGHT} />
       <meta property="og:image:alt" content={IMAGE_ALT} />
@@ -89,7 +89,7 @@ export function SEO({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={absoluteImage} />
       <meta property="og:image:secure_url" content={absoluteImage} />
-      <meta property="og:image:type" content="image/png" />
+      <meta property="og:image:type" content="image/jpeg" />
       <meta property="og:image:width" content={IMAGE_WIDTH} />
       <meta property="og:image:height" content={IMAGE_HEIGHT} />
       <meta property="og:image:alt" content={IMAGE_ALT} />

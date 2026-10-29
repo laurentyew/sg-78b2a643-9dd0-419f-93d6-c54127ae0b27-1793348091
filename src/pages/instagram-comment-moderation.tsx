@@ -14,7 +14,7 @@ export default function InstagramCommentModeration() {
       <SEO
         title="Instagram Comment Moderation | Hide Spam & Scams Fast"
         description="Instagram comment moderation that hides spam and scam comments automatically, filters abuse, and keeps your Reels threads clean and on-brand."
-        image="/generated/og-image-social-kirin.png"
+        image="/Social_Kirin_OG.jpg"
       />
 
       <script

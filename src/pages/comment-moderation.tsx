@@ -14,7 +14,7 @@ export default function CommentModeration() {
       <SEO
         title="Comment Moderation Tool | Auto-Hide Spam Comments"
         description="Comment moderation that auto-hides spam, scams and abuse on Instagram, Facebook and YouTube, with a full review log your team stays in control of."
-        image="/generated/og-image-social-kirin.png"
+        image="/Social_Kirin_OG.jpg"
       />
 
       <script

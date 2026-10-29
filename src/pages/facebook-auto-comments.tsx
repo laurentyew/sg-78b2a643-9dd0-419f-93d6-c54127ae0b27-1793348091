@@ -14,7 +14,7 @@ export default function FacebookAutoComments() {
       <SEO
         title="Facebook Auto Comments | AI-Powered Automatic Replies"
         description="Facebook auto comments that reply to post comments in your brand voice, answer common questions, and hide spam before customers ever see it."
-        image="/generated/og-image-social-kirin.png"
+        image="/Social_Kirin_OG.jpg"
       />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
