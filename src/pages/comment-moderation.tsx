@@ -301,7 +301,7 @@ export default function CommentModeration() {
             </p>
             <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(50% off with code FIRST50)</span>
               </Button>
             </Link>
           </div>
