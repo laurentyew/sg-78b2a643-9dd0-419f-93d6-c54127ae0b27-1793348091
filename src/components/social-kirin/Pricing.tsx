@@ -1,43 +1,49 @@
 import React from "react";
 import Link from "next/link";
-import { Check } from "lucide-react";
+import { Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const tiers = [
   {
     name: "Starter",
-    price: "$19",
-    workspaces: "1 workspace",
-    volume: "1,000 comments/mo",
+    price: "$25",
+    annual: "$250/yr",
+    channels: "5 channels",
+    volume: "5,000 interactions/mo",
     description: "Perfect for solo creators testing AI moderation.",
     highlighted: false,
+    limitations: ["No automations", "No leads tracking", "No full analytics"],
   },
   {
     name: "Growth",
-    price: "$49",
-    workspaces: "2 workspaces",
-    volume: "10,000 comments/mo",
+    price: "$59",
+    annual: "$590/yr",
+    channels: "15 channels",
+    volume: "15,000 interactions/mo",
     description: "For growing brands managing multiple accounts.",
     highlighted: true,
+    limitations: [],
   },
   {
     name: "Pro",
     price: "$99",
-    workspaces: "Unlimited workspaces",
-    volume: "50,000 comments/mo",
+    annual: "$990/yr",
+    channels: "50 channels",
+    volume: "35,000 interactions/mo",
     description: "For teams and agencies scaling moderation.",
     highlighted: false,
+    limitations: [],
   },
 ];
 
 const allFeatures = [
-  "Buyer-intent detection",
-  "AI brand-voice replies",
-  "3-step DM automation",
+  "AI spam detection",
+  "Brand-voice replies",
+  "DM automation",
   "Multi-language support",
-  "7-day free trial",
-  "Unlimited platforms",
+  "Sentiment analysis",
+  "Unlimited seats",
 ];
 
 export function Pricing() {
@@ -52,14 +58,14 @@ export function Pricing() {
             Volume-based pricing built for growth
           </h2>
           <p className="text-base leading-7 text-muted-foreground sm:text-lg">
-            All tiers include full moderation features. Scale with workspace and comment volume.
-            First 50 waitlist signups get 3 months free.
+            All tiers include unlimited seats. Scale with channels and interaction volume.
+            Free 3-day trial, no credit card required.
           </p>
         </div>
 
         <div className="mb-6 rounded-[1.5rem] border border-accent/20 bg-accent/10 p-4 text-center shadow-soft sm:mb-8 sm:p-5">
           <p className="text-sm leading-6 text-foreground">
-            Join the waitlist now and lock in early-access pricing. All plans include a 7-day free trial after launch.
+            Join the waitlist now and lock in early-access pricing. First 50 signups get 3 months free.
           </p>
         </div>
 
@@ -92,30 +98,44 @@ export function Pricing() {
                 </p>
               </div>
 
-              <div className="flex items-baseline gap-1">
-                <span className="font-serif text-4xl font-bold">{tier.price}</span>
-                <span
-                  className={cn(
-                    "text-sm",
-                    tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"
-                  )}
-                >
-                  /mo
-                </span>
+              <div>
+                <div className="flex items-baseline gap-1">
+                  <span className="font-serif text-4xl font-bold">{tier.price}</span>
+                  <span
+                    className={cn(
+                      "text-sm",
+                      tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"
+                    )}
+                  >
+                    /mo
+                  </span>
+                </div>
+                <p className={cn(
+                  "text-xs mt-1",
+                  tier.highlighted ? "text-primary-foreground/70" : "text-muted-foreground"
+                )}>
+                  or {tier.annual} (save 2 months)
+                </p>
               </div>
 
               <div className="space-y-2 pb-4 border-b border-border/20">
                 <div className="flex items-center justify-between text-sm">
                   <span className={tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"}>
-                    Workspaces
+                    Channels
                   </span>
-                  <span className="font-semibold">{tier.workspaces}</span>
+                  <span className="font-semibold">{tier.channels}</span>
                 </div>
                 <div className="flex items-center justify-between text-sm">
                   <span className={tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"}>
-                    Comment Volume
+                    Interactions
                   </span>
                   <span className="font-semibold">{tier.volume}</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <span className={tier.highlighted ? "text-primary-foreground/80" : "text-muted-foreground"}>
+                    Team Seats
+                  </span>
+                  <span className="font-semibold">Unlimited</span>
                 </div>
               </div>
 
@@ -140,6 +160,16 @@ export function Pricing() {
                       </span>
                     </li>
                   ))}
+                  {tier.limitations.length > 0 && (
+                    <>
+                      {tier.limitations.map((limitation) => (
+                        <li key={limitation} className="flex items-start gap-2.5 text-sm leading-6">
+                          <X className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+                          <span className="text-muted-foreground">{limitation}</span>
+                        </li>
+                      ))}
+                    </>
+                  )}
                 </ul>
               </div>
 
@@ -157,9 +187,14 @@ export function Pricing() {
           ))}
         </div>
 
-        <p className="text-center text-sm text-muted-foreground mt-8">
-          Need more volume or custom features? <Link href="#waitlist" className="text-primary hover:underline">Contact us for enterprise pricing</Link>
-        </p>
+        <div className="mt-8 text-center space-y-3">
+          <p className="text-sm text-muted-foreground">
+            <strong>Free Trial:</strong> 3 days, 50 interactions/mo, 1 channel — no credit card required
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Need more volume or custom features? <Link href="#waitlist" className="text-primary hover:underline">Contact us for enterprise pricing</Link>
+          </p>
+        </div>
       </div>
     </section>
   );

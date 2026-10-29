@@ -95,29 +95,50 @@ Social Kirin supports multi-language spam detection and AI replies in:
 
 ## Pricing (Pre-Launch Waitlist)
 
-| Tier | Price | Workspaces | Comment Volume |
-|------|-------|------------|----------------|
-| Starter | $19/mo | 1 workspace | 1,000 comments/mo |
-| Growth | $49/mo | 2 workspaces | 10,000 comments/mo |
-| Pro | $99/mo | Unlimited workspaces | 50,000 comments/mo |
-| Enterprise | Custom | Custom | Custom volume |
+| Tier | Monthly | Annual | Interactions/mo | Channels | Seats | Features |
+|------|---------|--------|-----------------|----------|-------|----------|
+| Free Trial | free | — | 50 | 1 | unlimited | everything |
+| Starter | $25 | $250 | 5,000 | 5 | unlimited | no automations, leads or full analytics |
+| Growth | $59 | $590 | 15,000 | 15 | unlimited | all features |
+| Pro | $99 | $990 | 35,000 | 50 | unlimited | all features |
+| Enterprise | Custom | Custom | Unlimited | Unlimited | unlimited | all features |
 
-**All tiers include:**
-- Buyer-intent detection
-- AI brand-voice replies
-- 3-step DM automation
-- Multi-language support (6 languages)
-- 7-day free trial (after launch)
-- Unlimited platforms (Instagram, Facebook, YouTube)
+**Free Trial Details:**
+- 3 days, no credit card required
+- 50 interactions/month
+- 1 channel
+- All features enabled
+
+**All Paid Tiers Include:**
+- AI spam detection
+- Brand-voice replies
 - Custom keyword filters
 - Sentiment analysis
-- Ad comment moderation
+- Multi-language support (6 languages)
+- Unlimited team seats
+- Admin and Moderator roles
 
-**Annual billing:** Save 2 months (pay for 10, get 12)
+**Starter Tier Limitations:**
+- ❌ No DM automation
+- ❌ No leads tracking
+- ❌ No full analytics dashboard
+- ✅ Basic moderation features included
 
-**Volume overages:** When plan limit exceeded, moderation stops and user is prompted to upgrade to higher tier.
+**Growth & Pro Tiers Include Everything:**
+- ✅ DM automation (3-step flows)
+- ✅ Leads tracking
+- ✅ Full analytics dashboard
+- ✅ All moderation features
 
-**Refund policy:** No refunds (7-day trial allows testing before commitment)
+**Annual Billing Discount:**
+- Pay for 10 months, get 12 months (save 2 months)
+- Starter: $250/year (vs $300)
+- Growth: $590/year (vs $708)
+- Pro: $990/year (vs $1,188)
+
+**Volume Overages:** When interaction limit exceeded, moderation stops and user is prompted to upgrade to higher tier.
+
+**Refund Policy:** No refunds (3-day free trial allows testing before commitment)
 
 **Early Access:** First 50 waitlist signups get 3 months free
 
