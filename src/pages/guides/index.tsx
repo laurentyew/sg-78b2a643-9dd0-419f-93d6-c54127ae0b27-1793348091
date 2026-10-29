@@ -134,7 +134,7 @@ export default function GuidesHub() {
             <div className="text-center bg-primary/5 border border-primary/20 rounded-2xl p-8">
               <h2 className="text-2xl font-bold mb-4">Want AI-Powered Moderation?</h2>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                These guides teach manual strategies. For automated AI moderation across Instagram, Facebook, and YouTube—join the Social Kirin waitlist. 3-day free trial.
+                These guides teach manual strategies. For automated AI moderation across Instagram, Facebook, and YouTube, Social Kirin is live today at app.socialkirin.com — start with a 3-day trial, no credit card required.
               </p>
               <Link href="https://app.socialkirin.com">
                 <Button size="lg" className="rounded-full font-bold px-8">

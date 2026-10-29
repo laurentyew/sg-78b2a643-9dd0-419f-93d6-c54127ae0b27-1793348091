@@ -141,7 +141,7 @@ export default function AdCommentModeration() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-semibold text-primary">→</span>
-                <span><strong>Cost of Social Kirin:</strong> $49/month (Growth tier)</span>
+                <span><strong>Cost of Social Kirin:</strong> $59/month (Growth tier)</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-semibold text-primary">→</span>
@@ -279,7 +279,7 @@ export default function AdCommentModeration() {
             </p>
             <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free
               </Button>
             </Link>
           </div>
@@ -337,7 +337,7 @@ export default function AdCommentModeration() {
                 Is there a free trial?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. After launch, all Social Kirin plans include a 7-day free trial. No credit card required to get started free. The first 50 waitlist signups receive 3 months free when we launch.
+                Yes. Every Social Kirin plan includes a 3-day free trial with no credit card required. You can cancel at any time from your account settings.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
