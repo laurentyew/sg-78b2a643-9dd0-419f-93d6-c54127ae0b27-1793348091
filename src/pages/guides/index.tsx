@@ -9,7 +9,7 @@ export default function GuidesHub() {
   return (
     <>
       <SEO 
-        title="Social Media Moderation Guides | Learn Comment Management Best Practices"
+        title="Social Media Moderation Guides | Learn Best Practices"
         description="Free guides on Instagram, Facebook, and YouTube comment moderation. Learn AI automation, spam filtering, DM triggers, and community management best practices."
       />
       

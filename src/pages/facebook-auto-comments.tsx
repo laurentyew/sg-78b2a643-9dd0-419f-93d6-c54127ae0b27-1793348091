@@ -13,7 +13,7 @@ export default function FacebookAutoComments() {
     <MoneyPageLayout>
       <SEO
         title="Facebook Auto Comments | AI-Powered Automatic Replies"
-        description="Automatic Facebook comment replies powered by AI. Respond to FAQs, product questions, and buyer intent in your brand voice. Save hours with Facebook auto-comment automation."
+        description="Facebook auto comments that reply to post comments in your brand voice, answer common questions, and hide spam before customers ever see it."
         image="/og-image.png"
       />
 

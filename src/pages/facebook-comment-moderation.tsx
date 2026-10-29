@@ -12,8 +12,8 @@ export default function FacebookCommentModeration() {
   return (
     <MoneyPageLayout>
       <SEO
-        title="Facebook Comment Moderation | Auto-Hide Spam on Facebook Pages & Ads"
-        description="Automated Facebook comment moderation for Pages and Ads. Hide competitor spam, scam links, and toxic comments in real time. AI-powered moderation with custom keyword filters and sentiment analysis."
+        title="Facebook Comment Moderation | Auto-Hide Spam on Pages"
+        description="Facebook comment moderation for pages and ads. Auto-hide spam, filter trolls, and reply in your brand voice without babysitting the inbox."
         image="/og-image.png"
       />
 

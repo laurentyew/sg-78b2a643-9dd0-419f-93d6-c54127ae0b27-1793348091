@@ -12,8 +12,8 @@ export default function CommentModeration() {
   return (
     <MoneyPageLayout>
       <SEO
-        title="Comment Moderation | Auto-Hide Spam on Instagram, Facebook & YouTube"
-        description="Automated comment moderation for Instagram, Facebook, and YouTube. Hide spam, scam links, and toxic comments before your audience sees them. Multi-language AI, sentiment analysis, and DM automation."
+        title="Comment Moderation Tool | Auto-Hide Spam Comments"
+        description="Comment moderation that auto-hides spam, scams and abuse on Instagram, Facebook and YouTube, with a full review log your team stays in control of."
         image="/og-image.png"
       />
 

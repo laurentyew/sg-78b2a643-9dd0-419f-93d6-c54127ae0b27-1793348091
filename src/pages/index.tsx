@@ -44,8 +44,8 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube"
-        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Start free in minutes. No code required."
+        title="AI Comment Moderation & DM Automation | Social Kirin"
+        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook and YouTube. Start free today."
       />
       <script
         type="application/ld+json"

@@ -27,7 +27,7 @@ export default function InstagramGuidesHub() {
   return (
     <>
       <SEO 
-        title="Instagram Comment Moderation Guides | DM Automation & Reel Management"
+        title="Instagram Comment Moderation Guides & Auto-Reply Tips"
         description="Learn how to moderate Instagram comments, set up auto-reply DMs, handle viral Reels, and filter spam. Free step-by-step guides for creators and brands."
       />
       

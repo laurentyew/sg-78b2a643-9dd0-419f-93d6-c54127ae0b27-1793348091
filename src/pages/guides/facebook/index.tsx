@@ -27,7 +27,7 @@ export default function FacebookGuidesHub() {
   return (
     <>
       <SEO 
-        title="Facebook Comment Moderation Guides | Page Management Best Practices"
+        title="Facebook Comment Moderation Guides for Page Owners"
         description="Learn how to moderate Facebook Page comments, filter spam, protect ads from trolls, and set up Messenger automation. Free step-by-step guides."
       />
       

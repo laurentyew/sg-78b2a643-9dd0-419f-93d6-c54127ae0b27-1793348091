@@ -11,7 +11,7 @@ export default function AudienceHubPage() {
     <>
       <SEO
         title="Who Social Kirin is for | Comment moderation by team type"
-        description="Comment moderation and DM automation for eCommerce brands, creators, agencies, launch campaigns, and lean support teams. See how Social Kirin fits your workflow."
+        description="See how eCommerce brands, creators, agencies and support teams use Social Kirin to moderate comments and automate replies at scale."
         url="https://socialkirin.com/for"
       />
       <MoneyPageLayout>

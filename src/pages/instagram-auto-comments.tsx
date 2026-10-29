@@ -12,8 +12,8 @@ export default function InstagramAutoComments() {
   return (
     <MoneyPageLayout>
       <SEO
-        title="Instagram Auto Comments | AI Automatic Replies for Posts & Reels"
-        description="Automatic Instagram comment replies powered by AI. Respond to product questions, buyer intent, and DM requests on Posts and Reels. Save hours with Instagram auto-comment automation in your brand voice."
+        title="Instagram Auto Comments | AI Replies for Posts & Reels"
+        description="Instagram auto comments that answer questions and turn comment keywords into instant DMs, in your brand voice. Set up in minutes, no code needed."
         image="/og-image.png"
       />
 

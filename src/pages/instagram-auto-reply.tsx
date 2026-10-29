@@ -13,7 +13,7 @@ export default function InstagramAutoReply() {
     <MoneyPageLayout>
       <SEO
         title="Instagram Auto Reply | Automatic DM & Comment Responses"
-        description="Auto-reply to Instagram DMs and comments with AI. Instant responses to buyer questions on Posts and Reels. Save 20+ hours/week with Instagram auto-reply automation trained on your brand."
+        description="Instagram auto reply that answers DMs and comments in your brand voice, sends links on request, and hands sensitive chats to a human."
         image="/og-image.png"
       />
 

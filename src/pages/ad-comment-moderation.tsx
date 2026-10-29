@@ -13,7 +13,7 @@ export default function AdCommentModeration() {
     <MoneyPageLayout>
       <SEO
         title="Ad Comment Moderation | Protect Facebook & Instagram Ad ROI"
-        description="Automated comment moderation for Facebook and Instagram Ads. Hide competitor spam, scam links, and toxic comments before they tank your ad conversion rates. Protect your ad spend with real-time moderation."
+        description="Protect paid campaigns from spam, trolls and competitor links. AI moderates Facebook and Instagram ad comments in real time so budgets stay safe."
         image="/og-image.png"
       />
 

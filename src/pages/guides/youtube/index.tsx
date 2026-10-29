@@ -27,7 +27,7 @@ export default function YouTubeGuidesHub() {
   return (
     <>
       <SEO 
-        title="YouTube Comment Moderation Guides | Live Chat & Troll Management"
+        title="YouTube Comment Moderation Guides | Live Chat & Trolls"
         description="Learn how to moderate YouTube comments, manage live chat streams, filter spam, and handle trolls. Free step-by-step guides for creators."
       />
       

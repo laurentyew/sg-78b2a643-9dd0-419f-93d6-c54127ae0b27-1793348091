@@ -8,8 +8,8 @@ export default function ProtectAdCommentsGuide() {
   return (
     <>
       <SEO
-        title="How to Protect Facebook Ad Comments from Trolls & Competitors"
-        description="Practical guide to protecting Facebook ad comments: stricter filters, competitor blocking, escalation rules, and why ad comments need different moderation than organic posts."
+        title="How to Protect Facebook Ad Comments from Trolls"
+        description="How to protect Facebook ad comments from trolls, scam links and competitor spam using native settings plus AI moderation that works 24/7."
       />
       <GuideLayout
         breadcrumbs={[

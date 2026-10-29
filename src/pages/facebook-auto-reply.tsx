@@ -13,7 +13,7 @@ export default function FacebookAutoReply() {
     <MoneyPageLayout>
       <SEO
         title="Facebook Auto Reply | Automatic Comment & Message Responses"
-        description="Auto-reply to Facebook comments and messages with AI. Instant responses to customer questions, buyer intent, and support requests. Save 20+ hours/week with Facebook auto-reply automation."
+        description="Facebook auto reply that answers common questions, sends pricing and links by DM, and escalates complaints to your team in real time."
         image="/og-image.png"
       />
 

@@ -12,8 +12,8 @@ export default function SocialMediaModerationSoftware() {
   return (
     <MoneyPageLayout>
       <SEO
-        title="Social Media Moderation Software | AI Comment Moderation for Instagram, Facebook & YouTube"
-        description="Enterprise-grade social media moderation software with AI-powered spam detection, multi-language support (6 languages), sentiment analysis, and DM automation. Manage Instagram, Facebook, and YouTube comments in one dashboard."
+        title="Social Media Moderation Software | AI Comment Filter"
+        description="AI moderation software for Instagram, Facebook and YouTube. Auto-hide spam, reply in your brand voice, and automate DMs. Start free in minutes."
         image="/og-image.png"
       />
 

@@ -10,7 +10,7 @@ export default function VsFeedGuardians() {
     <>
       <SEO 
         title="Social Kirin vs FeedGuardians: In-Depth Comparison 2026"
-        description="Comparing Social Kirin and FeedGuardians for Instagram and Facebook moderation. See platform support, pricing models, and multi-language AI capabilities side-by-side."
+        description="Social Kirin vs FeedGuardians, compared on platforms, AI replies, DM automation, pricing and setup time. See which moderation tool fits your team."
       />
       <ComparisonLayout competitor="FeedGuardians" lastChecked="2026-10-29">
         <div className="text-center mb-12">

@@ -13,7 +13,7 @@ export default function AICommentModeration() {
     <MoneyPageLayout>
       <SEO
         title="AI Comment Moderation | Auto-Hide Spam with Machine Learning"
-        description="AI-powered comment moderation software that learns your brand voice, detects spam in 6 languages, and replies automatically. Hide toxic comments, block scam links, and protect your brand reputation with sentiment-aware AI."
+        description="AI comment moderation that hides spam and scams, replies in your brand voice, and flags toxic threads across Instagram, Facebook and YouTube."
         image="/og-image.png"
       />
 
