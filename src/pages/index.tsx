@@ -3,15 +3,12 @@ import { SEO } from "@/components/SEO";
 import { Header } from "@/components/social-kirin/Header";
 import { Hero } from "@/components/social-kirin/Hero";
 import { TargetAudiences } from "@/components/social-kirin/TargetAudiences";
-import { Waitlist } from "@/components/social-kirin/Waitlist";
-import { WaitlistPopup } from "@/components/social-kirin/WaitlistPopup";
 import { Features } from "@/components/social-kirin/Features";
 import { ModerationGrid } from "@/components/social-kirin/ModerationGrid";
 import { HowItWorks } from "@/components/social-kirin/HowItWorks";
 import { Stats } from "@/components/social-kirin/Stats";
 import { FreeTools } from "@/components/social-kirin/FreeTools";
 import { Comparison } from "@/components/social-kirin/Comparison";
-import { FoundingBrands } from "@/components/social-kirin/FoundingBrands";
 import { Pricing } from "@/components/social-kirin/Pricing";
 import { FAQ } from "@/components/social-kirin/FAQ";
 import { Footer } from "@/components/social-kirin/Footer";
@@ -22,11 +19,12 @@ const jsonLd = {
   name: "Social Kirin",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
+  url: "https://app.socialkirin.com",
   description:
     "AI-powered comment and DM moderation and automation platform for Instagram, Facebook, and YouTube. Auto-hides spam comments and replies in your brand voice.",
   offers: {
     "@type": "Offer",
-    price: "39",
+    price: "25",
     priceCurrency: "USD",
   },
   featureList: [
@@ -47,7 +45,7 @@ export default function Home() {
     <>
       <SEO
         title="Social Kirin — AI Comment & DM Moderation for Instagram, Facebook & YouTube"
-        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Setup in minutes. No code required."
+        description="Social Kirin auto-hides spam comments, replies in your brand voice, and automates DMs across Instagram, Facebook, and YouTube. Start free in minutes. No code required."
       />
       <script
         type="application/ld+json"
@@ -57,18 +55,15 @@ export default function Home() {
         <Header />
         <Hero />
         <TargetAudiences />
-        <Waitlist />
         <Features />
         <ModerationGrid />
         <HowItWorks />
         <Stats />
         <FreeTools />
         <Comparison />
-        <FoundingBrands />
         <Pricing />
         <FAQ />
         <Footer />
-        <WaitlistPopup />
       </main>
     </>
   );
