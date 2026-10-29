@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, Sparkles, Youtube } from "lucide-react";
+import { PROMO } from "@/lib/promo";
 
 const quickWins = [
   "Hide spam and scam comments automatically",

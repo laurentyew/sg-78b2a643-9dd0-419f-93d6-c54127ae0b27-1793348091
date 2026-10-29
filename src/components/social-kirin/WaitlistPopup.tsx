@@ -23,6 +23,7 @@ import {
   joinWaitlist,
   type WaitlistResult,
 } from "@/services/waitlistService";
+import { PROMO } from "@/lib/promo";
 import { hasSeenWaitlistPopup, markWaitlistSeen } from "@/lib/waitlist-popup";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -87,7 +88,7 @@ export function WaitlistPopup() {
             <Gift className="h-5 w-5 text-primary" />
           </span>
           <span className="rounded-full border border-accent/25 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
-            Founding member offer
+            {PROMO.code} · {PROMO.discountPercent}% off
           </span>
         </div>
 
@@ -103,7 +104,7 @@ export function WaitlistPopup() {
                   {result.status === "duplicate"
                     ? "You're already on the list"
                     : result.position <= WAITLIST_CAP
-                      ? "You're in — 3 months free locked in"
+                      ? "You're in — 50% off locked in"
                       : "You're on the waitlist"}
                 </DialogTitle>
                 <DialogDescription className="text-sm leading-6 text-muted-foreground">
@@ -115,9 +116,13 @@ export function WaitlistPopup() {
                       " on the founding list."
                     : "You're number " +
                       result.position +
-                      " on the founding list. We'll email " +
+                      " on the founding list. Use code " +
+                      PROMO.code +
+                      " at checkout in the app to take " +
+                      PROMO.discountPercent +
+                      "% off any plan, and we'll email " +
                       email.trim() +
-                      " the moment your 3 free months are ready to activate."}
+                      " when your spot is confirmed."}
                 </DialogDescription>
               </DialogHeader>
 
@@ -138,11 +143,11 @@ export function WaitlistPopup() {
             <form onSubmit={handleSubmit} className="space-y-4" noValidate>
               <DialogHeader className="space-y-2 text-left">
                 <DialogTitle className="font-serif text-xl font-bold leading-snug text-foreground">
-                  Get 3 months free at launch
+                  Get {PROMO.discountPercent}% off at launch
                 </DialogTitle>
                 <DialogDescription className="text-sm leading-6 text-muted-foreground">
-                  The first {WAITLIST_CAP} brands get 3 months free. No card required, and we only
-                  email you about early access.
+                  The first {WAITLIST_CAP} brands get {PROMO.discountPercent}% off every plan with code{" "}
+                  {PROMO.code}. No card required, and we only email you about early access.
                 </DialogDescription>
               </DialogHeader>
 
@@ -231,7 +236,7 @@ export function WaitlistPopup() {
                 ) : (
                   <>
                     <ShieldCheck className="h-4 w-4" />
-                    Claim my free 3 months
+                    Claim my {PROMO.discountPercent}% off
                   </>
                 )}
               </Button>

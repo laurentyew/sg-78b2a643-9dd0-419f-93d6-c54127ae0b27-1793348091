@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { PROMO } from "@/lib/promo";
 
 const audiences = [
   {
@@ -94,7 +95,9 @@ export function TargetAudiences() {
 
         <div className="flex flex-col items-center gap-4 text-center">
           <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
-            If that sounds like your team, get started free now and lock in 3 free months if you're among the first 50 signups.
+            If that sounds like your team, get started free now and take {PROMO.discountPercent}% off
+            any plan with code <strong className="font-mono tracking-wider text-foreground">{PROMO.code}</strong>{" "}
+            if you're among the first {PROMO.cap} brands.
           </p>
           <Button
             asChild

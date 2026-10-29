@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { Menu, X, ShieldCheck, ChevronDown } from "lucide-react";
+import { Menu, X, ShieldCheck, ChevronDown, Sparkles } from "lucide-react";
+import { PROMO } from "@/lib/promo";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -10,6 +11,21 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/90 backdrop-blur-md">
+      <div className="bg-primary text-primary-foreground">
+        <div className="container flex flex-wrap items-center justify-center gap-x-2 gap-y-1 py-2 text-center text-xs sm:text-sm">
+          <Sparkles className="h-4 w-4 shrink-0 text-accent" aria-hidden="true" />
+          <span>
+            First {PROMO.cap} brands get {PROMO.discountPercent}% off every plan — code{" "}
+            <strong className="font-mono tracking-[0.12em]">{PROMO.code}</strong>
+          </span>
+          <Link
+            href="/#pricing"
+            className="underline underline-offset-4 transition-colors hover:text-accent"
+          >
+            See pricing
+          </Link>
+        </div>
+      </div>
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 group">
           <span className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-primary shadow-soft overflow-hidden">

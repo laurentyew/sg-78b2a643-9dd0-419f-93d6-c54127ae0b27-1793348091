@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Check, Copy, Share2 } from "lucide-react";
+import { PROMO } from "@/lib/promo";
 
 interface ShareWaitlistProps {
   position: number;
@@ -48,7 +49,7 @@ export function ShareWaitlist({ position }: ShareWaitlistProps) {
     setNativeShare(typeof navigator !== "undefined" && typeof navigator.share === "function");
   }, []);
 
-  const shareText = `I'm #${position} on the Social Kirin waitlist — AI comment and DM moderation for Instagram, Facebook and YouTube. The first 50 signups get 3 months free.`;
+  const shareText = `I'm #${position} on the Social Kirin waitlist — AI comment and DM moderation for Instagram, Facebook and YouTube. The first ${PROMO.cap} brands get ${PROMO.discountPercent}% off with code ${PROMO.code}.`;
   const encodedText = encodeURIComponent(shareText);
   const encodedUrl = encodeURIComponent(shareUrl);
 

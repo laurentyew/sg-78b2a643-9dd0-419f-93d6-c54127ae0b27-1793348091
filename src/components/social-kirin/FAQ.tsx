@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { PROMO } from "@/lib/promo";
 
 const faqs = [
   {
@@ -52,10 +53,31 @@ const faqs = [
     a: "Yes. Social Kirin is meant to reduce manual work, not hide what happened. Teams can review moderation actions, see why something was flagged, and step in on important threads.",
   },
   {
+    q: "How do I get 50% off with the FIRST50 code?",
+    a: `The first ${PROMO.cap} brands to subscribe get ${PROMO.discountPercent}% off any plan with the code ${PROMO.code}. Start from the pricing section, choose Starter, Growth, or Pro, and enter ${PROMO.code} in the promo code field at checkout in the Social Kirin app. The discount applies to your first billing term, monthly or annual.`,
+  },
+  {
+    q: "When does the FIRST50 launch offer end, and can it be combined with other discounts?",
+    a: `The offer closes once ${PROMO.cap} brands have subscribed, whichever comes first — it is not a rolling discount, so the counter on this page reflects live remaining spots. ${PROMO.code} applies to one plan on one account and cannot be stacked with another promotion, an agency reseller rate, or the free trial's paid conversion credit.`,
+  },
+  {
     q: "How much does Social Kirin cost?",
-    a: "Plans start at $25/month for 5 channels and 5,000 interactions, scaling to $59 and $99 for larger volumes. Every plan includes unlimited team seats and a 3-day free trial with no credit card required.",
+    a: `Plans start at $25/month for 5 channels and 5,000 interactions, scaling to $59 and $99 for larger volumes. Every plan includes unlimited team seats and a 3-day free trial with no credit card required. With ${PROMO.code}, the first ${PROMO.cap} brands pay half of those prices for their first term.`,
   },
 ];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.a,
+    },
+  })),
+};
 
 export function FAQ() {
   return (
@@ -90,6 +112,11 @@ export function FAQ() {
           ))}
         </Accordion>
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
     </section>
   );
 }
