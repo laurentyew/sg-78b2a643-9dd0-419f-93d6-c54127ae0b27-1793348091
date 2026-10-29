@@ -21,10 +21,10 @@ Rules applied:
 
 ## Checklist
 
-- [ ] Extract current title/description for every page
-- [ ] Flag out-of-range lengths, duplicates, and pages missing SEO tags
-- [ ] Rewrite flagged titles and descriptions
-- [ ] Reconcile sitemap.xml against the route inventory
+- [x] Extract current title/description for every page
+- [x] Flag out-of-range lengths, duplicates, and pages missing SEO tags
+- [x] Rewrite flagged titles and descriptions
+- [x] Reconcile sitemap.xml against the route inventory
 
 ## Acceptance
 
