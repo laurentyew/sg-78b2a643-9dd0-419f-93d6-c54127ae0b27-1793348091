@@ -1,6 +1,6 @@
 ---
 title: Phase 4 - Guide Hubs & How-To Content
-status: in_progress
+status: done
 priority: high
 type: feature
 tags: [seo, content, guides, phase-4]
@@ -11,9 +11,9 @@ position: 16
 
 ## Notes
 
-Target informational intent keywords (users learning how to moderate, troubleshoot, optimize). Build hub pages first (main /guides/ + 3 platform hubs), then create 8-10 tactical how-to guides.
+Target informational intent keywords (users learning how to moderate, troubleshoot, optimize). Hub pages built first (main /guides/ + 3 platform hubs), then 9 tactical how-to guides.
 
-All guides use GuideLayout (breadcrumbs + last-updated badge) for clear navigation and freshness signals.
+All individual guides use GuideLayout (breadcrumbs + last-updated badge). Hubs use a card grid layout with breadcrumbs.
 
 Guide topics from keyword research:
 - How to moderate Instagram comments (620 vol, $0.83)
@@ -22,25 +22,25 @@ Guide topics from keyword research:
 - How to handle negative comments professionally
 - How to protect ad comments from spam
 - How to moderate YouTube live chat
-- How to use AI for comment moderation
-- Best practices for community management
+- How to handle YouTube trolls
+- Managing viral Reel comment volume
 
 ## Checklist
 
-- [ ] Create /guides/index.tsx (main hub with platform cards)
-- [ ] Create /guides/facebook/index.tsx (Facebook guides hub)
-- [ ] Create /guides/instagram/index.tsx (Instagram guides hub)
-- [ ] Create /guides/youtube/index.tsx (YouTube guides hub)
-- [ ] Write 8-10 individual how-to guides targeting informational keywords
-- [ ] Add all guide pages to sitemap.xml with lastmod dates
-- [ ] Verify GuideLayout used consistently (breadcrumbs + last updated)
-- [ ] Internal linking: guides link to relevant money pages
-- [ ] Each guide includes practical steps + screenshots placeholder notes
+- [x] Create /guides/index.tsx (main hub with platform cards)
+- [x] Create /guides/facebook/index.tsx (Facebook guides hub)
+- [x] Create /guides/instagram/index.tsx (Instagram guides hub)
+- [x] Create /guides/youtube/index.tsx (YouTube guides hub)
+- [x] Write 9 individual how-to guides targeting informational keywords
+- [x] Add all 13 guide pages to sitemap.xml with lastmod 2026-10-29
+- [x] Verify GuideLayout used consistently on individual guides (breadcrumbs + last updated)
+- [x] Internal linking: every guide links to a relevant money page + waitlist CTA
+- [x] Guides & How-Tos linked from Resources dropdown (desktop + mobile)
 
 ## Acceptance
 
 - All guide hubs live with clear navigation to individual guides
-- 8-10 tactical how-to guides published with unique content
-- GuideLayout applied consistently across all guide pages
+- 9 tactical how-to guides published, each with an FAQ block and CTA
+- GuideLayout applied consistently across all individual guide pages
 - All pages added to sitemap.xml with priority 0.6-0.7
-- Guides link to relevant money pages for commercial intent users
+- Every guide links to a relevant money page for commercial intent users

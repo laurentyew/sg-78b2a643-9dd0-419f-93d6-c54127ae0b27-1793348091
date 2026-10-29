@@ -148,14 +148,87 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Phase 4: Guide Hubs (to be added) -->
-  <!-- /guides/ -->
-  <!-- /guides/facebook/ -->
-  <!-- /guides/instagram/ -->
-  <!-- /guides/youtube/ -->
-  <!-- Individual guides will be added as created -->
+  <!-- Phase 4: Guide Hubs & How-To Articles -->
+  <url>
+    <loc>https://socialkirin.com/guides</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/facebook</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/instagram</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/youtube</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/facebook/filter-spam-comments</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/facebook/protect-ad-comments</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/facebook/messenger-auto-reply</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/instagram/how-to-moderate-comments</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/instagram/auto-reply-setup</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/instagram/manage-viral-reels</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/youtube/moderate-live-chat</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/youtube/filter-spam-comments</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/guides/youtube/deal-with-trolls</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
-  <!-- Phase 4: Glossary (to be added) -->
+  <!-- Phase 5 & 6: Audience pages and glossary (to be added) -->
+  <!-- /for/ -->
   <!-- /glossary/ -->
-  <!-- Individual terms will be added as created -->
 </urlset>
