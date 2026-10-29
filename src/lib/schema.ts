@@ -22,10 +22,6 @@ export const organizationSchema = {
     url: SITE_URL + "/generated/social-kirin-logo.jpg",
   },
   email: "hello@b2bautomator.com",
-  founder: {
-    "@type": "Person",
-    name: "Laurent Yew",
-  },
   address: {
     "@type": "PostalAddress",
     addressLocality: "Bayan Lepas",
