@@ -140,7 +140,7 @@ Social Kirin supports multi-language spam detection and AI replies in:
 
 **Refund Policy:** No refunds (3-day free trial allows testing before commitment)
 
-**Early Access:** First 50 waitlist signups get 3 months free
+**Early Access:** First 50 signups get 50% off every plan with coupon code FIRST50 (applied at checkout in the app, first billing term only, one plan per account, cannot be combined with another promotion)
 
 ## Target Customers (Create Landing Pages for Each)
 
