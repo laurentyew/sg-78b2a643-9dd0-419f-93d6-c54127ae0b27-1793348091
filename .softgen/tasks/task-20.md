@@ -17,11 +17,11 @@ Single source of truth: `src/lib/promo.ts` holds the code, cap (reuses `WAITLIST
 Failure rule: if the counter fetch fails, components show "Limited to the first 50 brands" and no number. Never a fake countdown, never a fabricated count.
 
 ## Checklist
-- [ ] Create src/lib/promo.ts: PROMO constant (code FIRST50, cap 50, discountPercent 50), discountedPrice(), formatUsd(), promoPricing() returning monthly/standard/annual pairs per tier
-- [ ] Create src/hooks/usePromoSpots.ts: returns { remaining, loading, available } from getWaitlistCount, available=false on error
-- [ ] Add dismissible announcement bar to Header.tsx: "Launch offer — first 50 brands get 50% off every plan. Code FIRST50." with remaining-spots chip and a link to #pricing; persists dismissal in sessionStorage; stays readable over scrolled sticky header
-- [ ] Add promo badge under Hero CTA linking to #pricing with live spots left; falls back to "first 50 brands" when the count is unavailable
-- [ ] Verify bar and badge do not duplicate the sticky nav height or break mobile layout
+- [x] Create src/lib/promo.ts: PROMO constant (code FIRST50, cap 50, discountPercent 50), discountedPrice(), formatUsd(), promoPricing() returning monthly/standard/annual pairs per tier
+- [x] Create src/hooks/usePromoSpots.ts: returns { remaining, loading, available } from getWaitlistCount, available=false on error
+- [x] Add dismissible announcement bar to Header.tsx: "Launch offer — first 50 brands get 50% off every plan. Code FIRST50." with remaining-spots chip and a link to #pricing; persists dismissal in sessionStorage; stays readable over scrolled sticky header
+- [x] Add promo badge under Hero CTA linking to #pricing with live spots left; falls back to "first 50 brands" when the count is unavailable
+- [x] Verify bar and badge do not duplicate the sticky nav height or break mobile layout
 
 ## Acceptance
 - The announcement bar appears above the nav on the home page, links to pricing, and can be dismissed.
