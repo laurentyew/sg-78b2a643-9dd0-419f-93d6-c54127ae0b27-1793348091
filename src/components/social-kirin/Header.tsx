@@ -1,27 +1,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { Menu, X, ShieldCheck } from "lucide-react";
-
-interface NavLink {
-  label: string;
-  href: string;
-  internal: boolean;
-}
-
-const navLinks: NavLink[] = [
-  { label: "Features", href: "#features", internal: false },
-  { label: "How It Works", href: "#how-it-works", internal: false },
-  { label: "Pricing", href: "#pricing", internal: false },
-  {
-    label: "Free Tools",
-    href: "/tools/spot-the-spam-comment-quiz",
-    internal: true,
-  },
-  { label: "FAQ", href: "#faq", internal: false },
-];
+import { Menu, X, ShieldCheck, ChevronDown } from "lucide-react";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const [moderationOpen, setModerationOpen] = useState(false);
+  const [automationOpen, setAutomationOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/90 backdrop-blur-md">
@@ -40,36 +24,122 @@ export function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">
-          {navLinks.map((link) =>
-            link.internal ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
-              >
-                {link.label}
-              </a>
-            ),
-          )}
+          <a
+            href="/#features"
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
+            Features
+          </a>
+
+          <div className="relative group">
+            <button className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              Moderation
+              <ChevronDown className="h-4 w-4" />
+            </button>
+            <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="bg-background border border-border rounded-lg shadow-lg p-2 min-w-[240px]">
+                <Link
+                  href="/comment-moderation"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Comment Moderation
+                </Link>
+                <Link
+                  href="/ai-comment-moderation"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  AI Comment Moderation
+                </Link>
+                <div className="my-1 border-t border-border" />
+                <Link
+                  href="/facebook-comment-moderation"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Facebook Moderation
+                </Link>
+                <Link
+                  href="/instagram-comment-moderation"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Instagram Moderation
+                </Link>
+                <Link
+                  href="/ad-comment-moderation"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Ad Comment Moderation
+                </Link>
+                <div className="my-1 border-t border-border" />
+                <Link
+                  href="/social-media-moderation-software"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  All Moderation Software
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative group">
+            <button className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              Automation
+              <ChevronDown className="h-4 w-4" />
+            </button>
+            <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="bg-background border border-border rounded-lg shadow-lg p-2 min-w-[240px]">
+                <Link
+                  href="/facebook-auto-reply"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Facebook Auto Reply
+                </Link>
+                <Link
+                  href="/instagram-auto-reply"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Instagram Auto Reply
+                </Link>
+                <div className="my-1 border-t border-border" />
+                <Link
+                  href="/facebook-auto-comments"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Facebook Auto Comments
+                </Link>
+                <Link
+                  href="/instagram-auto-comments"
+                  className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Instagram Auto Comments
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="/#pricing"
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
+            Pricing
+          </a>
+
+          <Link
+            href="/tools/spot-the-spam-comment-quiz"
+            className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+          >
+            Free Tools
+          </Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="#waitlist"
+            href="/#waitlist"
             className="inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
           >
             Log In
           </a>
           <a
-            href="#waitlist"
+            href="/#waitlist"
             className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
           >
             <ShieldCheck className="h-4 w-4" />
@@ -88,29 +158,130 @@ export function Header() {
 
       {open && (
         <div className="lg:hidden border-t border-border bg-background px-4 py-4 space-y-3">
-          {navLinks.map((link) =>
-            link.internal ? (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
-              >
-                {link.label}
-              </Link>
-            ) : (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
-              >
-                {link.label}
-              </a>
-            ),
-          )}
           <a
-            href="#waitlist"
+            href="/#features"
+            onClick={() => setOpen(false)}
+            className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+          >
+            Features
+          </a>
+
+          <div>
+            <button
+              onClick={() => setModerationOpen(!moderationOpen)}
+              className="flex items-center justify-between w-full text-sm font-medium text-foreground/80 hover:text-primary py-2"
+            >
+              Moderation
+              <ChevronDown className={`h-4 w-4 transition-transform ${moderationOpen ? "rotate-180" : ""}`} />
+            </button>
+            {moderationOpen && (
+              <div className="pl-4 mt-2 space-y-2">
+                <Link
+                  href="/comment-moderation"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Comment Moderation
+                </Link>
+                <Link
+                  href="/ai-comment-moderation"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  AI Comment Moderation
+                </Link>
+                <Link
+                  href="/facebook-comment-moderation"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Facebook Moderation
+                </Link>
+                <Link
+                  href="/instagram-comment-moderation"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Instagram Moderation
+                </Link>
+                <Link
+                  href="/ad-comment-moderation"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Ad Comment Moderation
+                </Link>
+                <Link
+                  href="/social-media-moderation-software"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  All Moderation Software
+                </Link>
+              </div>
+            )}
+          </div>
+
+          <div>
+            <button
+              onClick={() => setAutomationOpen(!automationOpen)}
+              className="flex items-center justify-between w-full text-sm font-medium text-foreground/80 hover:text-primary py-2"
+            >
+              Automation
+              <ChevronDown className={`h-4 w-4 transition-transform ${automationOpen ? "rotate-180" : ""}`} />
+            </button>
+            {automationOpen && (
+              <div className="pl-4 mt-2 space-y-2">
+                <Link
+                  href="/facebook-auto-reply"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Facebook Auto Reply
+                </Link>
+                <Link
+                  href="/instagram-auto-reply"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Instagram Auto Reply
+                </Link>
+                <Link
+                  href="/facebook-auto-comments"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Facebook Auto Comments
+                </Link>
+                <Link
+                  href="/instagram-auto-comments"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Instagram Auto Comments
+                </Link>
+              </div>
+            )}
+          </div>
+
+          <a
+            href="/#pricing"
+            onClick={() => setOpen(false)}
+            className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+          >
+            Pricing
+          </a>
+
+          <Link
+            href="/tools/spot-the-spam-comment-quiz"
+            onClick={() => setOpen(false)}
+            className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
+          >
+            Free Tools
+          </Link>
+
+          <a
+            href="/#waitlist"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex h-10 w-full items-center justify-center gap-1.5 rounded-full bg-primary text-sm font-medium text-primary-foreground"
           >
