@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://socialkirin.com/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Free Tools -->
   <url>
     <loc>https://socialkirin.com/tools/spot-the-spam-comment-quiz</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Legal Pages -->
   <url>
     <loc>https://socialkirin.com/privacy</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://socialkirin.com/terms</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://socialkirin.com/data-deletion</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://socialkirin.com/platform-compliance</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
   </url>
+
+  <!-- Phase 2: Money Pages (to be added) -->
+  <!-- /comment-moderation -->
+  <!-- /facebook-comment-moderation -->
+  <!-- /instagram-comment-moderation -->
+  <!-- /ai-comment-moderation -->
+  <!-- /social-media-moderation-software -->
+  <!-- /ad-comment-moderation -->
+  <!-- /facebook-auto-comments -->
+  <!-- /instagram-auto-comments -->
+  <!-- /facebook-auto-reply -->
+  <!-- /instagram-auto-reply -->
+
+  <!-- Phase 3: Comparison & Alternative Pages (to be added) -->
+  <!-- /vs/commentguard -->
+  <!-- /vs/feedguardians -->
+  <!-- /alternatives/commentguard -->
+  <!-- /alternatives/feedguardians -->
+  <!-- /best/facebook-comment-moderation-tools -->
+  <!-- /best/instagram-comment-moderation-tools -->
+  <!-- /best/content-moderation-tools -->
+
+  <!-- Phase 4: Guide Hubs (to be added) -->
+  <!-- /guides/ -->
+  <!-- /guides/facebook/ -->
+  <!-- /guides/instagram/ -->
+  <!-- /guides/youtube/ -->
+  <!-- Individual guides will be added as created -->
+
+  <!-- Phase 4: Glossary (to be added) -->
+  <!-- /glossary/ -->
+  <!-- Individual terms will be added as created -->
 </urlset>
