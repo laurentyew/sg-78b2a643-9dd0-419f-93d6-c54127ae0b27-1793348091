@@ -14,7 +14,7 @@ export default function AICommentModeration() {
       <SEO
         title="AI Comment Moderation | Auto-Hide Spam with Machine Learning"
         description="AI comment moderation that hides spam and scams, replies in your brand voice, and flags toxic threads across Instagram, Facebook and YouTube."
-        image="/og-image.png"
+        image="/generated/og-image-social-kirin.png"
       />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">

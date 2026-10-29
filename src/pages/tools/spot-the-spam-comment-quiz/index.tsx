@@ -76,8 +76,8 @@ export default function SpotTheSpamQuizPage() {
         <meta property="og:title" content={PAGE_TITLE} />
         <meta property="og:description" content={PAGE_DESCRIPTION} />
         <meta property="og:url" content={SITE_URL + QUIZ_PATH} />
-        <meta property="og:image" content={SITE_URL + "/og-image.png"} />
-        <meta property="og:image:secure_url" content={SITE_URL + "/og-image.png"} />
+        <meta property="og:image" content={SITE_URL + "/generated/og-image-social-kirin.png"} />
+        <meta property="og:image:secure_url" content={SITE_URL + "/generated/og-image-social-kirin.png"} />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -87,7 +87,7 @@ export default function SpotTheSpamQuizPage() {
         <meta name="twitter:creator" content="@socialkirin" />
         <meta name="twitter:title" content={PAGE_TITLE} />
         <meta name="twitter:description" content={PAGE_DESCRIPTION} />
-        <meta name="twitter:image" content={SITE_URL + "/og-image.png"} />
+        <meta name="twitter:image" content={SITE_URL + "/generated/og-image-social-kirin.png"} />
         <meta name="twitter:image:alt" content="Spot the spam: free comment moderation quiz by Social Kirin" />
         <meta name="twitter:url" content={SITE_URL + QUIZ_PATH} />
         <script

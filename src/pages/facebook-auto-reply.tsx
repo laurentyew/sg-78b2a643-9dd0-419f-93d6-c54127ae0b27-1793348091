@@ -14,7 +14,7 @@ export default function FacebookAutoReply() {
       <SEO
         title="Facebook Auto Reply | Automatic Comment & Message Responses"
         description="Facebook auto reply that answers common questions, sends pricing and links by DM, and escalates complaints to your team in real time."
-        image="/og-image.png"
+        image="/generated/og-image-social-kirin.png"
       />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">

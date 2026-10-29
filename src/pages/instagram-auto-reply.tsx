@@ -14,7 +14,7 @@ export default function InstagramAutoReply() {
       <SEO
         title="Instagram Auto Reply | Automatic DM & Comment Responses"
         description="Instagram auto reply that answers DMs and comments in your brand voice, sends links on request, and hands sensitive chats to a human."
-        image="/og-image.png"
+        image="/generated/og-image-social-kirin.png"
       />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">

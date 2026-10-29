@@ -14,7 +14,7 @@ export default function FacebookCommentModeration() {
       <SEO
         title="Facebook Comment Moderation | Auto-Hide Spam on Pages"
         description="Facebook comment moderation for pages and ads. Auto-hide spam, filter trolls, and reply in your brand voice without babysitting the inbox."
-        image="/og-image.png"
+        image="/generated/og-image-social-kirin.png"
       />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
