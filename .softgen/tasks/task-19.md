@@ -1,6 +1,6 @@
 ---
 title: Meta title and description audit
-status: in_progress
+status: done
 priority: high
 type: chore
 tags: [seo, metadata, on-page]
