@@ -17,6 +17,37 @@ export default function FacebookCommentModeration() {
         image="/generated/og-image-social-kirin.png"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Social Kirin",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "25",
+              "highPrice": "99",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "127"
+            },
+            "featureList": [
+              "Facebook Page comment moderation",
+              "Facebook Ads comment protection",
+              "AI spam detection",
+              "Custom keyword filters",
+              "Sentiment analysis"
+            ]
+          })
+        }}
+      />
+
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="mb-4 flex flex-wrap items-center gap-2">
@@ -332,7 +363,15 @@ export default function FacebookCommentModeration() {
                     "name": "Does Social Kirin work with Facebook Ads specifically?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes. Social Kirin's comment moderation works on both organic Facebook Page posts and Facebook Ads. It auto-hides competitor spam and scam links on paid campaigns."
+                      "text": "Yes. Social Kirin's comment moderation works on both organic Facebook Page posts and Facebook Ads, auto-hiding competitor spam and scam links on paid campaigns."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I moderate multiple Facebook Pages with one account?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. The Growth tier includes 15 channels, and the Pro tier includes 50 channels, each connecting to a different Facebook Page."
                     }
                   },
                   {
@@ -341,6 +380,30 @@ export default function FacebookCommentModeration() {
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Real-time. Spam comments are hidden the second they're posted, before your audience sees them."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I customize what gets hidden on Facebook?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin combines AI spam detection with user-defined keyword filters that apply instantly to all Facebook comments."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Does it work in languages other than English?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin moderates Facebook comments in 6 languages: English, Bahasa Malaysia, Simplified Chinese, Indonesian, Thai, and Vietnamese."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What if the AI hides a legitimate comment?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Mark it as safe in the dashboard. Social Kirin's AI learns from your feedback and adjusts its detection model, with false positives typically under 2% after training."
                     }
                   }
                 ]

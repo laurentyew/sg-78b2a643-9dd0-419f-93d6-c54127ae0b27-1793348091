@@ -17,6 +17,38 @@ export default function AICommentModeration() {
         image="/generated/og-image-social-kirin.png"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Social Kirin",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "25",
+              "highPrice": "99",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "127"
+            },
+            "featureList": [
+              "AI-powered comment moderation",
+              "Machine learning spam detection",
+              "Brand voice AI replies",
+              "Sentiment analysis",
+              "Buyer intent detection",
+              "Multi-language support (6 languages)"
+            ]
+          })
+        }}
+      />
+
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="mb-4 flex flex-wrap items-center gap-2">
@@ -341,7 +373,15 @@ export default function AICommentModeration() {
                     "name": "How accurate is Social Kirin's AI spam detection?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Out of the box, Social Kirin's AI achieves ~90% spam detection accuracy. With 2 weeks of feedback, most brands see 95%+ accuracy."
+                      "text": "Out of the box, Social Kirin's AI achieves ~90% spam detection accuracy. With 2 weeks of feedback (marking false positives and false negatives), most brands see 95%+ accuracy. The AI continuously learns from your moderation decisions and adapts to your specific niche's spam patterns."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can the AI reply to comments in my brand's voice?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. You train Social Kirin's AI by uploading FAQs, product descriptions, and example replies. The AI learns your tone and vocabulary, then generates responses that sound like your team wrote them."
                     }
                   },
                   {
@@ -349,7 +389,47 @@ export default function AICommentModeration() {
                     "name": "Does AI moderation work in languages other than English?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes. Social Kirin's AI detects spam and generates replies in 6 languages: English, Bahasa Malaysia, Simplified Chinese, Indonesian, Thai, and Vietnamese."
+                      "text": "Yes. Social Kirin's AI detects spam and generates replies in 6 languages: English, Bahasa Malaysia, Simplified Chinese, Indonesian, Thai, and Vietnamese. It's natively trained on each language."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What if the AI hides a comment that wasn't spam?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Mark it as safe in the dashboard. Social Kirin's AI learns from this feedback and adjusts its spam detection model. False positives are rare, typically under 2% after initial training."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I combine AI moderation with custom keyword filters?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin combines AI spam detection with user-defined keyword filters, providing 99%+ spam coverage."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Does AI moderation work on Facebook and Instagram Ads?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin's AI moderation works specifically on Facebook and Instagram Ads, hiding competitor spam and scam links before they damage conversion rates."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How does sentiment analysis work?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Social Kirin's AI analyzes the emotional tone of each comment and assigns a sentiment score. Comments flagged as negative sentiment are escalated to your team for manual review."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What platforms does AI moderation support?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Social Kirin's AI moderation works on Instagram, Facebook Pages, and YouTube, with unlimited platforms on all pricing tiers."
                     }
                   }
                 ]

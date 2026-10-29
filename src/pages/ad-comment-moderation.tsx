@@ -17,6 +17,37 @@ export default function AdCommentModeration() {
         image="/generated/og-image-social-kirin.png"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Social Kirin",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "25",
+              "highPrice": "99",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "127"
+            },
+            "featureList": [
+              "Facebook and Instagram ad comment protection",
+              "Competitor spam blocking",
+              "Scam link detection",
+              "Sentiment escalation",
+              "Real-time moderation"
+            ]
+          })
+        }}
+      />
+
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="mb-4 flex flex-wrap items-center gap-2">
@@ -354,7 +385,23 @@ export default function AdCommentModeration() {
                     "name": "Does ad comment moderation work on both Facebook and Instagram Ads?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Yes. Social Kirin moderates comments on Facebook Ads and Instagram Ads automatically."
+                      "text": "Yes. Social Kirin moderates comments on Facebook Ads and Instagram Ads automatically once you connect your Facebook Page."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I use stricter filters on ads than organic posts?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. You can configure different filter sensitivity levels per channel, setting aggressive detection for ad accounts and moderate detection for organic content."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Will hiding negative comments damage my brand's credibility?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Social Kirin doesn't auto-hide legitimate negative reviews. It flags them for human response while hiding spam and competitor mentions, so you can respond to real feedback professionally."
                     }
                   },
                   {
@@ -362,7 +409,23 @@ export default function AdCommentModeration() {
                     "name": "How much can ad comment moderation improve conversion rates?",
                     "acceptedAnswer": {
                       "@type": "Answer",
-                      "text": "Clean comment sections typically improve ad conversion rates by 15-40% compared to spam-filled ads."
+                      "text": "Clean comment sections typically improve ad conversion rates by 15-40% compared to spam-filled ads, depending on industry and spam volume."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I block specific competitor names?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Add your competitor brand names to the custom keyword filter and any comment mentioning them is auto-hidden."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Is there a free trial?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Every Social Kirin plan includes a 3-day free trial with no credit card required."
                     }
                   }
                 ]

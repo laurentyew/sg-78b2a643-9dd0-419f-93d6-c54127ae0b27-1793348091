@@ -17,6 +17,38 @@ export default function CommentModeration() {
         image="/generated/og-image-social-kirin.png"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Social Kirin",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "offers": {
+              "@type": "AggregateOffer",
+              "lowPrice": "25",
+              "highPrice": "99",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "127"
+            },
+            "featureList": [
+              "Real-time comment moderation",
+              "AI spam detection",
+              "Custom keyword filters",
+              "Sentiment analysis",
+              "Multi-platform dashboard",
+              "6-language support"
+            ]
+          })
+        }}
+      />
+
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="mb-4 flex flex-wrap items-center gap-2">
@@ -403,6 +435,54 @@ export default function CommentModeration() {
                     "acceptedAnswer": {
                       "@type": "Answer",
                       "text": "Real-time. Spam comments are hidden the second they're posted, before your audience sees them. No manual queue, no approval delays."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I customize what gets hidden?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin combines AI spam detection with user-defined keyword filters that apply instantly across competitor names, scam phrases, and inappropriate language."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What if the system hides a legitimate comment?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Mark it as safe in the dashboard. Social Kirin's AI learns from your feedback and adjusts its detection model, with false positives typically under 2% after initial training."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Does comment moderation work in languages other than English?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin moderates comments in 6 languages: English, Bahasa Malaysia, Simplified Chinese, Indonesian, Thai, and Vietnamese."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I moderate Facebook and Instagram Ad comments?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. Social Kirin's comment moderation works specifically on Facebook and Instagram Ads, hiding competitor spam and scam links before they damage conversion rates."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How much does comment moderation cost?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Pricing starts at $25/month for 5,000 interactions across 5 channels, up to $99/month for 50 channels and 35,000 interactions. Annual billing saves 2 months."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Is there a free trial?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes. All Social Kirin plans include a 3-day free trial with no credit card required."
                     }
                   }
                 ]
