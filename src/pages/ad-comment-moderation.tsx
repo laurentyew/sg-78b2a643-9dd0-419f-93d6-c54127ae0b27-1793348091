@@ -145,7 +145,7 @@ export default function AdCommentModeration() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="font-semibold text-primary">→</span>
-                <span><strong>Net ROI:</strong> $1,351/month gained, 2,857% ROI</span>
+                <span><strong>Net ROI:</strong> $1,341/month gained — roughly 23x the $59 plan cost</span>
               </li>
             </ul>
           </div>
