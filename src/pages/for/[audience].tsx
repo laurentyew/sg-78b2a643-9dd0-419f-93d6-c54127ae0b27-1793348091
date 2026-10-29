@@ -68,7 +68,7 @@ export default function AudiencePage({ audience }: AudiencePageProps) {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90">
-              <Link href="https://app.socialkirin.com">Get Started Free</Link>
+              <a href="https://app.socialkirin.com">Get Started Free</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full border-primary px-7 text-primary hover:bg-primary hover:text-primary-foreground">
               <Link href="/#pricing">See pricing</Link>
@@ -140,17 +140,17 @@ export default function AudiencePage({ audience }: AudiencePageProps) {
 
           <section className="mt-12 rounded-2xl border border-primary/20 bg-primary/5 p-6 text-center">
             <h2 className="font-serif text-xl font-bold text-foreground">
-              Early access is still open
+              Ready in about five minutes
             </h2>
             <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
-              Every plan starts with a 3-day trial and no credit card. The first 50 waitlist
-              signups receive 3 months free.
+              Connect a channel, pick a moderation preset, and let the AI handle the first pass.
+              Every plan starts with a 3-day trial and no credit card.
             </p>
             <Button asChild size="lg" className="mt-5 rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90">
-              <Link href="https://app.socialkirin.com">
+              <a href="https://app.socialkirin.com">
                 Get Started Free
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+              </a>
             </Button>
           </section>
 
