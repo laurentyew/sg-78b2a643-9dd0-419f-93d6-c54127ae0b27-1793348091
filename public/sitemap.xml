@@ -228,7 +228,44 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Phase 5 & 6: Audience pages and glossary (to be added) -->
-  <!-- /for/ -->
+  <!-- Phase 5: Audience Landing Pages -->
+  <url>
+    <loc>https://socialkirin.com/for</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/for/ecommerce</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/for/creators</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/for/agencies</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/for/launches</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://socialkirin.com/for/support-teams</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Phase 6: Glossary (to be added) -->
   <!-- /glossary/ -->
 </urlset>
