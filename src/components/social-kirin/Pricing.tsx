@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Check, X, Copy, CheckCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { PROMO, formatUsd, promoPricing, spotsLabel } from "@/lib/promo";
+import { PROMO, formatUsd, promoPricing } from "@/lib/promo";
 import { usePromoSpots } from "@/hooks/usePromoSpots";
 
 interface Tier {
@@ -105,6 +105,8 @@ function CopyCode({ compact = false }: { compact?: boolean }) {
 
 export function Pricing() {
   const { remaining } = usePromoSpots();
+  const spotsRunning = remaining !== null && remaining > 0 && remaining < PROMO.cap;
+  const spotsClosed = remaining !== null && remaining <= 0;
 
   return (
     <section id="pricing" className="bg-background py-16 md:py-24">
@@ -127,10 +129,12 @@ export function Pricing() {
             <Sparkles className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
             <div>
               <p className="text-sm font-bold text-foreground">
-                {spotsLabel(remaining)} — {PROMO.discountPercent}% off all plans
+                {spotsRunning
+                  ? `Only ${remaining} launch spots left — ${PROMO.discountPercent}% off all plans`
+                  : `${PROMO.discountPercent}% off all plans for the first ${PROMO.cap} brands`}
               </p>
               <p className="mt-0.5 text-xs leading-5 text-muted-foreground">
-                {remaining !== null && remaining <= 0
+                {spotsClosed
                   ? "Launch pricing is closed, but you can still start a free trial."
                   : "Copy the code below and paste it at checkout in the app."}
               </p>

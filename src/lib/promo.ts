@@ -37,7 +37,7 @@ export function promoPricing(monthly: number, annual: number): PromoTier {
 }
 
 export function spotsLabel(remaining: number | null): string {
-  if (remaining === null) {
+  if (remaining === null || remaining >= PROMO.cap) {
     return `Limited to the first ${PROMO.cap} brands`;
   }
 
