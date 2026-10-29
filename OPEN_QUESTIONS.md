@@ -1,92 +1,109 @@
 # Open Questions for Owner Review
 
 > Created: 2026-10-29
-> Before publishing money pages, comparison pages, and guides, confirm these facts.
+> **Status: ✅ RESOLVED — All questions answered 2026-10-29**
+> See PRODUCT_FACTS.md for complete verified information
 
-## Priority 1: Money Page Blockers
+## ✅ Priority 1: Money Page Blockers — RESOLVED
 
 ### Platform Support
-- [ ] **TikTok support:** Supported now, or roadmap only?
-- [ ] **Threads support:** Supported now, or roadmap only?
-- [ ] If roadmap only, should we create waitlist pages for these platforms?
+- ✅ **TikTok support:** Roadmap only — create roadmap page, no waitlist
+- ✅ **Threads support:** Roadmap only — create roadmap page, no waitlist
 
 ### Feature Confirmation
-- [ ] **API access:** Available? Which tier? RESTful? Rate limits?
-- [ ] **Team assignment:** Can users assign comments to specific team members?
-- [ ] **User roles/permissions:** Admin, moderator, viewer roles?
-- [ ] **Bulk actions:** Bulk delete, hide, approve comments?
-- [ ] **Custom keyword filters:** User-configurable spam patterns?
-- [ ] **Ad comment moderation:** Works on Facebook/Instagram Ads specifically?
-- [ ] **Reply templates/macros:** Pre-written reply library feature?
-- [ ] **Analytics dashboard:** Comment volume, spam caught, reply stats?
-- [ ] **Data export:** CSV, JSON export of comments/interactions?
+- ✅ **API access:** Not available
+- ✅ **Team assignment:** Not available
+- ✅ **User roles/permissions:** Admin and Moderator roles (team members can help manage)
+- ✅ **Bulk actions:** Not available
+- ✅ **Custom keyword filters:** Yes, user-configurable
+- ✅ **Ad comment moderation:** Yes, works on Facebook/Instagram Ads
+- ✅ **Reply templates/macros:** Yes, user can create own templates
+- ✅ **Analytics dashboard:** Yes — comment volume, spam caught, reply stats
+- ✅ **Data export:** Not available
 
 ### Language Support
-- [ ] **Bahasa Malaysia:** Spam detection and AI replies in BM?
-- [ ] **Simplified Chinese:** Spam detection and AI replies in Chinese?
-- [ ] **Indonesian, Thai, Vietnamese:** On roadmap or supported?
-- [ ] **Malay/Manglish spam patterns:** Trained specifically for SEA context?
+- ✅ **Bahasa Malaysia:** Yes — spam detection and AI replies work in BM
+- ✅ **Simplified Chinese:** Yes — spam detection and AI replies work in Chinese
+- ✅ **Indonesian, Thai, Vietnamese:** Yes, all supported
+- ✅ **Malay/Manglish spam patterns:** Not specifically trained for SEA context (general BM support only)
 
 ### Pricing Details
-- [ ] **Enterprise tier:** Custom pricing for high-volume clients?
-- [ ] **Volume overages:** What happens above plan limits?
-- [ ] **Annual billing discount:** Offered?
-- [ ] **Refund policy:** Trial period details?
+- ✅ **Enterprise tier:** Yes, custom pricing for high-volume clients
+- ✅ **Volume overages:** Moderation stops, user prompted to upgrade to higher tier
+- ✅ **Annual billing discount:** Yes — 2 months free (pay for 10, get 12)
+- ✅ **Refund policy:** No refund policy (7-day trial period only)
 
-## Priority 2: Competitive Differentiators
+## ✅ Priority 2: Competitive Differentiators — VERIFIED
 
-These must be **true** before claiming them in /vs or /alternatives pages:
+**Confirmed TRUE differentiators:**
+- ✅ YouTube support (vs CommentGuard which lacks it)
+- ✅ DM automation (vs manual-only competitors)
+- ✅ Sentiment analysis (vs keyword-only filtering)
+- ✅ Unlimited platforms at all tiers (Instagram + Facebook + YouTube included)
+- ✅ Multi-language moderation (6 languages: EN, BM, ZH, ID, TH, VI)
+- ✅ Ad comment moderation (works specifically on Meta Ads)
+- ✅ Annual billing discount (2 months free)
 
-- [ ] YouTube support (vs CommentGuard which lacks it)
-- [ ] DM automation (vs manual-only competitors)
-- [ ] Sentiment analysis (vs keyword-only filtering)
-- [ ] Unlimited platforms at all tiers (vs per-platform pricing)
-- [ ] Southeast Asia spam training (vs Western-only models)
-- [ ] Multi-language moderation beyond English (vs English-only)
+**NOT differentiators (we don't have these):**
+- ❌ API access
+- ❌ Team assignment
+- ❌ Bulk actions
+- ❌ Data export
+- ⚠️ Southeast Asia spam training (supports SEA languages but not specifically trained on regional patterns)
 
-## Priority 3: Compliance & Legal
+## ✅ Priority 3: Compliance & Legal — CONFIRMED
 
-- [ ] **GDPR compliance:** Certified? DPA available?
-- [ ] **Data residency:** Where is data stored? EU/US/Asia options?
-- [ ] **SOC 2 / ISO 27001:** In progress or achieved?
-- [ ] **Data retention policy:** How long are comments/DMs stored?
+- ✅ **GDPR compliance:** Yes, GDPR compliant
+- ✅ **Data residency:** Data stored in Asia
+- ✅ **SOC 2 / ISO 27001:** Not certified
+- ✅ **Data retention policy:** 90 days
 
-## Priority 4: Content Assets Needed
+## ✅ Priority 4: Content Assets — PLAN ESTABLISHED
 
-### Screenshots for Guides
-- [ ] Dashboard overview (for "how to" guides)
-- [ ] Comment moderation interface
-- [ ] DM automation setup flow
-- [ ] Keyword filter configuration
-- [ ] Sentiment analysis report view
-- [ ] Team assignment UI (if feature exists)
+### Screenshots
+- ✅ Use **image placeholders** for now (marked with `[SCREENSHOT: description]`)
+- ✅ Owner will provide actual screenshots when possible
+- ✅ Placeholder format: `[SCREENSHOT: Dashboard showing comment moderation interface with spam filter controls]`
 
-### For Free Tools (Section 8)
-- [ ] Should we build: Comment mockup generator?
-- [ ] Should we build: Engagement rate calculator?
-- [ ] Should we build: Hashtag generator?
-- [ ] Should we build: Fake-follower checker?
-- [ ] Should we build: Spam keyword list generator?
+### Free Tools (Section 8)
+- ✅ Existing: Moderator Rush quiz
+- 🔜 Additional tools to be built in Phase 3-4
 
-## Priority 5: Target Audience Clarity
+## ✅ Priority 5: Target Audience — CONFIRMED
 
-Which of these are **primary** vs **secondary** target segments?
-
-- [ ] Social media managers at brands
-- [ ] eCommerce store owners (Shopify, WooCommerce)
-- [ ] Marketing agencies managing multiple clients
-- [ ] Solo creators / influencers
-- [ ] B2B brands with social presence
-- [ ] Advertisers spending on Meta/Google ads
-
-## Usage Instructions
-
-1. Owner reviews and answers each [ ] checkbox
-2. Update PRODUCT_FACTS.md with confirmed answers
-3. Remove [CONFIRM] flags from content where facts are now verified
-4. For "roadmap only" features: create "Coming Soon" pages with waitlist, not money pages
-5. For missing screenshots: create annotated wireframes or use placeholders with [SCREENSHOT NEEDED]
+**All segments are primary targets — create landing page for each:**
+1. Social media managers at brands
+2. eCommerce store owners (Shopify, WooCommerce)
+3. Marketing agencies managing multiple clients
+4. Solo creators / influencers
+5. B2B brands with social presence
+6. Advertisers spending on Meta/Google ads
 
 ---
 
-**Deadline for Phase 2 (Money Pages):** Answers needed for Priority 1 items before building /comment-moderation, /facebook-comment-moderation, /instagram-comment-moderation, /ai-comment-moderation, /social-media-moderation-software pages.
+## ✅ READY FOR PHASE 2
+
+All necessary information confirmed. Proceed with money page creation:
+- /comment-moderation
+- /facebook-comment-moderation
+- /instagram-comment-moderation
+- /ai-comment-moderation
+- /social-media-moderation-software
+- /ad-comment-moderation
+- /facebook-auto-comments
+- /instagram-auto-comments
+- /facebook-auto-reply
+- /instagram-auto-reply
+
+**Content Guidelines:**
+- Use verified facts from PRODUCT_FACTS.md
+- Be honest about feature limitations
+- Use screenshot placeholders: `[SCREENSHOT: description]`
+- Emphasize multi-language support (key differentiator)
+- Mention annual billing discount
+- Fair competitor comparisons only
+- TikTok/Threads = roadmap pages, not waitlist
+
+---
+
+Last updated: 2026-10-29 | All questions resolved

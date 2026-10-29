@@ -1,41 +1,58 @@
 ---
 title: Phase 2 - Money Pages Implementation
-status: todo
+status: in_progress
 priority: urgent
 type: feature
-tags: [seo, money-pages, commercial-keywords]
+tags: [seo, content, money-pages, phase-2]
 created_by: agent
-created_at: 2026-10-29T04:41:00Z
+created_at: 2026-10-29T04:47:00Z
 position: 14
 ---
 
 ## Notes
 
-Build all commercial intent pages targeting high-value keywords. These are the highest priority SEO pages as they target buyer-intent searches with CPC values ranging from $11-$37.
+Build 10 high-intent commercial pages targeting keywords with CPC $11-$37. All product facts now confirmed from owner review. Ready to proceed with accurate content.
 
-Pages must follow the 10-point money page structure from README_SEO.md and only use verified facts from PRODUCT_FACTS.md.
+**Confirmed features to highlight:**
+- Multi-language AI (6 languages: EN, BM, ZH, ID, TH, VI)
+- Custom keyword filters
+- Ad comment moderation (Facebook/Instagram Ads)
+- User-created reply templates
+- Analytics dashboard
+- Admin + Moderator roles
+- Sentiment analysis
+- DM automation
+- Annual billing discount (2 months free)
+
+**Honest about limitations:**
+- No API access
+- No bulk actions
+- No team assignment
+- No data export
+
+**Platform pages:**
+- Instagram, Facebook, YouTube = live
+- TikTok, Threads = roadmap (not waitlist)
 
 ## Checklist
 
-- [ ] /comment-moderation (head term, 40 monthly searches)
-- [ ] /facebook-comment-moderation ($11 CPC, 30 searches)
-- [ ] /instagram-comment-moderation (70 searches)
-- [ ] /ai-comment-moderation (differentiator term)
-- [ ] /social-media-moderation-software ($30-$37 CPC, 110 searches)
-- [ ] /ad-comment-moderation (niche, no competition)
-- [ ] /facebook-auto-comments (ETV 231)
-- [ ] /instagram-auto-comments (variant)
-- [ ] /facebook-auto-reply (80 searches)
-- [ ] /instagram-auto-reply (100 searches)
-- [ ] Update sitemap.xml with all new pages
-- [ ] Validate schema markup with Rich Results Test
-- [ ] Test mobile responsiveness for all pages
-- [ ] Verify all CTAs link to #waitlist
+- [ ] Create /comment-moderation (head term, 40 monthly searches)
+- [ ] Create /facebook-comment-moderation ($11 CPC, 30 searches)
+- [ ] Create /instagram-comment-moderation (70 searches)
+- [ ] Create /ai-comment-moderation (30 searches, $30+ CPC)
+- [ ] Create /social-media-moderation-software (110 searches, $36.60 CPC)
+- [ ] Create /ad-comment-moderation (Facebook/Instagram Ads specific)
+- [ ] Create /facebook-auto-comments (~231 ETV)
+- [ ] Create /instagram-auto-comments
+- [ ] Create /facebook-auto-reply
+- [ ] Create /instagram-auto-reply
+- [ ] Add all 10 pages to sitemap.xml with lastmod dates
+- [ ] Validate schema markup (FAQPage, SoftwareApplication, BreadcrumbList)
+- [ ] Run Lighthouse on 3 sample pages (target: 90+ SEO score)
 
 ## Acceptance
 
-- All 10 money pages published with unique, valuable content (900-1,500 words each)
-- Each page includes proper schema markup (SoftwareApplication + FAQPage)
-- All product claims verified against PRODUCT_FACTS.md
+- All 10 money pages live with unique content (900-1,500 words each)
+- Every page has proper schema markup validated via Rich Results Test
 - No [CONFIRM] placeholders in published content
 - Pages rank better than competitors in at least one concrete way
