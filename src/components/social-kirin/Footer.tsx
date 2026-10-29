@@ -113,7 +113,7 @@ export function Footer() {
               ))}
             </nav>
 
-            <div className="shrink-0">
+            <div className="shrink-0 flex flex-col items-center gap-2">
               <span className="inline-block text-center leading-none">
                 <a
                   href="https://tools.launchllama.co/products/social-kirin?utm_source=badge&utm_medium=referral"
@@ -141,6 +141,24 @@ export function Footer() {
                   Launch your MCP
                 </a>
               </span>
+              <a
+                href="https://launchaf.com/"
+                target="_blank"
+                rel="noopener"
+                data-launchaf-badge="true"
+                className="block leading-none"
+                aria-label="Featured on LaunchAF"
+              >
+                <img
+                  src="https://launchaf.com/api/badge/light?v=launchaf-blue-2026-2"
+                  alt="Featured on LaunchAF"
+                  width={200}
+                  height={56}
+                  loading="lazy"
+                  decoding="async"
+                  className="block border-0"
+                />
+              </a>
             </div>
           </div>
 
