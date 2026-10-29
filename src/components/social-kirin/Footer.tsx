@@ -6,28 +6,37 @@ const columns = [
   {
     title: "Platforms",
     links: [
-      { label: "Instagram Comment Moderation", href: "#features" },
-      { label: "Facebook Comment Moderation", href: "#features" },
-      { label: "YouTube Comment Moderation", href: "#features" },
-      { label: "DM Automation", href: "#features" },
+      { label: "Instagram Comment Moderation", href: "/instagram-comment-moderation" },
+      { label: "Facebook Comment Moderation", href: "/facebook-comment-moderation" },
+      { label: "YouTube Comment Filtering", href: "/guides/youtube/filter-spam-comments" },
+      { label: "Ad Comment Moderation", href: "/ad-comment-moderation" },
     ],
   },
   {
     title: "Use Cases",
     links: [
-      { label: "Spam Comment Filter", href: "#features" },
-      { label: "AI Auto-Reply in Brand Voice", href: "#features" },
-      { label: "Sentiment Analysis & PR Alerts", href: "#features" },
-      { label: "Compare Alternatives", href: "#comparison" },
+      { label: "AI Spam Comment Filter", href: "/ai-comment-moderation" },
+      { label: "Instagram Auto Reply", href: "/instagram-auto-reply" },
+      { label: "Facebook Auto Comments", href: "/facebook-auto-comments" },
+      { label: "Moderation Software", href: "/social-media-moderation-software" },
     ],
   },
   {
-    title: "Company",
+    title: "Who it is for",
     links: [
-      { label: "How It Works", href: "#how-it-works" },
-      { label: "Pricing", href: "#pricing" },
-      { label: "FAQ", href: "#faq" },
-      { label: "Contact Sales", href: "#pricing" },
+      { label: "All audiences", href: "/for" },
+      { label: "eCommerce & DTC brands", href: "/for/ecommerce" },
+      { label: "Creators & personal brands", href: "/for/creators" },
+      { label: "Agencies & social managers", href: "/for/agencies" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { label: "Guides & How-Tos", href: "/guides" },
+      { label: "vs CommentGuard", href: "/vs/commentguard" },
+      { label: "vs FeedGuardians", href: "/vs/feedguardians" },
+      { label: "Best Moderation Tools", href: "/best/content-moderation-tools" },
     ],
   },
   {
@@ -52,7 +61,7 @@ export function Footer() {
   return (
     <footer className="bg-foreground text-background/90 pt-16 pb-8">
       <div className="container">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-background/15">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-10 pb-12 border-b border-background/15">
           <div className="lg:col-span-1 space-y-3">
             <div className="flex items-center gap-2">
               <ShieldCheck className="h-6 w-6 text-accent" />

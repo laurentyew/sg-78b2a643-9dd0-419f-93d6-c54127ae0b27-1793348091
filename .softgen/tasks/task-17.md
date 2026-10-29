@@ -27,7 +27,7 @@ Each page carries breadcrumbs, FAQPage JSON-LD, an accordion FAQ, cross-links to
 - [x] Create dynamic /for/[audience] route with static generation and FAQ schema
 - [x] Add six Phase 5 URLs to sitemap.xml
 - [ ] Link /for from the header Resources dropdown
-- [ ] Link /for from the footer audience area
+- [x] Link /for from the footer audience area
 - [ ] Verify build and cross-page links
 
 ## Acceptance
