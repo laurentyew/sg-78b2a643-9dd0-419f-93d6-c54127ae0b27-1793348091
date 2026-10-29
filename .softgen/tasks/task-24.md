@@ -1,6 +1,6 @@
 ---
 title: Promo-aware SEO metadata and offer schema
-status: in_progress
+status: done
 priority: medium
 type: chore
 tags: [seo, schema, promo]

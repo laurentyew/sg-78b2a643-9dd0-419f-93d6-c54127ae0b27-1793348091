@@ -1,6 +1,6 @@
 ---
 title: FIRST50 promo foundation and announcement bar
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [promo, header, hero]

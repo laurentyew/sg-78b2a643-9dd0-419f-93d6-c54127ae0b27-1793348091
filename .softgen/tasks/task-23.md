@@ -1,6 +1,6 @@
 ---
 title: FIRST50 FAQ entries and FAQ schema
-status: in_progress
+status: done
 priority: medium
 type: chore
 tags: [faq, seo, promo]

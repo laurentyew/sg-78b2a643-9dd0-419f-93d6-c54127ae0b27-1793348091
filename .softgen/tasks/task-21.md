@@ -1,6 +1,6 @@
 ---
 title: FIRST50 pricing display
-status: in_progress
+status: done
 priority: high
 type: feature
 tags: [pricing, promo]
