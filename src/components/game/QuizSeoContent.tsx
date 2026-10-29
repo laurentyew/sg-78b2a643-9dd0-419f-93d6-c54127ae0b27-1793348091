@@ -12,7 +12,7 @@ const FAQ_ITEMS: FaqItem[] = [
   {
     question: "Do I need an account to play?",
     answer:
-      "No. Playing and seeing your score are free and need no account. An email is only required if you want the per-category breakdown and the waitlist referral link.",
+      "No. Playing and seeing your score are free and need no account. An email is only required if you want the per-category breakdown.",
   },
   {
     question: "How does the quiz decide the right answer?",
@@ -27,7 +27,7 @@ const FAQ_ITEMS: FaqItem[] = [
   {
     question: "What happens after I submit my email?",
     answer:
-      "Your breakdown unlocks immediately and you receive one confirmation email. Only after you confirm does your spot on the Social Kirin waitlist start moving up with each friend who joins.",
+      "Your breakdown unlocks immediately and you receive one confirmation email with your result.",
   },
 ];
 
@@ -143,11 +143,11 @@ export function QuizSeoContent() {
       </section>
 
       <section
-        aria-labelledby="join-waitlist"
+        aria-labelledby="join-updates"
         className="rounded-3xl border border-primary/25 bg-primary/5 p-6 sm:p-8"
       >
         <h2
-          id="join-waitlist"
+          id="join-updates"
           className="font-serif text-2xl font-bold text-foreground"
         >
           Automate this without losing the real customers
@@ -155,7 +155,7 @@ export function QuizSeoContent() {
         <p className="mt-3 text-base leading-relaxed text-foreground/80">
           Social Kirin reads every comment in context, hides the spam, answers the
           questions, and leaves the complaints for a human. Play the quiz, then
-          join the waitlist to get early access.
+          get started free to get early access.
         </p>
       </section>
     </div>

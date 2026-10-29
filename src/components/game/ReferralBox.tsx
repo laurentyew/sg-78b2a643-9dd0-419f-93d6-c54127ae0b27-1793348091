@@ -40,10 +40,10 @@ export function ReferralBox({ referralUrl }: ReferralBoxProps) {
   return (
     <div className="rounded-3xl border border-accent/30 bg-accent/5 p-6 shadow-soft sm:p-8">
       <h2 className="font-serif text-xl font-bold text-foreground">
-        Move up the waitlist
+        Share your result
       </h2>
       <p className="mt-2 text-sm text-foreground/80">
-        Each friend who confirms moves you up the waitlist.
+        Every friend who plays gets their own score to beat.
       </p>
 
       <p className="mt-4 break-all rounded-xl border border-border bg-background px-3.5 py-2.5 text-sm font-medium text-foreground">

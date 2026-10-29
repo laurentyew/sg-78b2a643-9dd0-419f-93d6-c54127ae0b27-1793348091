@@ -99,8 +99,8 @@ export default function YouTubeTrollsGuide() {
             automatically, in your brand voice.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/comment-moderation">
               <Button size="lg" variant="outline" className="rounded-full font-bold">Comment Moderation</Button>

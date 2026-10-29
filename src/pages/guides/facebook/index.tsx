@@ -90,9 +90,9 @@ export default function FacebookGuidesHub() {
                 Manual moderation works for &lt;100 comments/week. Beyond that, AI saves 10+ hours weekly. Social Kirin handles Facebook Pages + Instagram + YouTube from one dashboard.
               </p>
               <div className="flex gap-3 justify-center flex-wrap">
-                <Link href="/#waitlist">
+                <Link href="https://app.socialkirin.com">
                   <Button size="lg" className="rounded-full font-bold">
-                    Join Waitlist
+                    Get Started Free
                   </Button>
                 </Link>
                 <Link href="/facebook-comment-moderation">

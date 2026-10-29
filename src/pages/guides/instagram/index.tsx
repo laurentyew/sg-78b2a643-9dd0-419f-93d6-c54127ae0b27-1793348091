@@ -90,9 +90,9 @@ export default function InstagramGuidesHub() {
                 Manual moderation works until a Reel goes viral. Social Kirin's AI handles Instagram comments + DMs + Reels at scale, with multi-language support and brand-voice replies. 3-day free trial.
               </p>
               <div className="flex gap-3 justify-center flex-wrap">
-                <Link href="/#waitlist">
+                <Link href="https://app.socialkirin.com">
                   <Button size="lg" className="rounded-full font-bold">
-                    Join Waitlist
+                    Get Started Free
                   </Button>
                 </Link>
                 <Link href="/instagram-comment-moderation">

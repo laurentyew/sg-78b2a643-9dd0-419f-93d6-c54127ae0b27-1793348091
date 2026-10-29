@@ -100,8 +100,8 @@ export default function ManageViralReelsGuide() {
             six languages. From $25/month.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/instagram-auto-comments">
               <Button size="lg" variant="outline" className="rounded-full font-bold">Instagram Automation</Button>

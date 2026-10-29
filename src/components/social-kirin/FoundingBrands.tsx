@@ -8,7 +8,7 @@ const benefits = [
     icon: Timer,
     title: "Free while we launch",
     description:
-      "Founding brands get full access at no cost during the launch period, with no card required to join the waitlist.",
+      "Founding brands get full access at no cost during the launch period, with no card required to get started free.",
   },
   {
     icon: Compass,
@@ -37,7 +37,7 @@ export function FoundingBrands() {
           </h2>
           <p className="text-base leading-7 text-muted-foreground sm:text-lg">
             We are not going to pretend we have thousands of customers yet. Social Kirin is in
-            pre-launch, and the brands joining the waitlist now are the ones who get to decide what
+            and the brands getting started now are the ones who get to decide what
             the product becomes.
           </p>
         </div>
@@ -65,8 +65,8 @@ export function FoundingBrands() {
             size="lg"
             className="h-12 w-full gap-2 rounded-full bg-primary px-6 text-sm text-primary-foreground shadow-glow hover:bg-primary/90 sm:h-13 sm:w-auto sm:px-7 sm:text-base"
           >
-            <Link href="#waitlist">
-              Join the founding waitlist
+            <Link href="https://app.socialkirin.com">
+              Get Started Free
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>

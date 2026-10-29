@@ -255,8 +255,8 @@ export default function FacebookAutoReply() {
                   <span>Comments + Messenger</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -278,8 +278,8 @@ export default function FacebookAutoReply() {
                   <span>Multi-language AI</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -300,8 +300,8 @@ export default function FacebookAutoReply() {
                   <span>Priority AI training</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -315,9 +315,9 @@ export default function FacebookAutoReply() {
             <p className="mb-6 text-muted-foreground">
               Instant responses to customer questions, 24/7 coverage, 70% reduction in support workload. AI-powered auto-replies trained on your brand voice. Works on comments and Messenger.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>

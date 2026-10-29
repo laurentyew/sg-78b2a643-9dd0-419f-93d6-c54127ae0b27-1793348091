@@ -95,8 +95,8 @@ export default function YouTubeFilterSpamGuide() {
             Social Kirin reads context, not just keywords — across YouTube, Instagram and Facebook, in six languages.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/ai-comment-moderation">
               <Button size="lg" variant="outline" className="rounded-full font-bold">AI Moderation</Button>

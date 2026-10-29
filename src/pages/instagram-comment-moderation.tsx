@@ -196,8 +196,8 @@ export default function InstagramCommentModeration() {
                   <span>Instagram Posts & Reels</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -219,8 +219,8 @@ export default function InstagramCommentModeration() {
                   <span>Multi-platform + DM automation</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -241,8 +241,8 @@ export default function InstagramCommentModeration() {
                   <span>Priority support</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -256,9 +256,9 @@ export default function InstagramCommentModeration() {
             <p className="mb-6 text-muted-foreground">
               Auto-hide scam DM requests, fake giveaways, and competitor spam on Instagram Posts and Reels. Real-time protection, 24/7 moderation.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>

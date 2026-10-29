@@ -68,7 +68,7 @@ export default function AudiencePage({ audience }: AudiencePageProps) {
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90">
-              <Link href="/#waitlist">Join the waitlist</Link>
+              <Link href="https://app.socialkirin.com">Get Started Free</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full border-primary px-7 text-primary hover:bg-primary hover:text-primary-foreground">
               <Link href="/#pricing">See pricing</Link>
@@ -147,8 +147,8 @@ export default function AudiencePage({ audience }: AudiencePageProps) {
               signups receive 3 months free.
             </p>
             <Button asChild size="lg" className="mt-5 rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90">
-              <Link href="/#waitlist">
-                Join the waitlist
+              <Link href="https://app.socialkirin.com">
+                Get Started Free
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

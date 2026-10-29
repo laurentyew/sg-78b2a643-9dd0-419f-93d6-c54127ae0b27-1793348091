@@ -136,9 +136,9 @@ export default function GuidesHub() {
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                 These guides teach manual strategies. For automated AI moderation across Instagram, Facebook, and YouTube—join the Social Kirin waitlist. 3-day free trial.
               </p>
-              <Link href="/#waitlist">
+              <Link href="https://app.socialkirin.com">
                 <Button size="lg" className="rounded-full font-bold px-8">
-                  Join Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+                  Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
             </div>

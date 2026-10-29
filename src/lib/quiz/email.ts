@@ -82,7 +82,7 @@ export async function sendConfirmationEmail({
         html:
           "<p>" +
           greeting +
-          "</p><p>Confirm your email to unlock your comment moderation breakdown and start moving up the Social Kirin waitlist.</p><p><a href=\"" +
+          "</p><p>Confirm your email to unlock your full comment moderation breakdown.</p><p><a href=\"" +
           confirmUrl +
           "\">Confirm my email</a></p><p>If you did not request this, you can ignore this message.</p>",
       }),

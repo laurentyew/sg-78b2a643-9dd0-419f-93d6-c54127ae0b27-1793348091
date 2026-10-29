@@ -90,9 +90,9 @@ export default function YouTubeGuidesHub() {
                 YouTube's native tools handle basic spam. For context-aware AI moderation, sentiment analysis, and cross-platform management (YouTube + Instagram + Facebook), Social Kirin offers a unified dashboard.
               </p>
               <div className="flex gap-3 justify-center flex-wrap">
-                <Link href="/#waitlist">
+                <Link href="https://app.socialkirin.com">
                   <Button size="lg" className="rounded-full font-bold">
-                    Join Waitlist
+                    Get Started Free
                   </Button>
                 </Link>
                 <Link href="/social-media-moderation-software">

@@ -195,8 +195,8 @@ export default function FacebookCommentModeration() {
                   <span>Facebook Pages & Ads</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -218,8 +218,8 @@ export default function FacebookCommentModeration() {
                   <span>Multi-platform</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -240,8 +240,8 @@ export default function FacebookCommentModeration() {
                   <span>Priority support</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -255,9 +255,9 @@ export default function FacebookCommentModeration() {
             <p className="mb-6 text-muted-foreground">
               Auto-hide competitor spam, scam links, and toxic comments on your Facebook Pages and Ads. Real-time protection, no manual moderation required.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>

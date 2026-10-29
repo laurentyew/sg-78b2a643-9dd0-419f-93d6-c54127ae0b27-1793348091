@@ -231,8 +231,8 @@ export default function CommentModeration() {
                   <span>AI + keyword filters</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -258,8 +258,8 @@ export default function CommentModeration() {
                   <span>AI + keywords + sentiment</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -284,8 +284,8 @@ export default function CommentModeration() {
                   <span>Full AI suite + priority support</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -299,9 +299,9 @@ export default function CommentModeration() {
             <p className="mb-6 text-muted-foreground">
               Automated comment moderation for Instagram, Facebook, and YouTube. Hide spam in real time, protect your brand reputation, and save 2-5 hours per day.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>
@@ -377,7 +377,7 @@ export default function CommentModeration() {
                 Is there a free trial?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. After launch, all Social Kirin plans include a 7-day free trial. No credit card required to join the waitlist. The first 50 waitlist signups also receive 3 months free when we launch.
+                Yes. All Social Kirin plans include a 3-day free trial. No credit card required to get started.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

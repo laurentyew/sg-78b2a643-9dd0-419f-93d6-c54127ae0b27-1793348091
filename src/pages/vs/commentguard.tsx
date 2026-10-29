@@ -142,11 +142,11 @@ export default function VsCommentGuard() {
         <div className="text-center bg-accent/10 border border-accent/20 rounded-2xl p-8 md:p-12 my-12">
           <h2 className="text-3xl font-bold mb-4">Ready to upgrade your moderation?</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join the waitlist today. First 50 signups get 3 months free on any paid plan.
+            Get Started Free today. First 50 signups get 3 months free on any paid plan.
           </p>
-          <Link href="/#waitlist">
+          <Link href="https://app.socialkirin.com">
             <Button size="lg" className="rounded-full font-bold px-8">
-              Join the Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+              Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </div>

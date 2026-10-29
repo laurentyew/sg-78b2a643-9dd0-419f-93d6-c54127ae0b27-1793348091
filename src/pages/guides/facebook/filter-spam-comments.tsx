@@ -106,8 +106,8 @@ export default function FilterSpamCommentsGuide() {
             and YouTube. 3-day free trial, no credit card.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/facebook-comment-moderation">
               <Button size="lg" variant="outline" className="rounded-full font-bold">See Features</Button>

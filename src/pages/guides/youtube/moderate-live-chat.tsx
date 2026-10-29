@@ -108,8 +108,8 @@ export default function ModerateLiveChatGuide() {
             escalation in one queue. From $25/month.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/social-media-moderation-software">
               <Button size="lg" variant="outline" className="rounded-full font-bold">See Platform</Button>

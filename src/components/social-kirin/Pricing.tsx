@@ -52,7 +52,7 @@ export function Pricing() {
       <div className="container">
         <div className="mx-auto mb-10 max-w-3xl space-y-3 text-center md:mb-14 md:space-y-4">
           <span className="text-xs font-semibold uppercase tracking-[0.18em] text-accent sm:text-sm">
-            Planned pricing
+            Simple pricing
           </span>
           <h2 className="text-balance font-serif text-2xl font-bold leading-tight text-foreground sm:text-3xl md:text-4xl">
             Volume-based pricing built for growth
@@ -65,7 +65,7 @@ export function Pricing() {
 
         <div className="mb-6 rounded-[1.5rem] border border-accent/20 bg-accent/10 p-4 text-center shadow-soft sm:mb-8 sm:p-5">
           <p className="text-sm leading-6 text-foreground">
-            Join the waitlist now and lock in early-access pricing. First 50 signups get 3 months free.
+            Start free today. No credit card required.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ export function Pricing() {
                   !tier.highlighted && "border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                 )}
               >
-                <Link href="#waitlist">Join Waitlist</Link>
+                <Link href="https://app.socialkirin.com">Get Started Free</Link>
               </Button>
             </div>
           ))}
@@ -192,7 +192,7 @@ export function Pricing() {
             <strong>Free Trial:</strong> 3 days, 50 interactions/mo, 1 channel — no credit card required
           </p>
           <p className="text-sm text-muted-foreground">
-            Need more volume or custom features? <Link href="#waitlist" className="text-primary hover:underline">Contact us for enterprise pricing</Link>
+            Need more volume or custom features? <Link href="https://app.socialkirin.com" className="text-primary hover:underline">Contact us for enterprise pricing</Link>
           </p>
         </div>
       </div>

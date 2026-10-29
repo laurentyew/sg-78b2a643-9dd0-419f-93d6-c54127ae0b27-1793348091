@@ -75,13 +75,13 @@ export default function BestFacebookModerationTools() {
                 <div>
                   <p className="font-semibold mb-2 text-sm uppercase tracking-wider text-muted-foreground">Pros & Cons</p>
                   <p className="text-sm mb-2"><strong>Pros:</strong> Only tool with YouTube support, deep multi-language AI, unlimited platforms at all tiers.</p>
-                  <p className="text-sm"><strong>Cons:</strong> Pre-launch (waitlist), no API access yet.</p>
+                  <p className="text-sm"><strong>Cons:</strong> No API access yet.</p>
                 </div>
               </div>
 
               <div className="flex gap-3">
-                <Link href="/#waitlist">
-                  <Button size="sm" className="rounded-full">Join Waitlist</Button>
+                <Link href="https://app.socialkirin.com">
+                  <Button size="sm" className="rounded-full">Get Started Free</Button>
                 </Link>
                 <Link href="/facebook-comment-moderation">
                   <Button size="sm" variant="outline" className="rounded-full">Learn More</Button>
@@ -219,11 +219,11 @@ export default function BestFacebookModerationTools() {
           <div className="text-center bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10 my-12">
             <h2 className="text-3xl font-bold mb-4">Our Verdict: Social Kirin Wins for Most Brands</h2>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              If you run YouTube alongside Meta platforms, serve non-English audiences, or need sentiment-based escalation, Social Kirin is the clear leader. 3-day free trial. First 50 waitlist signups get 3 months free.
+              If you run YouTube alongside Meta platforms, serve non-English audiences, or need sentiment-based escalation, Social Kirin is the clear leader. 3-day free trial. No credit card required.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="rounded-full font-bold px-8">
-                Join the Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+                Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </div>

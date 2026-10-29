@@ -80,8 +80,8 @@ export default function CommentGuardAlternative() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center not-prose">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join the Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/vs/commentguard">
               <Button size="lg" variant="outline" className="rounded-full">View detailed comparison</Button>

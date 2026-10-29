@@ -212,8 +212,8 @@ export default function AICommentModeration() {
               <h3 className="mb-2 font-heading text-2xl font-bold">Starter</h3>
               <p className="mb-4 text-3xl font-bold">$25<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <p className="mb-4 text-sm text-muted-foreground">5,000 interactions/month</p>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -222,8 +222,8 @@ export default function AICommentModeration() {
               <h3 className="mb-2 font-heading text-2xl font-bold">Growth</h3>
               <p className="mb-4 text-3xl font-bold">$59<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <p className="mb-4 text-sm text-muted-foreground">15,000 interactions/month</p>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -231,8 +231,8 @@ export default function AICommentModeration() {
               <h3 className="mb-2 font-heading text-2xl font-bold">Pro</h3>
               <p className="mb-4 text-3xl font-bold">$99<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <p className="mb-4 text-sm text-muted-foreground">35,000 interactions/month</p>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -246,9 +246,9 @@ export default function AICommentModeration() {
             <p className="mb-6 text-muted-foreground">
               Train AI on your brand voice. Hide spam automatically. Reply to customers 24/7. Across 6 languages, on Instagram, Facebook, and YouTube.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>

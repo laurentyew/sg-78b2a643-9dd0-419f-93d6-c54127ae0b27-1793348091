@@ -94,14 +94,14 @@ export function TargetAudiences() {
 
         <div className="flex flex-col items-center gap-4 text-center">
           <p className="max-w-2xl text-sm leading-6 text-muted-foreground">
-            If that sounds like your team, join the waitlist now and lock in 3 free months if you're among the first 50 signups.
+            If that sounds like your team, get started free now and lock in 3 free months if you're among the first 50 signups.
           </p>
           <Button
             asChild
             size="lg"
             className="w-full rounded-full bg-primary px-7 text-primary-foreground shadow-glow hover:bg-primary/90 sm:w-auto"
           >
-            <Link href="#waitlist">See if spots are still open</Link>
+            <Link href="https://app.socialkirin.com">See if spots are still open</Link>
           </Button>
         </div>
       </div>

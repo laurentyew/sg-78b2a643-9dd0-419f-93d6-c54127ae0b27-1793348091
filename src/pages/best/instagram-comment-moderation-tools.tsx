@@ -79,13 +79,13 @@ export default function BestInstagramModerationTools() {
                 <div>
                   <p className="font-semibold mb-2 text-sm uppercase tracking-wider text-muted-foreground">Pros & Cons</p>
                   <p className="text-sm mb-2"><strong>Pros:</strong> Only tool with DM automation + multi-language AI. Handles viral Reels (35K interactions/mo on Pro). Includes Facebook & YouTube at no extra cost.</p>
-                  <p className="text-sm"><strong>Cons:</strong> Pre-launch (waitlist), no API access yet.</p>
+                  <p className="text-sm"><strong>Cons:</strong> No API access yet.</p>
                 </div>
               </div>
 
               <div className="flex gap-3">
-                <Link href="/#waitlist">
-                  <Button size="sm" className="rounded-full">Join Waitlist</Button>
+                <Link href="https://app.socialkirin.com">
+                  <Button size="sm" className="rounded-full">Get Started Free</Button>
                 </Link>
                 <Link href="/instagram-comment-moderation">
                   <Button size="sm" variant="outline" className="rounded-full">Learn More</Button>
@@ -223,11 +223,11 @@ export default function BestInstagramModerationTools() {
           <div className="text-center bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10 my-12">
             <h2 className="text-3xl font-bold mb-4">Why Social Kirin Leads for Instagram</h2>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              The only Instagram tool with DM automation, multi-language AI (6 languages), and viral Reels support. Perfect for creators serving global audiences. 3-day free trial. First 50 waitlist signups get 3 months free.
+              The only Instagram tool with DM automation, multi-language AI (6 languages), and viral Reels support. Perfect for creators serving global audiences. 3-day free trial. No credit card required.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="rounded-full font-bold px-8">
-                Join the Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+                Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </div>

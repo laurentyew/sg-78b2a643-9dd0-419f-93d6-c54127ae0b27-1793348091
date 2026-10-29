@@ -102,8 +102,8 @@ export default function BestContentModerationTools() {
               </div>
 
               <div className="flex gap-3">
-                <Link href="/#waitlist">
-                  <Button size="sm" className="rounded-full">Join Waitlist</Button>
+                <Link href="https://app.socialkirin.com">
+                  <Button size="sm" className="rounded-full">Get Started Free</Button>
                 </Link>
                 <Link href="/social-media-moderation-software">
                   <Button size="sm" variant="outline" className="rounded-full">Full Review</Button>
@@ -297,11 +297,11 @@ export default function BestContentModerationTools() {
           <div className="text-center bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10 my-12">
             <h2 className="text-3xl font-bold mb-4">Social Kirin: Best Value for Most Brands</h2>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              True multi-platform coverage (Instagram + Facebook + YouTube), AI-powered automation, multi-language support, and transparent volume-based pricing. Starting at $25/mo. 3-day free trial. First 50 waitlist signups get 3 months free.
+              True multi-platform coverage (Instagram + Facebook + YouTube), AI-powered automation, multi-language support, and transparent volume-based pricing. Starting at $25/mo. 3-day free trial. No credit card required.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="rounded-full font-bold px-8">
-                Join the Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+                Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
           </div>

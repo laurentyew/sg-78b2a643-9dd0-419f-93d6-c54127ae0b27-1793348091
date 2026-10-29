@@ -250,8 +250,8 @@ export default function InstagramAutoReply() {
                   <span>Comments + DM automation</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -273,8 +273,8 @@ export default function InstagramAutoReply() {
                   <span>Multi-language + Reel automation</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button className="w-full">Get Started Free</Button>
               </Link>
             </Card>
 
@@ -295,8 +295,8 @@ export default function InstagramAutoReply() {
                   <span>Viral Reel handling</span>
                 </li>
               </ul>
-              <Link href="/#waitlist">
-                <Button variant="outline" className="w-full">Join Waitlist</Button>
+              <Link href="https://app.socialkirin.com">
+                <Button variant="outline" className="w-full">Get Started Free</Button>
               </Link>
             </Card>
           </div>
@@ -310,9 +310,9 @@ export default function InstagramAutoReply() {
             <p className="mb-6 text-muted-foreground">
               Instant responses to buyer questions on Posts and Reels. DM automation, 24/7 coverage, 75% reduction in manual replies. AI trained on your brand voice. Works for Business and Creator accounts.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>

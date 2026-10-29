@@ -172,11 +172,11 @@ export default function VsFeedGuardians() {
         <div className="text-center bg-accent/10 border border-accent/20 rounded-2xl p-8 md:p-12 my-12">
           <h2 className="text-3xl font-bold mb-4">Start with Social Kirin</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            3-day free trial. First 50 waitlist signups get 3 months free. No credit card required.
+            3-day free trial. No credit card required.
           </p>
-          <Link href="/#waitlist">
+          <Link href="https://app.socialkirin.com">
             <Button size="lg" className="rounded-full font-bold px-8">
-              Join the Waitlist <ArrowRight className="ml-2 h-4 w-4" />
+              Get Started Free <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </div>

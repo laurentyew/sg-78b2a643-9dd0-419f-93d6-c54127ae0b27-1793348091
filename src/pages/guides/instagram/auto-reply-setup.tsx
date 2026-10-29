@@ -108,8 +108,8 @@ export default function InstagramAutoReplySetupGuide() {
             Three-step DM flows, buyer-intent detection, six languages. Instagram and Facebook from one dashboard.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Link href="/#waitlist">
-              <Button size="lg" className="rounded-full font-bold">Join Waitlist</Button>
+            <Link href="https://app.socialkirin.com">
+              <Button size="lg" className="rounded-full font-bold">Get Started Free</Button>
             </Link>
             <Link href="/instagram-auto-reply">
               <Button size="lg" variant="outline" className="rounded-full font-bold">Instagram Auto Reply</Button>

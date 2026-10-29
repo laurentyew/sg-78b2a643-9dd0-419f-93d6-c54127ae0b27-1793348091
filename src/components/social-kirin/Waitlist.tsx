@@ -92,7 +92,7 @@ export function Waitlist() {
 
           <p className="max-w-lg text-base leading-7 text-muted-foreground sm:text-lg">
             If your team spends too much time cleaning comment sections, answering the same questions,
-            or chasing DMs, join the waitlist. The first {WAITLIST_CAP} signups get 3 free months at launch.
+            or chasing DMs, get started free. The first {WAITLIST_CAP} signups get 3 free months at launch.
           </p>
 
           <div className="rounded-2xl border border-border bg-card p-4 shadow-soft sm:p-5">
@@ -160,7 +160,7 @@ export function Waitlist() {
             <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5" noValidate>
               <div>
                 <h3 className="font-serif text-xl font-bold text-foreground sm:text-2xl">
-                  Join the founding waitlist
+                  Get Started Free
                 </h3>
                 <p className="mt-1 text-sm leading-6 text-muted-foreground">
                   Three fields. About twenty seconds. No card required.

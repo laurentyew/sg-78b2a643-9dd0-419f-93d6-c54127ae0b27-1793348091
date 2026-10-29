@@ -134,7 +134,7 @@ export const audiences: Audience[] = [
       {
         question: "What does it cost for a solo creator?",
         answer:
-          "Starter is $25/month for 5 channels and 5,000 interactions. The 3-day trial needs no credit card, and the first 50 waitlist signups receive 3 months free.",
+          "Starter is $25/month for 5 channels and 5,000 interactions. The 3-day trial needs no credit card.",
       },
     ],
   },

@@ -282,7 +282,7 @@ export default function SocialMediaModerationSoftware() {
 
           <h2 className="mb-6 mt-12 font-heading text-3xl font-bold">Getting Started with Social Kirin</h2>
           <ol className="space-y-4">
-            <li><strong>Join the waitlist.</strong> Social Kirin is in private beta. The first 50 waitlist signups receive 3 months free when we launch.</li>
+            <li><strong>Get Started Free.</strong> Social Kirin is live today. Create your account and connect your first channel in minutes.</li>
             <li><strong>Connect your accounts.</strong> Link Instagram, Facebook Pages, and YouTube channels via OAuth. No passwords shared, secure API connections only.</li>
             <li><strong>Configure filters.</strong> Set up custom keyword filters for spam patterns specific to your niche. Add competitor names, scam phrases, or inappropriate language you want auto-hidden.</li>
             <li><strong>Train your brand voice.</strong> Upload FAQs, product copy, or tone guidelines. Social Kirin's AI learns your brand voice and generates replies that sound like your team wrote them.</li>
@@ -295,9 +295,9 @@ export default function SocialMediaModerationSoftware() {
             <p className="mb-6 text-muted-foreground">
               Join 500+ brands using AI to moderate comments, reply in brand voice, and convert intent into sales across Instagram, Facebook, and YouTube.
             </p>
-            <Link href="/#waitlist">
+            <Link href="https://app.socialkirin.com">
               <Button size="lg" className="gap-2">
-                Join the Waitlist <span className="text-xs">(First 50 get 3 months free)</span>
+                Get Started Free <span className="text-xs">(First 50 get 3 months free)</span>
               </Button>
             </Link>
           </div>
@@ -373,7 +373,7 @@ export default function SocialMediaModerationSoftware() {
                 Is there a free trial?
               </AccordionTrigger>
               <AccordionContent>
-                Yes. After launch, all Social Kirin plans include a 7-day free trial. No credit card required to join the waitlist. The first 50 waitlist signups also receive 3 months free when we launch.
+                Yes. All Social Kirin plans include a 3-day free trial. No credit card required to get started.
               </AccordionContent>
             </AccordionItem>
 
