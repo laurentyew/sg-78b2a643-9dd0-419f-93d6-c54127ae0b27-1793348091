@@ -163,6 +163,12 @@ export function Header() {
                 </Link>
                 <div className="my-1 border-t border-border" />
                 <Link
+                  href="/guides"
+                  className="block px-4 py-2 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
+                >
+                  Guides & How-Tos
+                </Link>
+                <Link
                   href="/tools/spot-the-spam-comment-quiz"
                   className="block px-4 py-2 text-sm text-foreground/80 hover:text-primary hover:bg-muted rounded-md transition-colors"
                 >
@@ -365,6 +371,13 @@ export function Header() {
                   Best Content Moderation Tools
                 </Link>
                 <div className="border-t border-border my-2" />
+                <Link
+                  href="/guides"
+                  onClick={() => setOpen(false)}
+                  className="block text-sm text-foreground/70 hover:text-primary py-1.5"
+                >
+                  Guides & How-Tos
+                </Link>
                 <Link
                   href="/tools/spot-the-spam-comment-quiz"
                   onClick={() => setOpen(false)}
