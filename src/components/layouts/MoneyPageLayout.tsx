@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "@/components/social-kirin/Header";
 import { Footer } from "@/components/social-kirin/Footer";
-import { WaitlistPopup } from "@/components/social-kirin/WaitlistPopup";
 
 interface MoneyPageLayoutProps {
   children: React.ReactNode;
@@ -15,7 +14,6 @@ export function MoneyPageLayout({ children }: MoneyPageLayoutProps) {
         {children}
       </div>
       <Footer />
-      <WaitlistPopup />
     </main>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "@/components/social-kirin/Header";
 import { Footer } from "@/components/social-kirin/Footer";
-import { WaitlistPopup } from "@/components/social-kirin/WaitlistPopup";
 
 interface ComparisonLayoutProps {
   children: React.ReactNode;
@@ -29,7 +28,6 @@ export function ComparisonLayout({ children, competitor, lastChecked }: Comparis
         </div>
       </div>
       <Footer />
-      <WaitlistPopup />
     </main>
   );
 }
