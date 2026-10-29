@@ -99,18 +99,50 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="pt-8 flex flex-col gap-4">
-          <nav aria-label="Legal" className="flex flex-wrap gap-x-4 gap-y-2">
-            {legalLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-xs text-background/60 hover:text-accent underline-offset-4 hover:underline transition-colors"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+        <div className="pt-8 flex flex-col gap-6">
+          <div className="flex flex-col items-center gap-5 sm:flex-row sm:justify-between">
+            <nav aria-label="Legal" className="flex flex-wrap gap-x-4 gap-y-2">
+              {legalLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-xs text-background/60 hover:text-accent underline-offset-4 hover:underline transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+
+            <div className="shrink-0">
+              <span className="inline-block text-center leading-none">
+                <a
+                  href="https://tools.launchllama.co/products/social-kirin?utm_source=badge&utm_medium=referral"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block leading-none"
+                  aria-label="Featured on Launch Llama Tools"
+                >
+                  <img
+                    src="https://tools.launchllama.co/featured-badge.png?v=2"
+                    alt="Launch Llama Tools"
+                    width={200}
+                    height={52}
+                    loading="lazy"
+                    decoding="async"
+                    className="block border-0"
+                  />
+                </a>
+                <a
+                  href="https://mcpshelf.co/?utm_source=badge&utm_medium=referral"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-px block text-[7px] font-semibold leading-none tracking-[0.02em] text-background/45 no-underline transition-colors hover:text-accent"
+                >
+                  Launch your MCP
+                </a>
+              </span>
+            </div>
+          </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
             <p className="text-xs text-background/50">
