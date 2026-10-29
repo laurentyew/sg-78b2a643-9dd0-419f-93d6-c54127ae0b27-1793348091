@@ -25,12 +25,12 @@ export function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">
-          <a
+          <Link
             href="/#features"
             className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
           >
             Features
-          </a>
+          </Link>
 
           <div className="relative group">
             <button className="flex items-center gap-1 text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
@@ -172,28 +172,28 @@ export function Header() {
             </div>
           </div>
 
-          <a
+          <Link
             href="/#pricing"
             className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
           >
             Pricing
-          </a>
+          </Link>
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
-          <a
+          <Link
             href="/#waitlist"
             className="inline-flex h-10 items-center justify-center rounded-full px-4 text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
           >
             Log In
-          </a>
-          <a
+          </Link>
+          <Link
             href="/#waitlist"
             className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
           >
             <ShieldCheck className="h-4 w-4" />
             Join Waitlist
-          </a>
+          </Link>
         </div>
 
         <button
@@ -207,13 +207,13 @@ export function Header() {
 
       {open && (
         <div className="lg:hidden border-t border-border bg-background px-4 py-4 space-y-3">
-          <a
+          <Link
             href="/#features"
             onClick={() => setOpen(false)}
             className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
           >
             Features
-          </a>
+          </Link>
 
           <div>
             <button
@@ -376,22 +376,22 @@ export function Header() {
             )}
           </div>
 
-          <a
+          <Link
             href="/#pricing"
             onClick={() => setOpen(false)}
             className="block text-sm font-medium text-foreground/80 hover:text-primary py-2"
           >
             Pricing
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/#waitlist"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex h-10 w-full items-center justify-center gap-1.5 rounded-full bg-primary text-sm font-medium text-primary-foreground"
           >
             <ShieldCheck className="h-4 w-4" />
             Join Waitlist
-          </a>
+          </Link>
         </div>
       )}
     </header>
