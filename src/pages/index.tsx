@@ -12,36 +12,8 @@ import { Comparison } from "@/components/social-kirin/Comparison";
 import { Pricing } from "@/components/social-kirin/Pricing";
 import { FAQ } from "@/components/social-kirin/FAQ";
 import { Footer } from "@/components/social-kirin/Footer";
+import { homeGraphSchema } from "@/lib/schema";
 import { PROMO } from "@/lib/promo";
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "Social Kirin",
-  applicationCategory: "BusinessApplication",
-  operatingSystem: "Web",
-  url: "https://app.socialkirin.com",
-  description:
-    "AI-powered comment and DM moderation and automation platform for Instagram, Facebook, and YouTube. Auto-hides spam comments and replies in your brand voice.",
-  offers: {
-    "@type": "Offer",
-    price: "25",
-    priceCurrency: "USD",
-    description: `${PROMO.label}: ${PROMO.discountPercent}% off any plan for the first ${PROMO.cap} brands, using code ${PROMO.code} at checkout`,
-    availability: "https://schema.org/LimitedAvailability",
-  },
-  featureList: [
-    "Automatically hide spam and scam comments",
-    "AI replies in your brand voice",
-    "Keyword-triggered Instagram and Facebook DM automation",
-    "Sentiment and toxic language detection",
-    "Multi-platform moderation for Instagram, Facebook, and YouTube",
-  ],
-  audience: {
-    "@type": "BusinessAudience",
-    audienceType: "Social media managers, eCommerce brands, and agencies",
-  },
-};
 
 export default function Home() {
   return (
@@ -52,7 +24,7 @@ export default function Home() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeGraphSchema) }}
       />
       <main className="min-h-screen bg-background">
         <Header />
