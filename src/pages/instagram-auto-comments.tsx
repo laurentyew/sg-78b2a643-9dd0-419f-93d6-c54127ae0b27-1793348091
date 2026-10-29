@@ -199,15 +199,15 @@ export default function InstagramAutoComments() {
           <div className="not-prose my-8 grid gap-6 sm:grid-cols-3">
             <Card className="p-6">
               <h3 className="mb-2 font-heading text-2xl font-bold">Starter</h3>
-              <p className="mb-4 text-3xl font-bold">$19<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$25<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1 workspace</span>
+                  <span>5 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1,000 comments/month</span>
+                  <span>5,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -222,15 +222,15 @@ export default function InstagramAutoComments() {
             <Card className="border-primary p-6">
               <Badge className="mb-2">Most Popular</Badge>
               <h3 className="mb-2 font-heading text-2xl font-bold">Growth</h3>
-              <p className="mb-4 text-3xl font-bold">$49<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$59<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>2 workspaces</span>
+                  <span>15 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>10,000 comments/month</span>
+                  <span>15,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -248,11 +248,11 @@ export default function InstagramAutoComments() {
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Unlimited workspaces</span>
+                  <span>50 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>50,000 comments/month</span>
+                  <span>35,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -266,7 +266,7 @@ export default function InstagramAutoComments() {
           </div>
 
           <p className="text-center text-sm text-muted-foreground">
-            All plans include AI brand voice training, DM triggers, buyer-intent detection, multi-language support, and 24/7 automation. <strong>Annual billing saves 2 months.</strong> 7-day free trial after launch.
+            All plans include AI brand voice training, DM triggers, buyer-intent detection, multi-language support, and 24/7 automation. <strong>Annual billing saves 2 months.</strong> 3-day free trial.
           </p>
 
           <div className="not-prose my-12 rounded-2xl border border-primary/20 bg-primary/5 p-8 text-center">

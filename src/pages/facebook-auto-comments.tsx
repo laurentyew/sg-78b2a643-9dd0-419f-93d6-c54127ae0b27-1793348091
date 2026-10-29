@@ -149,9 +149,9 @@ export default function FacebookAutoComments() {
                     <td className="p-3 text-primary font-semibold">24/7 automated</td>
                   </tr>
                   <tr className="border-b border-border">
-                    <td className="p-3 font-medium">Cost (10,000 comments/mo)</td>
+                    <td className="p-3 font-medium">Cost (10,000 interactions/mo)</td>
                     <td className="p-3 text-muted-foreground">$2,000-$4,000/mo (2 moderators)</td>
-                    <td className="p-3 text-primary font-semibold">$49/mo (Growth tier)</td>
+                    <td className="p-3 text-primary font-semibold">$59/mo (Growth tier)</td>
                   </tr>
                   <tr className="border-b border-border">
                     <td className="p-3 font-medium">Consistency</td>
@@ -220,15 +220,15 @@ export default function FacebookAutoComments() {
           <div className="not-prose my-8 grid gap-6 sm:grid-cols-3">
             <Card className="p-6">
               <h3 className="mb-2 font-heading text-2xl font-bold">Starter</h3>
-              <p className="mb-4 text-3xl font-bold">$19<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$25<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1 workspace</span>
+                  <span>5 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>1,000 comments/month</span>
+                  <span>5,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -243,15 +243,15 @@ export default function FacebookAutoComments() {
             <Card className="border-primary p-6">
               <Badge className="mb-2">Most Popular</Badge>
               <h3 className="mb-2 font-heading text-2xl font-bold">Growth</h3>
-              <p className="mb-4 text-3xl font-bold">$49<span className="text-base font-normal text-muted-foreground">/month</span></p>
+              <p className="mb-4 text-3xl font-bold">$59<span className="text-base font-normal text-muted-foreground">/month</span></p>
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>2 workspaces</span>
+                  <span>15 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>10,000 comments/month</span>
+                  <span>15,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -269,11 +269,11 @@ export default function FacebookAutoComments() {
               <ul className="mb-6 space-y-2 text-sm">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>Unlimited workspaces</span>
+                  <span>50 channels</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>50,000 comments/month</span>
+                  <span>35,000 interactions/month</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
@@ -287,7 +287,7 @@ export default function FacebookAutoComments() {
           </div>
 
           <p className="text-center text-sm text-muted-foreground">
-            All plans include AI brand voice training, custom reply templates, multi-language support, and 24/7 automation. <strong>Annual billing saves 2 months.</strong> 7-day free trial after launch.
+            All plans include AI brand voice training, custom reply templates, multi-language support, and 24/7 automation. <strong>Annual billing saves 2 months.</strong> 3-day free trial.
           </p>
 
           <div className="not-prose my-12 rounded-2xl border border-primary/20 bg-primary/5 p-8 text-center">
@@ -328,7 +328,7 @@ export default function FacebookAutoComments() {
                 How many Facebook Pages can I automate?
               </AccordionTrigger>
               <AccordionContent>
-                Starter: 1 Page. Growth: 2 Pages. Pro: Unlimited Pages. Each Facebook Page connects to one workspace in Social Kirin.
+                Starter: 5 channels. Growth: 15 channels. Pro: 50 channels. Each Facebook Page connects to one channel in Social Kirin.
               </AccordionContent>
             </AccordionItem>
 
@@ -355,7 +355,7 @@ export default function FacebookAutoComments() {
                 What's the ROI of Facebook auto comments?
               </AccordionTrigger>
               <AccordionContent>
-                Social Kirin costs $19-$99/month. Manual moderation costs $2,000-$5,000/month in moderator salaries. Beyond cost savings, faster response times improve conversion rates—buyer-intent questions answered within minutes convert 30-50% better than questions ignored for hours.
+                Social Kirin costs $25-$99/month. Manual moderation costs $2,000-$5,000/month in moderator salaries. Beyond cost savings, faster response times improve conversion rates—buyer-intent questions answered within minutes convert 30-50% better than questions ignored for hours.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
