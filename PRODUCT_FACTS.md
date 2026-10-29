@@ -93,7 +93,7 @@ Social Kirin supports multi-language spam detection and AI replies in:
 - Data export (CSV/JSON)
 - Direct integration via API
 
-## Pricing (Pre-Launch Waitlist)
+## Pricing
 
 | Tier | Monthly | Annual | Interactions/mo | Channels | Seats | Features |
 |------|---------|--------|-----------------|----------|-------|----------|

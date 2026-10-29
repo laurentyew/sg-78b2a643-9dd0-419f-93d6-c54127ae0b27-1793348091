@@ -4,6 +4,7 @@ import { ComparisonLayout } from "@/components/layouts/ComparisonLayout";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
+import { PROMO } from "@/lib/promo";
 
 export default function VsCommentGuard() {
   return (
@@ -142,7 +143,8 @@ export default function VsCommentGuard() {
         <div className="text-center bg-accent/10 border border-accent/20 rounded-2xl p-8 md:p-12 my-12">
           <h2 className="text-3xl font-bold mb-4">Ready to upgrade your moderation?</h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Get Started Free today. First 50 signups get 3 months free on any paid plan.
+            Get started free today. The first {PROMO.cap} brands get {PROMO.discountPercent}% off any
+            plan with code <strong className="font-mono tracking-wider text-foreground">{PROMO.code}</strong>.
           </p>
           <Link href="https://app.socialkirin.com">
             <Button size="lg" className="rounded-full font-bold px-8">

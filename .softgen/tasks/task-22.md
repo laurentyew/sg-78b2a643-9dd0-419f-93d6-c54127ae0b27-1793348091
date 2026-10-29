@@ -1,6 +1,6 @@
 ---
 title: Replace 3-months-free founding offer with FIRST50
-status: in_progress
+status: done
 priority: high
 type: chore
 tags: [copy, waitlist, consistency]
