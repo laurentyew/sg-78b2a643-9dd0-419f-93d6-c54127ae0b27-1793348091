@@ -14,13 +14,13 @@ Build the Traditional Chinese (zh-Hant) content set for Taiwan and Hong Kong. Au
 
 Primary keyword targets (Traditional): 留言審核, 社群媒體留言管理, IG 留言自動回覆, Facebook 廣告留言, 垃圾留言過濾, 粉專留言管理, 私訊自動化, 社群小編 工具, 留言管理系統.
 
-Honesty constraints (per PRODUCT_FACTS.md): YouTube support and DM automation are real differentiators — lead with those. No API, no bulk actions, no CSV export; don't imply them. Pricing shown in NT$ with a HK$ reference line. Free trial 3 days / 50 interactions, no card.
+Honesty constraints (per PRODUCT_FACTS.md): YouTube support and DM automation are real differentiators — lead with those. No API, no bulk actions, no CSV export; don't imply them. Pricing is displayed in USD on every locale (identical $25 / $59 / $99 tiers) — do not show NT$ or HK$ amounts. Free trial 3 days / 50 interactions, no card.
 
 Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 
 ## Checklist
 - [x] Localized home at /zh-hant targeting 留言審核 / 社群小編 vocabulary, Taiwan-traditional wording
-- [x] Localized money page /zh-hant/comment-moderation targeting "留言審核" with NT$ pricing and 台灣用語
+- [x] Localized money page /zh-hant/comment-moderation targeting "留言審核" with USD pricing and 台灣用語
 - [x] Localized pricing block in USD ($25 / $59 / $99) with 年繳送兩個月
 - [x] Localized FAQ covering 價格、免費試用、資料處理、繁體中文支援
 - [ ] Localized comparison page /zh-hant/vs/feedguardians
@@ -28,5 +28,5 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 - [x] CJK typography pass: headings use Noto Sans TC, no orphaned Latin-only font fallbacks
 
 ## Acceptance
-- A Taiwan reader can complete the page journey in Traditional Chinese and quote NT$ pricing without encountering Simplified characters or English body copy.
+- A Taiwan reader can complete the page journey in Traditional Chinese and quote the USD pricing without encountering Simplified characters or English body copy.
 - Every Traditional Chinese page has unique localized metadata rather than a translation of the English meta description.

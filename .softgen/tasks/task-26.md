@@ -14,7 +14,7 @@ Build the Malay (Bahasa Melayu, Malaysia) content set. Audience: Malaysian SMEs,
 
 Primary keyword targets: perisian moderasi komen, moderasi komen media sosial, tapis komen spam, balas automatik komen Instagram, automasi DM, komen Facebook spam, alat media sosial untuk perniagaan, khidmat pengurusan komen.
 
-Honesty constraints (per PRODUCT_FACTS.md): Malay language processing is supported but the model is not specifically trained on Malay/Manglish spam patterns — never claim otherwise. Pricing in Ringgit (RM). Include the PDPA 2010 reference for Malaysian buyers. Free trial is 3 days, 50 interactions, no card.
+Honesty constraints (per PRODUCT_FACTS.md): Malay language processing is supported but the model is not specifically trained on Malay/Manglish spam patterns — never claim otherwise. Pricing is displayed in USD on every locale (identical $25 / $59 / $99 tiers) — do not show RM amounts. Include the PDPA 2010 reference for Malaysian buyers. Free trial is 3 days, 50 interactions, no card.
 
 Depends on task-25 for URL tree, hreflang and the language switcher.
 
@@ -32,5 +32,5 @@ Depends on task-25 for URL tree, hreflang and the language switcher.
 - [ ] Malay header, footer and internal links point only to Malay pages, with no link leaking to an English page
 
 ## Acceptance
-- A Malaysian visitor reading only Malay can understand the product, see RM pricing and start the free trial without hitting English copy.
+- A Malaysian visitor reading only Malay can understand the product, see the USD pricing and start the free trial without hitting English copy.
 - Each Malay page has a distinct localized title and description, not a transliteration of the English one.

@@ -14,13 +14,13 @@ Build the Simplified Chinese (zh-Hans) content set aimed at Malaysia and Singapo
 
 Primary keyword targets (Simplified): 评论审核, 社交媒体评论管理, 评论管理软件, Instagram 评论自动回复, Facebook 广告评论, 垃圾评论过滤, 私信自动化, 多语言评论审核.
 
-Positioning that actually wins here: the six-language moderation support and Malay/Chinese handling is the differentiator for SEA merchants — lead with it. Honesty constraints from PRODUCT_FACTS.md: no API, no bulk actions, no export, no team assignment. Pricing in RM with an S$ reference line. Mention PDPA for Malaysian users.
+Positioning that actually wins here: the six-language moderation support and Malay/Chinese handling is the differentiator for SEA merchants — lead with it. Honesty constraints from PRODUCT_FACTS.md: no API, no bulk actions, no export, no team assignment. Pricing is displayed in USD on every locale (identical $25 / $59 / $99 tiers) — do not show RM or S$ amounts. Mention PDPA for Malaysian users.
 
 Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 
 ## Checklist
 - [x] Localized home at /zh-hans targeting 评论审核 / 小编 vocabulary, Malaysian-SEA simplified wording
-- [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with RM/S$ pricing
+- [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with USD pricing
 - [x] Localized pricing block in USD ($25 / $59 / $99), identical tiers across all languages
 - [x] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
 - [x] Localized nav labels for the /zh-hans tree (功能、评论审核、定价、常见问题), all pointing at zh-Hans pages only
