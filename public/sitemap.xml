@@ -233,15 +233,25 @@
   </url>
   <url>
     <loc>https://socialkirin.com/comment-moderation</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/moderasi-komen-media-sosial" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/comment-moderation" />
   </url>
   <url>
     <loc>https://socialkirin.com/facebook-comment-moderation</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/facebook-comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/moderasi-komen-facebook" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/facebook-comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/facebook-comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/facebook-comment-moderation" />
   </url>
   <url>
     <loc>https://socialkirin.com/instagram-comment-moderation</loc>
@@ -275,9 +285,14 @@
   </url>
   <url>
     <loc>https://socialkirin.com/instagram-auto-reply</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/instagram-auto-reply" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/balas-automatik-instagram" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/instagram-auto-reply" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/instagram-auto-reply" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/instagram-auto-reply" />
   </url>
 
   <!-- Phase 3: Comparison & Alternative Pages -->
