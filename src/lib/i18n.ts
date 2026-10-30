@@ -96,11 +96,13 @@ export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
     en: "/instagram-auto-reply",
     ms: "/ms/balas-automatik-instagram",
     "zh-hant": "/zh-hant/instagram-auto-reply",
+    "zh-hans": "/zh-hans/instagram-auto-reply",
   },
   facebookCommentModeration: {
     en: "/facebook-comment-moderation",
     ms: "/ms/moderasi-komen-facebook",
     "zh-hant": "/zh-hant/facebook-comment-moderation",
+    "zh-hans": "/zh-hans/facebook-comment-moderation",
   },
   adCommentModeration: {
     en: "/ad-comment-moderation",

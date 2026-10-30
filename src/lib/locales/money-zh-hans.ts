@@ -138,7 +138,9 @@ export const zhHansCommentModeration: MoneyPageContent = {
   related: {
     heading: "相关页面",
     links: [
-      { label: "Social Kirin 全部功能", href: "/zh-hans" },
+      { label: "IG 评论自动回复", href: "/zh-hans/instagram-auto-reply" },
+      { label: "Facebook 评论审核", href: "/zh-hans/facebook-comment-moderation" },
+      { label: "与 FeedGuardians 比较", href: "/zh-hans/vs/feedguardians" },
       { label: "美元定价", href: "/zh-hans#pricing" },
       { label: "常见问题", href: "/zh-hans#faq" },
     ],
