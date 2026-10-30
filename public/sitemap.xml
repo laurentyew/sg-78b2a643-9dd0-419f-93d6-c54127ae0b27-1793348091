@@ -129,6 +129,39 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/comment-moderation" />
   </url>
 
+  <!-- Localized money pages: Instagram auto-reply (Malay) -->
+  <url>
+    <loc>https://socialkirin.com/ms/balas-automatik-instagram</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/instagram-auto-reply" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/balas-automatik-instagram" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/instagram-auto-reply" />
+  </url>
+
+  <!-- Localized money pages: Facebook comment moderation (Malay) -->
+  <url>
+    <loc>https://socialkirin.com/ms/moderasi-komen-facebook</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/facebook-comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/moderasi-komen-facebook" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/facebook-comment-moderation" />
+  </url>
+
+  <!-- Localized money pages: ad comment moderation (Malay) -->
+  <url>
+    <loc>https://socialkirin.com/ms/moderasi-komen-iklan</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/ad-comment-moderation" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/moderasi-komen-iklan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/ad-comment-moderation" />
+  </url>
+
   <!-- Free Tools -->
   <url>
     <loc>https://socialkirin.com/tools/spot-the-spam-comment-quiz</loc>
