@@ -48,6 +48,52 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/" />
   </url>
 
+  <!-- Localized comparison pages -->
+  <url>
+    <loc>https://socialkirin.com/vs/feedguardians</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/bandingkan-feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/vs/feedguardians" />
+  </url>
+  <url>
+    <loc>https://socialkirin.com/ms/bandingkan-feedguardians</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/bandingkan-feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/vs/feedguardians" />
+  </url>
+  <url>
+    <loc>https://socialkirin.com/zh-hant/vs/feedguardians</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/bandingkan-feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/vs/feedguardians" />
+  </url>
+  <url>
+    <loc>https://socialkirin.com/zh-hans/vs/feedguardians</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://socialkirin.com/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://socialkirin.com/ms/bandingkan-feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://socialkirin.com/zh-hant/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://socialkirin.com/zh-hans/vs/feedguardians" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://socialkirin.com/vs/feedguardians" />
+  </url>
+
   <!-- Localized money pages: comment moderation -->
   <url>
     <loc>https://socialkirin.com/comment-moderation</loc>
@@ -167,12 +213,6 @@
   <!-- Phase 3: Comparison & Alternative Pages -->
   <url>
     <loc>https://socialkirin.com/vs/commentguard</loc>
-    <lastmod>2026-10-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://socialkirin.com/vs/feedguardians</loc>
     <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
