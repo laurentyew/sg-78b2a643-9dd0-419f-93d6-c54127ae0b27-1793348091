@@ -86,7 +86,12 @@ export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
     "zh-hans": "/zh-hans",
   },
   moderationSoftware: { en: "/social-media-moderation-software" },
-  commentModeration: { en: "/comment-moderation" },
+  commentModeration: {
+    en: "/comment-moderation",
+    ms: "/ms/moderasi-komen-media-sosial",
+    "zh-hant": "/zh-hant/comment-moderation",
+    "zh-hans": "/zh-hans/comment-moderation",
+  },
   instagramAutoReply: { en: "/instagram-auto-reply" },
   facebookCommentModeration: { en: "/facebook-comment-moderation" },
   adCommentModeration: { en: "/ad-comment-moderation" },
