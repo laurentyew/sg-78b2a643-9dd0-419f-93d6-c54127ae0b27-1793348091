@@ -26,6 +26,7 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 - [x] Localized nav labels for the /zh-hans tree (功能、评论审核、定价、常见问题), all pointing at zh-Hans pages only
 - [x] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees
 - [x] Localized comparison page /zh-hans/vs/feedguardians
+- [ ] Simplified Chinese money pages for Instagram auto-reply and Facebook comment moderation (parity with the Malay and zh-Hant trees)
 
 ## Acceptance
 - A Malaysian Chinese merchant can read the pricing, understand multilingual moderation and start a trial entirely in Simplified Chinese.

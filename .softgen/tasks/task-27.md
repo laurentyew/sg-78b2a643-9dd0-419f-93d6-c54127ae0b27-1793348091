@@ -24,6 +24,7 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 - [x] Localized pricing block in USD ($25 / $59 / $99) with 年繳送兩個月
 - [x] Localized FAQ covering 價格、免費試用、資料處理、繁體中文支援
 - [x] Localized comparison page /zh-hant/vs/feedguardians
+- [x] Extra Traditional Chinese money pages: /zh-hant/instagram-auto-reply, /zh-hant/facebook-comment-moderation
 - [x] Localized nav labels for the /zh-hant tree (功能、留言審核、定價、常見問題), all pointing at zh-Hant pages only
 - [x] CJK typography pass: headings use Noto Sans TC, no orphaned Latin-only font fallbacks
 
