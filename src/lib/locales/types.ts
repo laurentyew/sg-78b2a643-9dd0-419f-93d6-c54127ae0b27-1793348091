@@ -98,6 +98,69 @@ export interface MoneyLink {
   href: string;
 }
 
+export interface ComparisonRow {
+  requirement: string;
+  us: string;
+  check: string;
+}
+
+export interface ComparisonContent {
+  lang: Locale;
+  slug: string;
+  navLabel: string;
+  navCta: string;
+  nav: NavItem[];
+  meta: {
+    title: string;
+    description: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    bullets: string[];
+    primaryCta: string;
+    secondaryCta: string;
+  };
+  verdict: {
+    heading: string;
+    body: string;
+  };
+  table: {
+    heading: string;
+    intro: string;
+    columns: {
+      requirement: string;
+      us: string;
+      check: string;
+    };
+    rows: ComparisonRow[];
+  };
+  strengths: {
+    heading: string;
+    intro: string;
+    items: MoneyCapability[];
+  };
+  alternatives: {
+    heading: string;
+    intro: string;
+    items: MoneyCapability[];
+  };
+  faq: {
+    heading: string;
+    items: HomeFaq[];
+  };
+  related: {
+    heading: string;
+    links: MoneyLink[];
+  };
+  finalCta: {
+    heading: string;
+    body: string;
+    cta: string;
+  };
+}
+
 export interface MoneyPageContent {
   lang: Locale;
   slug: string;
