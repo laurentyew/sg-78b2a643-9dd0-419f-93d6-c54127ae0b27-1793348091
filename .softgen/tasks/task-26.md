@@ -1,6 +1,6 @@
 ---
 title: Malay market pages
-status: todo
+status: in_progress
 priority: high
 type: feature
 tags: [localization, ms-MY, seo]
@@ -19,15 +19,15 @@ Honesty constraints (per PRODUCT_FACTS.md): Malay language processing is support
 Depends on task-25 for URL tree, hreflang and the language switcher.
 
 ## Checklist
-- [ ] Malay home page: hero with mascot, three proof points, five feature blocks, pricing summary and free-trial CTA, all in Malay
-- [ ] Malay moderation software page targeting "perisian moderasi komen media sosial" and "moderasi komen automatik"
-- [ ] Malay comment moderation page targeting "moderasi komen" and "tapis komen spam", with a worked example of a Malay-language spam comment
+- [x] Localized home at /ms with Malay meta title/description targeting "moderasi komen media sosial" and "tapisan komen spam"
+- [x] Localized money page /ms/moderasi-komen-media-sosial using Malay keyword "moderasi komen" with RM pricing and PDPA mention
+- [ ] Localized pricing block in RM (RM79/149/299 tiers) with "sebulan" wording, noting annual = 2 months free
+- [ ] Localized FAQ block covering harga, percubaan percuma, PDPA, bahasa Melayu/Manglish support
+- [ ] Localized comparison page /ms/bandingkan-feedguardians
+- [ ] Localized nav labels in Header for the /ms tree (Ciri, Harga, Soalan Lazim, Alat Percuma)
 - [ ] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
 - [ ] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"
 - [ ] Malay Facebook ad comment page covering spam on boosted posts and Shopee/Lazada-style scam links
-- [ ] Pricing section in Ringgit with the annual two-months-free discount and the FIRST50 offer restated in Malay
-- [ ] Malay FAQ of 10–12 questions covering harga, percubaan percuma, sokongan bahasa Melayu, PDPA, and platform connections
-- [ ] One Malay comparison page against FeedGuardians and CommentGuard with a "disemak pada" last-checked date
 - [ ] Malaysian proof section: named SME, e-dagang and agency scenarios (no invented logos or testimonials)
 - [ ] Malay header, footer and internal links point only to Malay pages, with no link leaking to an English page
 

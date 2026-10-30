@@ -1,6 +1,6 @@
 ---
 title: Multilingual SEO foundation
-status: todo
+status: in_progress
 priority: urgent
 type: feature
 tags: [i18n, seo, hreflang, routing]
@@ -23,6 +23,10 @@ Architecture decisions already researched — implement these, do not re-litigat
 - **Fonts:** Baloo 2 and IBM Plex Sans carry no CJK glyphs — Chinese pages need Noto Sans TC / Noto Sans SC in the stack or headlines fall back to tofu boxes.
 
 ## Checklist
+- [x] Add locale registry in src/lib/i18n.ts: en / ms / zh-hant / zh-hans with htmlLang, hreflang code, URL prefix, native name, currency
+- [x] Wire LanguageSwitcher into Header.tsx and Footer.tsx so English pages can reach locale homes
+- [ ] Verify in preview: every locale home renders, switcher resolves, no hydration warnings, CJK headings render in Noto Sans TC/SC
+- [ ] Extend sitemap.xml with every locale URL added in tasks 26-28 plus hreflang alternates on both the English and localized entries
 - [ ] Language switcher in the header and footer offering English / Bahasa Melayu / 繁體中文 / 简体中文, keeping the visitor on the same page when a translation exists and showing only languages actually available for that page
 - [ ] Every page renders the correct `<html lang>` value (en, ms, zh-Hant, zh-Hans) and a self-referencing canonical
 - [ ] Reciprocal hreflang annotations (en, ms, zh-Hant, zh-Hans) plus `x-default` → English on every translated page

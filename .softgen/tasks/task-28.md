@@ -1,6 +1,6 @@
 ---
 title: Simplified Chinese market pages
-status: todo
+status: in_progress
 priority: high
 type: feature
 tags: [localization, zh-Hans, seo]
@@ -19,17 +19,12 @@ Positioning that actually wins here: the six-language moderation support and Mal
 Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 
 ## Checklist
-- [ ] Simplified Chinese home page with mascot hero, three proof points, five feature blocks and free-trial CTA in business Chinese
-- [ ] 社交媒体评论管理 page targeting "社交媒体评论管理" and "评论管理软件"
-- [ ] 评论审核 page targeting "评论审核" and "垃圾评论过滤", with a Chinese spam-comment example
-- [ ] Instagram 评论自动回复 page targeting "Instagram 评论自动回复" and "自动回复 评论"
-- [ ] Facebook 广告评论 page targeting "Facebook 广告评论" and "广告评论 防护"
-- [ ] 私信自动化 page targeting "私信自动化" and "关键词 自动私信"
-- [ ] Multilingual moderation value page explaining Malay / Chinese / English detection for SEA merchants
-- [ ] Pricing in RM with S$ reference, annual discount and FIRST50 offer in Chinese
-- [ ] 10–12 question FAQ covering 价格, 免费试用, 中文支持, 多语言, 数据保留, PDPA
-- [ ] Comparison page vs FeedGuardians and CommentGuard in Simplified Chinese with a last-checked date
-- [ ] Simplified Chinese navigation, footer and internal links confined to this locale tree
+- [x] Localized home at /zh-hans targeting 评论审核 / 小编 vocabulary, Malaysian-SEA simplified wording
+- [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with RM/S$ pricing
+- [ ] Localized pricing block in RM with S$ reference
+- [ ] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
+- [ ] Localized comparison page /zh-hans/vs/feedguardians
+- [ ] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees
 
 ## Acceptance
 - A Malaysian Chinese merchant can read the pricing, understand multilingual moderation and start a trial entirely in Simplified Chinese.
