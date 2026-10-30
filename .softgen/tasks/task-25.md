@@ -1,6 +1,6 @@
 ---
 title: Multilingual SEO foundation
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [i18n, seo, hreflang, routing]
@@ -25,16 +25,16 @@ Architecture decisions already researched — implement these, do not re-litigat
 ## Checklist
 - [x] Add locale registry in src/lib/i18n.ts: en / ms / zh-hant / zh-hans with htmlLang, hreflang code, URL prefix, native name, currency
 - [x] Wire LanguageSwitcher into Header.tsx and Footer.tsx so English pages can reach locale homes
-- [ ] Verify in preview: every locale home renders, switcher resolves, no hydration warnings, CJK headings render in Noto Sans TC/SC
+- [x] Verify in preview: every locale home renders, switcher resolves, no hydration warnings, CJK headings render in Noto Sans TC/SC
 - [x] Extend sitemap.xml with every locale URL added in tasks 26-28 plus hreflang alternates on both the English and localized entries
-- [ ] Language switcher in the header and footer offering English / Bahasa Melayu / 繁體中文 / 简体中文, keeping the visitor on the same page when a translation exists and showing only languages actually available for that page
-- [ ] Every page renders the correct `<html lang>` value (en, ms, zh-Hant, zh-Hans) and a self-referencing canonical
-- [ ] Reciprocal hreflang annotations (en, ms, zh-Hant, zh-Hans) plus `x-default` → English on every translated page
-- [ ] Chinese pages render with correct glyphs (Noto Sans TC / Noto Sans SC in the heading and body stack); Malay pages keep Baloo 2 + IBM Plex Sans
-- [ ] Localized sharing previews: og:locale (en_US, ms_MY, zh_TW, zh_CN) with per-language og:title, og:description and image alt text
-- [ ] Sitemap lists every translated URL with its alternate-language annotations and contains no URL that returns 404
-- [ ] A locale URL that has no translation returns a proper 404 page, never an English page under the locale prefix
-- [ ] Analytics keeps locale traffic distinguishable by URL prefix so per-language results can be measured
+- [x] Language switcher in the header and footer offering English / Bahasa Melayu / 繁體中文 / 简体中文, keeping the visitor on the same page when a translation exists and showing only languages actually available for that page
+- [x] Every page renders the correct `<html lang>` value (en, ms, zh-Hant, zh-Hans) and a self-referencing canonical
+- [x] Reciprocal hreflang annotations (en, ms, zh-Hant, zh-Hans) plus `x-default` → English on every translated page
+- [x] Chinese pages render with correct glyphs (Noto Sans TC / Noto Sans SC in the heading and body stack); Malay pages keep Baloo 2 + IBM Plex Sans
+- [x] Localized sharing previews: og:locale (en_US, ms_MY, zh_TW, zh_CN) with per-language og:title, og:description and image alt text
+- [x] Sitemap lists every translated URL with its alternate-language annotations and contains no URL that returns 404
+- [x] A locale URL that has no translation returns a proper 404 page, never an English page under the locale prefix
+- [x] Analytics keeps locale traffic distinguishable by URL prefix so per-language results can be measured
 
 ## Acceptance
 - A Malay, a Traditional Chinese and a Simplified Chinese URL each report their own `lang`, self canonical and the full hreflang set when inspected in Search Console.

@@ -21,10 +21,10 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 ## Checklist
 - [x] Localized home at /zh-hant targeting 留言審核 / 社群小編 vocabulary, Taiwan-traditional wording
 - [x] Localized money page /zh-hant/comment-moderation targeting "留言審核" with NT$ pricing and 台灣用語
-- [ ] Localized pricing block in NT$ with 年繳送兩個月
-- [ ] Localized FAQ covering 價格、免費試用、資料處理、繁體中文支援
+- [x] Localized pricing block in NT$ with 年繳送兩個月
+- [x] Localized FAQ covering 價格、免費試用、資料處理、繁體中文支援
 - [ ] Localized comparison page /zh-hant/vs/feedguardians
-- [ ] CJK typography pass: headings use Noto Sans TC, no orphaned Latin-only font fallbacks
+- [x] CJK typography pass: headings use Noto Sans TC, no orphaned Latin-only font fallbacks
 
 ## Acceptance
 - A Taiwan reader can complete the page journey in Traditional Chinese and quote NT$ pricing without encountering Simplified characters or English body copy.

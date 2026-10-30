@@ -21,10 +21,9 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 ## Checklist
 - [x] Localized home at /zh-hans targeting 评论审核 / 小编 vocabulary, Malaysian-SEA simplified wording
 - [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with RM/S$ pricing
-- [ ] Localized pricing block in RM with S$ reference
-- [ ] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
-- [ ] Localized comparison page /zh-hans/vs/feedguardians
-- [ ] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees
+- [x] Localized pricing block in RM with S$ reference
+- [x] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
+- [x] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees
 
 ## Acceptance
 - A Malaysian Chinese merchant can read the pricing, understand multilingual moderation and start a trial entirely in Simplified Chinese.

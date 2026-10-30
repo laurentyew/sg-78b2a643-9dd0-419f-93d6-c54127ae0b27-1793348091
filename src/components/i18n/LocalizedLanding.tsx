@@ -139,13 +139,10 @@ export function LocalizedLanding({ content }: LocalizedLandingProps) {
           {guidePath ? (
             <Link
               href={guidePath}
-              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary hover:bg-primary/15"
             >
-              {content.hero.secondaryCta === "" ? "" : content.features.heading.replace(content.features.heading, "")}
-              <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2">
-                <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                {content.pricing.cta}
-              </span>
+              {content.pricing.cta}
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
           ) : null}
         </section>
