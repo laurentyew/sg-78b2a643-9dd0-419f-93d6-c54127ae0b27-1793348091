@@ -21,7 +21,7 @@ export const zhHantHome: HomeContent = {
     title: "廣告留言區的亂象，在你看到之前就處理完。",
     subtitle:
       "Social Kirin 在幾秒內判斷哪則留言是競品踩場、詐騙連結或單純問尺寸，自動隱藏該藏的、回覆該回的，並把需要真人的對話排進待辦清單。",
-    primaryCta: "免費試用 14 天",
+    primaryCta: "免費試用 3 天",
     secondaryCta: "查看方案價格",
     bullets: [
       "廣告貼文留言自動審查，CPL 不再被灌水",

@@ -21,7 +21,7 @@ export const zhHansHome: HomeContent = {
     title: "垃圾评论自动消失，客户问题几秒内有答复。",
     subtitle:
       "Social Kirin 同时看懂中文、马来文和英文评论，隐藏刷单广告、赌博链接和恶意差评，并用你的品牌语气回复价格、库存与物流问题。",
-    primaryCta: "免费试用 14 天",
+    primaryCta: "免费试用 3 天",
     secondaryCta: "查看价格",
     bullets: [
       "中英马三语评论一次审核完成",

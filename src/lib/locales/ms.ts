@@ -21,7 +21,7 @@ export const msHome: HomeContent = {
     title: "Komen spam hilang sendiri. Pembeli dapat balasan dalam beberapa saat.",
     subtitle:
       "Social Kirin menyemak setiap komen dan DM dalam bahasa Melayu, Inggeris dan Cina, menyembunyikan spam, dan membalas pertanyaan harga atau stok dengan nada jenama anda — tanpa perlu buka telefon tengah malam.",
-    primaryCta: "Mula percuma 14 hari",
+    primaryCta: "Mula percuma 3 hari",
     secondaryCta: "Lihat harga",
     bullets: [
       "Tapis komen spam, judi online dan pautan palsu",
