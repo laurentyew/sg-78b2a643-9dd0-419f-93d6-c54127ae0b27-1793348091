@@ -90,6 +90,10 @@ export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
   instagramAutoReply: { en: "/instagram-auto-reply" },
   facebookCommentModeration: { en: "/facebook-comment-moderation" },
   adCommentModeration: { en: "/ad-comment-moderation" },
+  dmAutomation: { en: "/instagram-auto-reply" },
+  multilingualModeration: { en: "/comment-moderation" },
+  pricing: { en: "/#pricing" },
+  faq: { en: "/#faq" },
   compareFeedguardians: { en: "/vs/feedguardians" },
 };
 
