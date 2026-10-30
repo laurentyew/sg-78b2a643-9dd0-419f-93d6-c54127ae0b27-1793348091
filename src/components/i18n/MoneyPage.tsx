@@ -272,7 +272,6 @@ export function MoneyPage({ content }: MoneyPageProps) {
               <ShieldCheck className="h-5 w-5 text-accent" aria-hidden="true" />
               <span className="font-serif text-lg font-bold text-background">Social Kirin</span>
             </div>
-            <LanguageSwitcher variant="footer" />
           </div>
           <div className="flex flex-col gap-3 border-t border-background/15 pt-6 text-xs text-background/55 sm:flex-row sm:items-center sm:justify-between">
             <p>© 2026 Social Kirin. D AGE Technology (SSM PC0005997-A).</p>

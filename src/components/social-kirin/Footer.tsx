@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { ShieldCheck, Instagram, Facebook, Youtube } from "lucide-react";
-import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 
 const columns = [
   {
@@ -168,7 +167,6 @@ export function Footer() {
               © 2026 Social Kirin. Operated by D AGE Technology (SSM PC0005997-A),
               Bayan Lepas, Malaysia.
             </p>
-            <LanguageSwitcher variant="footer" />
           </div>
         </div>
       </div>

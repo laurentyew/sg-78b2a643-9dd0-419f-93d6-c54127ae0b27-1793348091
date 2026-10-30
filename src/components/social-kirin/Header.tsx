@@ -227,13 +227,16 @@ export function Header() {
           </a>
         </div>
 
-        <button
-          className="lg:hidden text-foreground p-2"
-          onClick={() => setOpen(!open)}
-          aria-label="Toggle menu"
-        >
-          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        <div className="flex items-center gap-1 lg:hidden">
+          <LanguageSwitcher />
+          <button
+            className="text-foreground p-2"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {open && (
@@ -428,12 +431,6 @@ export function Header() {
           >
             Pricing
           </Link>
-
-          <div className="border-t border-border pt-3">
-            <div className="px-1">
-              <LanguageSwitcher variant="footer" />
-            </div>
-          </div>
 
           <a
             href="https://app.socialkirin.com"
