@@ -94,6 +94,8 @@ const config: Config = {
       fontFamily: {
         sans: ["IBM Plex Sans", "system-ui", "sans-serif"],
         serif: ["Baloo 2", "system-ui", "sans-serif"],
+        "zh-hant": ["Noto Sans TC", "Baloo 2", "system-ui", "sans-serif"],
+        "zh-hans": ["Noto Sans SC", "Baloo 2", "system-ui", "sans-serif"],
       },
       backgroundImage: {
         "gradient-hero": "var(--gradient-hero)",

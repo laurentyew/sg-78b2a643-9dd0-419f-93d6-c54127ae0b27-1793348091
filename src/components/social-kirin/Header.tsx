@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ShieldCheck, ChevronDown, Sparkles } from "lucide-react";
 import { PROMO } from "@/lib/promo";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -206,6 +207,8 @@ export function Header() {
           >
             Pricing
           </Link>
+
+          <LanguageSwitcher />
         </nav>
 
         <div className="hidden lg:flex items-center gap-3">
@@ -425,6 +428,12 @@ export function Header() {
           >
             Pricing
           </Link>
+
+          <div className="border-t border-border pt-3">
+            <div className="px-1">
+              <LanguageSwitcher variant="footer" />
+            </div>
+          </div>
 
           <a
             href="https://app.socialkirin.com"
