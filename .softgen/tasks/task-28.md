@@ -21,7 +21,7 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 ## Checklist
 - [x] Localized home at /zh-hans targeting 评论审核 / 小编 vocabulary, Malaysian-SEA simplified wording
 - [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with RM/S$ pricing
-- [x] Localized pricing block in RM with S$ reference
+- [x] Localized pricing block in USD ($25 / $59 / $99), identical tiers across all languages
 - [x] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
 - [x] Localized nav labels for the /zh-hans tree (功能、评论审核、定价、常见问题), all pointing at zh-Hans pages only
 - [x] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees

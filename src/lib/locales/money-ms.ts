@@ -109,7 +109,7 @@ export const msCommentModeration: MoneyPageContent = {
     items: [
       {
         q: "Berapa harga Social Kirin?",
-        a: "Pelan bermula pada RM79 sebulan untuk satu akaun dengan 1,000 interaksi. Pelan tahunan memberi dua bulan percuma, dan 50 pengguna pertama mendapat diskaun 50% seumur hidup.",
+        a: "Pelan bermula pada $25 sebulan (USD) untuk satu akaun dengan 5,000 interaksi. Pelan tahunan memberi dua bulan percuma, dan 50 pengguna pertama mendapat diskaun 50% seumur hidup.",
       },
       {
         q: "Adakah percubaan percuma memerlukan kad kredit?",
@@ -141,7 +141,7 @@ export const msCommentModeration: MoneyPageContent = {
     heading: "Halaman berkaitan",
     links: [
       { label: "Semua ciri Social Kirin", href: "/ms" },
-      { label: "Harga dalam Ringgit Malaysia", href: "/ms#pricing" },
+      { label: "Harga dalam USD", href: "/ms#pricing" },
       { label: "Soalan lazim", href: "/ms#faq" },
     ],
   },

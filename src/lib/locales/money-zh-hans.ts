@@ -107,7 +107,7 @@ export const zhHansCommentModeration: MoneyPageContent = {
     items: [
       {
         q: "Social Kirin 的价格是多少？",
-        a: "单个账号每月 RM79 起，含 1,000 次互动；新币用户约为 S$25。年付方案送两个月，前 50 位用户另享终身五折。",
+        a: "单个账号每月 $25 美元起，含 5,000 次互动。年付方案相当于送两个月，前 50 位用户另享终身五折。",
       },
       {
         q: "免费试用需要绑信用卡吗？",
@@ -139,7 +139,7 @@ export const zhHansCommentModeration: MoneyPageContent = {
     heading: "相关页面",
     links: [
       { label: "Social Kirin 全部功能", href: "/zh-hans" },
-      { label: "马币定价", href: "/zh-hans#pricing" },
+      { label: "美元定价", href: "/zh-hans#pricing" },
       { label: "常见问题", href: "/zh-hans#faq" },
     ],
   },

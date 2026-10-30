@@ -21,7 +21,7 @@ Depends on task-25 for URL tree, hreflang and the language switcher.
 ## Checklist
 - [x] Localized home at /ms with Malay meta title/description targeting "moderasi komen media sosial" and "tapisan komen spam"
 - [x] Localized money page /ms/moderasi-komen-media-sosial using Malay keyword "moderasi komen" with RM pricing and PDPA mention
-- [x] Localized pricing block in RM (RM79/149/299 tiers) with "sebulan" wording, noting annual = 2 months free
+- [x] Localized pricing block in USD ($25 / $59 / $99) with "sebulan" wording, noting annual = 2 months free
 - [x] Localized FAQ block covering harga, percubaan percuma, PDPA, bahasa Melayu/Manglish support
 - [ ] Localized comparison page /ms/bandingkan-feedguardians
 - [x] Localized nav labels in Header for the /ms tree (Ciri, Moderasi komen, Harga, Soalan lazim), all pointing at Malay pages only

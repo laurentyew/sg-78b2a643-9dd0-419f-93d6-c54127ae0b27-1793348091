@@ -107,7 +107,7 @@ export const zhHantCommentModeration: MoneyPageContent = {
     items: [
       {
         q: "Social Kirin 的價格是多少？",
-        a: "單一帳號每月新台幣 590 元起，含 1,000 次互動。年繳方案贈送兩個月，前 50 位用戶另享終身五折。",
+        a: "單一帳號每月 $25 美元起，含 5,000 次互動。年繳方案相當於贈送兩個月，前 50 位用戶另享終身五折。",
       },
       {
         q: "免費試用需要綁信用卡嗎？",
@@ -139,7 +139,7 @@ export const zhHantCommentModeration: MoneyPageContent = {
     heading: "相關頁面",
     links: [
       { label: "Social Kirin 全部功能", href: "/zh-hant" },
-      { label: "新台幣定價", href: "/zh-hant#pricing" },
+      { label: "美元定價", href: "/zh-hant#pricing" },
       { label: "常見問題", href: "/zh-hant#faq" },
     ],
   },
