@@ -99,7 +99,12 @@ export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
   multilingualModeration: { en: "/comment-moderation" },
   pricing: { en: "/#pricing" },
   faq: { en: "/#faq" },
-  compareFeedguardians: { en: "/vs/feedguardians" },
+  compareFeedguardians: {
+    en: "/vs/feedguardians",
+    ms: "/ms/bandingkan-feedguardians",
+    "zh-hant": "/zh-hant/vs/feedguardians",
+    "zh-hans": "/zh-hans/vs/feedguardians",
+  },
 };
 
 export function normalizePath(path: string): string {
