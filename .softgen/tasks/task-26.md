@@ -27,11 +27,11 @@ Depends on task-25 for URL tree, hreflang and the language switcher.
 - [x] Extra Malay money pages: /ms/balas-automatik-instagram, /ms/moderasi-komen-facebook, /ms/moderasi-komen-iklan
 - [x] Internal links from the Malay hub page to every Malay money page so none is orphaned
 - [x] Localized nav labels in Header for the /ms tree (Ciri, Moderasi komen, Harga, Soalan lazim), all pointing at Malay pages only
-- [ ] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
-- [ ] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"
-- [ ] Malay Facebook ad comment page covering spam on boosted posts and Shopee/Lazada-style scam links
+- [x] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
+- [x] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"
+- [x] Malay Facebook ad comment page covering spam on boosted posts and Shopee/Lazada-style scam links
 - [ ] Malaysian proof section: named SME, e-dagang and agency scenarios (no invented logos or testimonials)
-- [ ] Malay header, footer and internal links point only to Malay pages, with no link leaking to an English page
+- [x] Malay header, footer and internal links point only to Malay pages, with no link leaking to an English page
 
 ## Acceptance
 - A Malaysian visitor reading only Malay can understand the product, see the USD pricing and start the free trial without hitting English copy.
