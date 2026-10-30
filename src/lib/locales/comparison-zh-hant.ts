@@ -141,6 +141,8 @@ export const zhHantComparison: ComparisonContent = {
     heading: "相關頁面",
     links: [
       { label: "社群留言審核", href: "/zh-hant/comment-moderation" },
+      { label: "IG 留言自動回覆", href: "/zh-hant/instagram-auto-reply" },
+      { label: "Facebook 留言審核", href: "/zh-hant/facebook-comment-moderation" },
       { label: "美元定價", href: "/zh-hant#pricing" },
       { label: "Social Kirin 全部功能", href: "/zh-hant" },
     ],
