@@ -23,10 +23,16 @@ export interface HomeStat {
   label: string;
 }
 
+export interface NavItem {
+  label: string;
+  href: string;
+}
+
 export interface HomeContent {
   lang: Locale;
   brandTagline: string;
   navCta: string;
+  nav: NavItem[];
   meta: {
     title: string;
     description: string;

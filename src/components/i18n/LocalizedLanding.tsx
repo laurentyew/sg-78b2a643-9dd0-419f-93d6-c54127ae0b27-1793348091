@@ -16,7 +16,7 @@ export function LocalizedLanding({ content }: LocalizedLandingProps) {
     <div className={`min-h-screen bg-background ${fontClassFor(content.lang)}`}>
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 backdrop-blur-md">
         <div className="container flex h-20 items-center justify-between gap-4">
-          <Link href="/" className="flex items-center gap-2.5">
+          <Link href={pathFor("home", content.lang) ?? "/"} className="flex items-center gap-2.5">
             <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl bg-primary shadow-soft">
               <img
                 src="/generated/social-kirin-logo.jpg"
@@ -26,16 +26,38 @@ export function LocalizedLanding({ content }: LocalizedLandingProps) {
             </span>
             <span className="font-serif text-xl font-bold text-foreground">Social Kirin</span>
           </Link>
-          <div className="flex items-center gap-4">
+          <nav aria-label="Utama" className="hidden items-center gap-7 lg:flex">
+            {content.nav.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-foreground/80 transition-colors hover:text-primary"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+          <div className="flex items-center gap-3">
             <LanguageSwitcher />
             <a
               href="https://app.socialkirin.com"
-              className="hidden sm:inline-flex h-10 items-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
+              className="inline-flex h-10 items-center gap-1.5 rounded-full bg-primary px-5 text-sm font-medium text-primary-foreground shadow-soft transition-colors hover:bg-primary/90"
             >
               <ShieldCheck className="h-4 w-4" aria-hidden="true" />
               {content.navCta}
             </a>
           </div>
+        </div>
+        <div className="container flex gap-5 overflow-x-auto border-t border-border/50 py-2.5 lg:hidden">
+          {content.nav.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="whitespace-nowrap text-xs font-medium text-foreground/75 transition-colors hover:text-primary"
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
       </header>
 

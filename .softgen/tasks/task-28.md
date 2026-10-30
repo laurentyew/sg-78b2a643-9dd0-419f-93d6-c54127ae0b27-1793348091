@@ -23,6 +23,7 @@ Depends on task-25 for URL tree, hreflang, switcher and CJK font stack.
 - [x] Localized money page /zh-hans/comment-moderation targeting "评论审核" with RM/S$ pricing
 - [x] Localized pricing block in RM with S$ reference
 - [x] Localized FAQ covering 价格、免费试用、数据处理、中英夹杂支持
+- [x] Localized nav labels for the /zh-hans tree (功能、定价、常见问题、免费工具)
 - [x] Pages must be distinct from zh-Hant: separate scripts, separate keywords, no cross-linking between the two trees
 
 ## Acceptance
