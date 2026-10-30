@@ -68,3 +68,78 @@ export interface HomeContent {
   };
   footerNote: string;
 }
+
+export interface MoneyCapability {
+  title: string;
+  body: string;
+}
+
+export interface MoneyExample {
+  comment: string;
+  verdict: string;
+  action: string;
+  hidden: boolean;
+}
+
+export interface MoneyStep {
+  title: string;
+  body: string;
+}
+
+export interface MoneyLink {
+  label: string;
+  href: string;
+}
+
+export interface MoneyPageContent {
+  lang: Locale;
+  slug: string;
+  navCta: string;
+  meta: {
+    title: string;
+    description: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    primaryCta: string;
+    secondaryCta: string;
+    bullets: string[];
+  };
+  intro: {
+    heading: string;
+    paragraphs: string[];
+  };
+  capabilities: {
+    heading: string;
+    intro: string;
+    items: MoneyCapability[];
+  };
+  examples: {
+    heading: string;
+    intro: string;
+    legend: {
+      kept: string;
+      hidden: string;
+    };
+    items: MoneyExample[];
+  };
+  steps: {
+    heading: string;
+    items: MoneyStep[];
+  };
+  faq: {
+    heading: string;
+    items: HomeFaq[];
+  };
+  related: {
+    heading: string;
+    links: MoneyLink[];
+  };
+  finalCta: {
+    heading: string;
+    body: string;
+    cta: string;
+  };
+}
