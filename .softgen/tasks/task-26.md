@@ -23,7 +23,9 @@ Depends on task-25 for URL tree, hreflang and the language switcher.
 - [x] Localized money page /ms/moderasi-komen-media-sosial using Malay keyword "moderasi komen" with USD pricing and PDPA mention
 - [x] Localized pricing block in USD ($25 / $59 / $99) with "sebulan" wording, noting annual = 2 months free
 - [x] Localized FAQ block covering harga, percubaan percuma, PDPA, bahasa Melayu/Manglish support
-- [ ] Localized comparison page /ms/bandingkan-feedguardians
+- [x] Localized comparison page /ms/bandingkan-feedguardians
+- [x] Extra Malay money pages: /ms/balas-automatik-instagram, /ms/moderasi-komen-facebook, /ms/moderasi-komen-iklan
+- [x] Internal links from the Malay hub page to every Malay money page so none is orphaned
 - [x] Localized nav labels in Header for the /ms tree (Ciri, Moderasi komen, Harga, Soalan lazim), all pointing at Malay pages only
 - [ ] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
 - [ ] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"

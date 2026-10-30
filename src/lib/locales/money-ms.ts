@@ -140,9 +140,11 @@ export const msCommentModeration: MoneyPageContent = {
   related: {
     heading: "Halaman berkaitan",
     links: [
-      { label: "Semua ciri Social Kirin", href: "/ms" },
+      { label: "Balas automatik Instagram", href: "/ms/balas-automatik-instagram" },
+      { label: "Moderasi komen Facebook", href: "/ms/moderasi-komen-facebook" },
+      { label: "Moderasi komen iklan", href: "/ms/moderasi-komen-iklan" },
+      { label: "Bandingkan dengan FeedGuardians", href: "/ms/bandingkan-feedguardians" },
       { label: "Harga dalam USD", href: "/ms#pricing" },
-      { label: "Soalan lazim", href: "/ms#faq" },
     ],
   },
   finalCta: {
