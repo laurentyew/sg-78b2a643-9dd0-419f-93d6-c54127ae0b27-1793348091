@@ -1,5 +1,6 @@
 import React from "react";
 import { SEO } from "@/components/SEO";
+import { PageAlternates } from "@/components/i18n/PageAlternates";
 import { MoneyPageLayout } from "@/components/layouts/MoneyPageLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -16,6 +17,7 @@ export default function AdCommentModeration() {
         description="Protect paid campaigns from spam, trolls and competitor links. AI moderates Facebook and Instagram ad comments in real time so budgets stay safe."
         image="/Social_Kirin_OG.jpg"
       />
+      <PageAlternates page="adCommentModeration" />
 
       <script
         type="application/ld+json"
