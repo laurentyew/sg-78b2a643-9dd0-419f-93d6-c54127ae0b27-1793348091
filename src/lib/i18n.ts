@@ -92,9 +92,18 @@ export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
     "zh-hant": "/zh-hant/comment-moderation",
     "zh-hans": "/zh-hans/comment-moderation",
   },
-  instagramAutoReply: { en: "/instagram-auto-reply" },
-  facebookCommentModeration: { en: "/facebook-comment-moderation" },
-  adCommentModeration: { en: "/ad-comment-moderation" },
+  instagramAutoReply: {
+    en: "/instagram-auto-reply",
+    ms: "/ms/balas-automatik-instagram",
+  },
+  facebookCommentModeration: {
+    en: "/facebook-comment-moderation",
+    ms: "/ms/moderasi-komen-facebook",
+  },
+  adCommentModeration: {
+    en: "/ad-comment-moderation",
+    ms: "/ms/moderasi-komen-iklan",
+  },
   dmAutomation: { en: "/instagram-auto-reply" },
   multilingualModeration: { en: "/comment-moderation" },
   pricing: { en: "/#pricing" },
