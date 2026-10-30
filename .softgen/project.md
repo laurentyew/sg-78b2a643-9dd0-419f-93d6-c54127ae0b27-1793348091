@@ -13,8 +13,13 @@ Mascot: cute jade-teal kirin/dragon with amber flame tail, cream belly, speech b
 - --muted: 40 40% 93% (soft cream-grey)
 - Heading font: Baloo 2 (rounded, friendly, confident weight range)
 - Body font: IBM Plex Sans (clean, professional, readable)
+- CJK stack (Traditional Chinese pages): Noto Sans TC 400/700; (Simplified Chinese pages): Noto Sans SC 400/700 — Baloo 2 and IBM Plex Sans carry no CJK glyphs
 - Style: cute-but-professional — rounded corners (radius 1rem), soft shadows, playful mascot illustrations paired with structured feature grids/data-driven proof sections.
+
+## Localization
+Language trees by URL prefix, no browser auto-redirect: English `/`, Malay `/ms` (Malay slugs), Traditional Chinese `/zh-hant` (ascii slugs), Simplified Chinese `/zh-hans` (ascii slugs). A locale URL exists only when the page is truly translated — otherwise 404. Reciprocal hreflang plus `x-default` → English. `SEO.tsx` interface is locked; locale head tags are emitted per page.
 
 ## Features
 Landing page: header/nav, hero with mascot + CTA, trust logos, feature sections (auto-hide spam, AI replies in brand voice, automations/DM triggers, sentiment analysis, multi-platform), stats/proof, testimonials, comparison vs FeedGuardians/manual moderation, pricing tiers, extensive FAQ (SEO-targeted), footer with keyword-rich links.
 Free tool: "Moderator Rush" — a 10-round comment/DM moderation quiz at /tools/spot-the-spam-comment-quiz with server-side scoring, rank titles, shareable result pages, an email gate that unlocks a category breakdown, and a referral waitlist flow. Linked from the header ("Free Tools") and the home page.
+Localized trees: Malay, Traditional Chinese and Simplified Chinese sets of the money pages, pricing, FAQ and comparison pages, each with localized metadata, currency and keyword targeting.

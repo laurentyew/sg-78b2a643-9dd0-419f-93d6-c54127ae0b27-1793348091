@@ -1,0 +1,36 @@
+---
+title: Malay market pages
+status: todo
+priority: high
+type: feature
+tags: [localization, ms-MY, seo]
+created_by: agent
+created_at: 2026-10-30T01:45:00Z
+position: 26
+---
+
+## Notes
+Build the Malay (Bahasa Melayu, Malaysia) content set. Audience: Malaysian SMEs, e-dagang sellers on Shopee/Lazada, and agencies managing brand pages. Register: professional Malay, not machine translation — Malaysian buyers penalize translated-sounding copy more than missing copy.
+
+Primary keyword targets: perisian moderasi komen, moderasi komen media sosial, tapis komen spam, balas automatik komen Instagram, automasi DM, komen Facebook spam, alat media sosial untuk perniagaan, khidmat pengurusan komen.
+
+Honesty constraints (per PRODUCT_FACTS.md): Malay language processing is supported but the model is not specifically trained on Malay/Manglish spam patterns — never claim otherwise. Pricing in Ringgit (RM). Include the PDPA 2010 reference for Malaysian buyers. Free trial is 3 days, 50 interactions, no card.
+
+Depends on task-25 for URL tree, hreflang and the language switcher.
+
+## Checklist
+- [ ] Malay home page: hero with mascot, three proof points, five feature blocks, pricing summary and free-trial CTA, all in Malay
+- [ ] Malay moderation software page targeting "perisian moderasi komen media sosial" and "moderasi komen automatik"
+- [ ] Malay comment moderation page targeting "moderasi komen" and "tapis komen spam", with a worked example of a Malay-language spam comment
+- [ ] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
+- [ ] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"
+- [ ] Malay Facebook ad comment page covering spam on boosted posts and Shopee/Lazada-style scam links
+- [ ] Pricing section in Ringgit with the annual two-months-free discount and the FIRST50 offer restated in Malay
+- [ ] Malay FAQ of 10–12 questions covering harga, percubaan percuma, sokongan bahasa Melayu, PDPA, and platform connections
+- [ ] One Malay comparison page against FeedGuardians and CommentGuard with a "disemak pada" last-checked date
+- [ ] Malaysian proof section: named SME, e-dagang and agency scenarios (no invented logos or testimonials)
+- [ ] Malay header, footer and internal links point only to Malay pages, with no link leaking to an English page
+
+## Acceptance
+- A Malaysian visitor reading only Malay can understand the product, see RM pricing and start the free trial without hitting English copy.
+- Each Malay page has a distinct localized title and description, not a transliteration of the English one.
