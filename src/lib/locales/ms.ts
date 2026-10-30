@@ -3,7 +3,14 @@ import type { HomeContent } from "@/lib/locales/types";
 export const msHome: HomeContent = {
   lang: "ms",
   brandTagline: "Moderasi komen & automasi DM untuk penjual Malaysia",
+  navLabel: "Navigasi utama",
   navCta: "Cuba percuma",
+  nav: [
+    { label: "Ciri", href: "#features" },
+    { label: "Moderasi komen", href: "/ms/moderasi-komen-media-sosial" },
+    { label: "Harga", href: "#pricing" },
+    { label: "Soalan lazim", href: "#faq" },
+  ],
   meta: {
     title: "Moderasi Komen AI & Automasi DM Instagram Facebook | Social Kirin",
     description:

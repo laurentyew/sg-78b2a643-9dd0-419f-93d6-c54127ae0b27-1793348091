@@ -31,6 +31,7 @@ export interface NavItem {
 export interface HomeContent {
   lang: Locale;
   brandTagline: string;
+  navLabel: string;
   navCta: string;
   nav: NavItem[];
   meta: {

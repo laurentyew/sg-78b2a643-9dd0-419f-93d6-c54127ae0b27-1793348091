@@ -24,7 +24,7 @@ Depends on task-25 for URL tree, hreflang and the language switcher.
 - [x] Localized pricing block in RM (RM79/149/299 tiers) with "sebulan" wording, noting annual = 2 months free
 - [x] Localized FAQ block covering harga, percubaan percuma, PDPA, bahasa Melayu/Manglish support
 - [ ] Localized comparison page /ms/bandingkan-feedguardians
-- [x] Localized nav labels in Header for the /ms tree (Ciri, Harga, Soalan Lazim, Alat Percuma)
+- [x] Localized nav labels in Header for the /ms tree (Ciri, Moderasi komen, Harga, Soalan lazim), all pointing at Malay pages only
 - [ ] Malay Instagram auto-reply page targeting "balas automatik komen Instagram" and "automasi DM Instagram"
 - [ ] Malay Facebook comment moderation page targeting "komen spam Facebook" and "tapis komen Facebook"
 - [ ] Malay Facebook ad comment page covering spam on boosted posts and Shopee/Lazada-style scam links

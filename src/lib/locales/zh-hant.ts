@@ -3,7 +3,14 @@ import type { HomeContent } from "@/lib/locales/types";
 export const zhHantHome: HomeContent = {
   lang: "zh-hant",
   brandTagline: "給台灣與香港小編的留言管理與私訊自動化",
+  navLabel: "主要導覽",
   navCta: "免費試用",
+  nav: [
+    { label: "功能", href: "#features" },
+    { label: "留言審核", href: "/zh-hant/comment-moderation" },
+    { label: "定價", href: "#pricing" },
+    { label: "常見問題", href: "#faq" },
+  ],
   meta: {
     title: "AI 留言管理與私訊自動化｜IG、FB、YouTube｜Social Kirin",
     description:

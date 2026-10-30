@@ -26,7 +26,7 @@ export function LocalizedLanding({ content }: LocalizedLandingProps) {
             </span>
             <span className="font-serif text-xl font-bold text-foreground">Social Kirin</span>
           </Link>
-          <nav aria-label="Utama" className="hidden items-center gap-7 lg:flex">
+          <nav aria-label={content.navLabel} className="hidden items-center gap-7 lg:flex">
             {content.nav.map((item) => (
               <Link
                 key={item.href}

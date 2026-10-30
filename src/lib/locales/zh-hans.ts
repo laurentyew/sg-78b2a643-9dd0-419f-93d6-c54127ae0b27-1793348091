@@ -3,7 +3,14 @@ import type { HomeContent } from "@/lib/locales/types";
 export const zhHansHome: HomeContent = {
   lang: "zh-hans",
   brandTagline: "面向东南亚中文商家的评论审核与私信自动化",
+  navLabel: "主导航",
   navCta: "免费试用",
+  nav: [
+    { label: "功能", href: "#features" },
+    { label: "评论审核", href: "/zh-hans/comment-moderation" },
+    { label: "定价", href: "#pricing" },
+    { label: "常见问题", href: "#faq" },
+  ],
   meta: {
     title: "AI 评论管理与私信自动化｜Instagram、Facebook、YouTube｜Social Kirin",
     description:
