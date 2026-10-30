@@ -36,8 +36,8 @@ export const LOCALES: Record<Locale, LocaleDefinition> = {
     nativeName: "Bahasa Melayu",
     englishName: "Malay",
     ogLocale: "ms_MY",
-    currency: "RM",
-    currencyNote: "Dibilkan dalam Ringgit Malaysia",
+    currency: "USD",
+    currencyNote: "Dibilkan dalam Dolar AS (USD)",
   },
   "zh-hant": {
     code: "zh-hant",
@@ -47,8 +47,8 @@ export const LOCALES: Record<Locale, LocaleDefinition> = {
     nativeName: "繁體中文",
     englishName: "Traditional Chinese",
     ogLocale: "zh_TW",
-    currency: "NT$",
-    currencyNote: "以新台幣計價（另附港幣參考）",
+    currency: "USD",
+    currencyNote: "以美元（USD）計價",
   },
   "zh-hans": {
     code: "zh-hans",
@@ -58,8 +58,8 @@ export const LOCALES: Record<Locale, LocaleDefinition> = {
     nativeName: "简体中文",
     englishName: "Simplified Chinese",
     ogLocale: "zh_CN",
-    currency: "RM",
-    currencyNote: "以马币计价（另附新币参考）",
+    currency: "USD",
+    currencyNote: "以美元（USD）计价",
   },
 };
 
