@@ -79,7 +79,12 @@ export type PageKey =
   | "compareFeedguardians";
 
 export const PAGE_ROUTES: Record<PageKey, Partial<Record<Locale, string>>> = {
-  home: { en: "/" },
+  home: {
+    en: "/",
+    ms: "/ms",
+    "zh-hant": "/zh-hant",
+    "zh-hans": "/zh-hans",
+  },
   moderationSoftware: { en: "/social-media-moderation-software" },
   commentModeration: { en: "/comment-moderation" },
   instagramAutoReply: { en: "/instagram-auto-reply" },
