@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { ShieldCheck, Check, ArrowRight, Globe, Sparkles } from "lucide-react";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
-import { fontClassFor } from "@/lib/i18n";
+import { fontClassFor, pathFor } from "@/lib/i18n";
 import type { HomeContent } from "@/lib/locales/types";
 
 interface LocalizedLandingProps {
@@ -10,6 +10,8 @@ interface LocalizedLandingProps {
 }
 
 export function LocalizedLanding({ content }: LocalizedLandingProps) {
+  const guidePath = pathFor("commentModeration", content.lang);
+
   return (
     <div className={`min-h-screen bg-background ${fontClassFor(content.lang)}`}>
       <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 backdrop-blur-md">
@@ -134,6 +136,18 @@ export function LocalizedLanding({ content }: LocalizedLandingProps) {
               </span>
             ))}
           </div>
+          {guidePath ? (
+            <Link
+              href={guidePath}
+              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
+            >
+              {content.hero.secondaryCta === "" ? "" : content.features.heading.replace(content.features.heading, "")}
+              <span className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2">
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                {content.pricing.cta}
+              </span>
+            </Link>
+          ) : null}
         </section>
 
         <section id="pricing" className="border-y border-border bg-muted/60">
