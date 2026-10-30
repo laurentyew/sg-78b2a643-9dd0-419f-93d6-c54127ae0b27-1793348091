@@ -1,5 +1,6 @@
 import React from "react";
 import { SEO } from "@/components/SEO";
+import { PageAlternates } from "@/components/i18n/PageAlternates";
 import { MoneyPageLayout } from "@/components/layouts/MoneyPageLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -16,6 +17,7 @@ export default function InstagramAutoReply() {
         description="Instagram auto reply that answers DMs and comments in your brand voice, sends links on request, and hands sensitive chats to a human."
         image="/Social_Kirin_OG.jpg"
       />
+      <PageAlternates page="instagramAutoReply" />
 
       <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-8">

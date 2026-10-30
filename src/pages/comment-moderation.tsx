@@ -1,5 +1,6 @@
 import React from "react";
 import { SEO } from "@/components/SEO";
+import { PageAlternates } from "@/components/i18n/PageAlternates";
 import { MoneyPageLayout } from "@/components/layouts/MoneyPageLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -16,6 +17,7 @@ export default function CommentModeration() {
         description="Comment moderation that auto-hides spam, scams and abuse on Instagram, Facebook and YouTube, with a full review log your team stays in control of."
         image="/Social_Kirin_OG.jpg"
       />
+      <PageAlternates page="commentModeration" />
 
       <script
         type="application/ld+json"

@@ -1,5 +1,6 @@
 import React from "react";
 import { SEO } from "@/components/SEO";
+import { PageAlternates } from "@/components/i18n/PageAlternates";
 import { MoneyPageLayout } from "@/components/layouts/MoneyPageLayout";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -16,6 +17,7 @@ export default function FacebookCommentModeration() {
         description="Facebook comment moderation for pages and ads. Auto-hide spam, filter trolls, and reply in your brand voice without babysitting the inbox."
         image="/Social_Kirin_OG.jpg"
       />
+      <PageAlternates page="facebookCommentModeration" />
 
       <script
         type="application/ld+json"
