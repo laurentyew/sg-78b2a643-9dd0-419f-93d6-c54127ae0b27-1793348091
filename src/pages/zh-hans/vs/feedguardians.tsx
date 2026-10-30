@@ -6,7 +6,7 @@ export default function ZhHansComparisonPage() {
   return (
     <>
       <LocaleHead
-        pageKey="compareFeedguardians"
+        page="compareFeedguardians"
         locale="zh-hans"
         title={zhHansComparison.meta.title}
         description={zhHansComparison.meta.description}

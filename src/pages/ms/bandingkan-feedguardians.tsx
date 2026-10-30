@@ -6,7 +6,7 @@ export default function MsComparisonPage() {
   return (
     <>
       <LocaleHead
-        pageKey="compareFeedguardians"
+        page="compareFeedguardians"
         locale="ms"
         title={msComparison.meta.title}
         description={msComparison.meta.description}

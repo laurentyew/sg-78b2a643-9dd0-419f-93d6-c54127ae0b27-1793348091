@@ -6,7 +6,7 @@ export default function ZhHantComparisonPage() {
   return (
     <>
       <LocaleHead
-        pageKey="compareFeedguardians"
+        page="compareFeedguardians"
         locale="zh-hant"
         title={zhHantComparison.meta.title}
         description={zhHantComparison.meta.description}
