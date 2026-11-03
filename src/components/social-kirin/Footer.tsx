@@ -159,6 +159,23 @@ export function Footer() {
                   className="block border-0"
                 />
               </a>
+              <a
+                href="https://launchstag.com/p/social-kirin"
+                target="_blank"
+                rel="noopener"
+                className="block leading-none"
+                aria-label="Featured on Launchstag"
+              >
+                <img
+                  src="https://launchstag.com/badge-light.svg"
+                  alt="Featured on Launchstag"
+                  width={198}
+                  height={62}
+                  loading="lazy"
+                  decoding="async"
+                  className="block border-0"
+                />
+              </a>
             </div>
           </div>
 
