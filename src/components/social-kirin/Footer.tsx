@@ -105,7 +105,7 @@ export function Footer() {
         >
           <h3
             id="as-seen-on-heading"
-            className="font-serif text-sm font-bold uppercase tracking-[0.18em] text-background/50 mb-6"
+            className="font-serif text-sm font-bold uppercase tracking-[0.18em] text-background/50 mb-6 text-center"
           >
             As seen on
           </h3>
