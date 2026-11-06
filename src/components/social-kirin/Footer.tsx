@@ -176,6 +176,23 @@ export function Footer() {
                   className="block border-0"
                 />
               </a>
+              <a
+                href="https://saascity.io"
+                target="_blank"
+                rel="noopener"
+                className="block leading-none"
+                aria-label="Featured on SaaSCity"
+              >
+                <img
+                  src="https://saascity.io/badges/featured-light.svg"
+                  alt="Featured on SaaSCity"
+                  width={150}
+                  height={54}
+                  loading="lazy"
+                  decoding="async"
+                  className="block border-0"
+                />
+              </a>
             </div>
           </div>
 
