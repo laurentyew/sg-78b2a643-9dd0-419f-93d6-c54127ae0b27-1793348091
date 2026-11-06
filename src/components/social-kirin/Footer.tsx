@@ -109,13 +109,13 @@ export function Footer() {
           >
             As seen on
           </h3>
-          <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-6 items-center justify-items-center">
-            <li className="flex flex-col items-center justify-center">
+          <ul className="flex flex-wrap justify-center gap-x-3 gap-y-6 items-stretch">
+            <li className="w-[calc(50%-0.375rem)] sm:w-[calc(25%-0.5625rem)] lg:w-[calc(12.5%-0.65625rem)] flex flex-col items-center justify-center">
               <a
                 href="https://tools.launchllama.co/products/social-kirin?utm_source=badge&utm_medium=referral"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block rounded-md leading-none"
+                className="block w-full leading-none"
                 aria-label="Featured on Launch Llama Tools"
               >
                 <img
@@ -125,7 +125,7 @@ export function Footer() {
                   height={52}
                   loading="lazy"
                   decoding="async"
-                  className="block h-11 w-auto max-w-full border-0 object-contain"
+                  className="block h-12 w-full border-0 object-contain"
                 />
               </a>
               <a
@@ -137,13 +137,13 @@ export function Footer() {
                 Launch your MCP
               </a>
             </li>
-            <li className="flex flex-col items-center justify-center">
+            <li className="w-[calc(50%-0.375rem)] sm:w-[calc(25%-0.5625rem)] lg:w-[calc(12.5%-0.65625rem)] flex flex-col items-center justify-center">
               <a
                 href="https://launchaf.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-launchaf-badge="true"
-                className="block rounded-md leading-none"
+                className="block w-full leading-none"
                 aria-label="Featured on LaunchAF"
               >
                 <img
@@ -153,16 +153,16 @@ export function Footer() {
                   height={56}
                   loading="lazy"
                   decoding="async"
-                  className="block h-11 w-auto max-w-full border-0 object-contain"
+                  className="block h-12 w-full border-0 object-contain"
                 />
               </a>
             </li>
-            <li className="flex flex-col items-center justify-center">
+            <li className="w-[calc(50%-0.375rem)] sm:w-[calc(25%-0.5625rem)] lg:w-[calc(12.5%-0.65625rem)] flex flex-col items-center justify-center">
               <a
                 href="https://launchstag.com/p/social-kirin"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block rounded-md leading-none"
+                className="block w-full leading-none"
                 aria-label="Featured on Launchstag"
               >
                 <img
@@ -172,16 +172,16 @@ export function Footer() {
                   height={62}
                   loading="lazy"
                   decoding="async"
-                  className="block h-11 w-auto max-w-full border-0 object-contain"
+                  className="block h-12 w-full border-0 object-contain"
                 />
               </a>
             </li>
-            <li className="flex flex-col items-center justify-center">
+            <li className="w-[calc(50%-0.375rem)] sm:w-[calc(25%-0.5625rem)] lg:w-[calc(12.5%-0.65625rem)] flex flex-col items-center justify-center">
               <a
                 href="https://saascity.io"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block rounded-md leading-none"
+                className="block w-full leading-none"
                 aria-label="Featured on SaaSCity"
               >
                 <img
@@ -191,7 +191,7 @@ export function Footer() {
                   height={54}
                   loading="lazy"
                   decoding="async"
-                  className="block h-11 w-auto max-w-full border-0 object-contain"
+                  className="block h-12 w-full border-0 object-contain"
                 />
               </a>
             </li>
