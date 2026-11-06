@@ -99,54 +99,51 @@ export function Footer() {
           ))}
         </div>
 
-        <div className="pt-8 flex flex-col gap-6">
-          <div className="flex flex-col items-center gap-5 sm:flex-row sm:justify-between">
-            <nav aria-label="Legal" className="flex flex-wrap gap-x-4 gap-y-2">
-              {legalLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="text-xs text-background/60 hover:text-accent underline-offset-4 hover:underline transition-colors"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </nav>
-
-            <div className="shrink-0 flex flex-col items-center gap-2">
-              <span className="inline-block text-center leading-none">
-                <a
-                  href="https://tools.launchllama.co/products/social-kirin?utm_source=badge&utm_medium=referral"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block leading-none"
-                  aria-label="Featured on Launch Llama Tools"
-                >
-                  <img
-                    src="https://tools.launchllama.co/featured-badge.png?v=2"
-                    alt="Launch Llama Tools"
-                    width={200}
-                    height={52}
-                    loading="lazy"
-                    decoding="async"
-                    className="block border-0"
-                  />
-                </a>
-                <a
-                  href="https://mcpshelf.co/?utm_source=badge&utm_medium=referral"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-px block text-[7px] font-semibold leading-none tracking-[0.02em] text-background/45 no-underline transition-colors hover:text-accent"
-                >
-                  Launch your MCP
-                </a>
-              </span>
+        <section
+          aria-labelledby="as-seen-on-heading"
+          className="py-10 border-b border-background/15"
+        >
+          <h3
+            id="as-seen-on-heading"
+            className="font-serif text-sm font-bold uppercase tracking-[0.18em] text-background/50 mb-6"
+          >
+            As seen on
+          </h3>
+          <ul className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-x-4 gap-y-6 items-center justify-items-center">
+            <li className="flex flex-col items-center justify-center">
+              <a
+                href="https://tools.launchllama.co/products/social-kirin?utm_source=badge&utm_medium=referral"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-md leading-none"
+                aria-label="Featured on Launch Llama Tools"
+              >
+                <img
+                  src="https://tools.launchllama.co/featured-badge.png?v=2"
+                  alt="Featured on Launch Llama Tools"
+                  width={200}
+                  height={52}
+                  loading="lazy"
+                  decoding="async"
+                  className="block h-11 w-auto max-w-full border-0 object-contain"
+                />
+              </a>
+              <a
+                href="https://mcpshelf.co/?utm_source=badge&utm_medium=referral"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1.5 block text-[10px] font-semibold leading-none tracking-[0.02em] text-background/45 no-underline transition-colors hover:text-accent"
+              >
+                Launch your MCP
+              </a>
+            </li>
+            <li className="flex flex-col items-center justify-center">
               <a
                 href="https://launchaf.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 data-launchaf-badge="true"
-                className="block leading-none"
+                className="block rounded-md leading-none"
                 aria-label="Featured on LaunchAF"
               >
                 <img
@@ -156,14 +153,16 @@ export function Footer() {
                   height={56}
                   loading="lazy"
                   decoding="async"
-                  className="block border-0"
+                  className="block h-11 w-auto max-w-full border-0 object-contain"
                 />
               </a>
+            </li>
+            <li className="flex flex-col items-center justify-center">
               <a
                 href="https://launchstag.com/p/social-kirin"
                 target="_blank"
-                rel="noopener"
-                className="block leading-none"
+                rel="noopener noreferrer"
+                className="block rounded-md leading-none"
                 aria-label="Featured on Launchstag"
               >
                 <img
@@ -173,14 +172,16 @@ export function Footer() {
                   height={62}
                   loading="lazy"
                   decoding="async"
-                  className="block border-0"
+                  className="block h-11 w-auto max-w-full border-0 object-contain"
                 />
               </a>
+            </li>
+            <li className="flex flex-col items-center justify-center">
               <a
                 href="https://saascity.io"
                 target="_blank"
-                rel="noopener"
-                className="block leading-none"
+                rel="noopener noreferrer"
+                className="block rounded-md leading-none"
                 aria-label="Featured on SaaSCity"
               >
                 <img
@@ -190,11 +191,25 @@ export function Footer() {
                   height={54}
                   loading="lazy"
                   decoding="async"
-                  className="block border-0"
+                  className="block h-11 w-auto max-w-full border-0 object-contain"
                 />
               </a>
-            </div>
-          </div>
+            </li>
+          </ul>
+        </section>
+
+        <div className="pt-8 flex flex-col gap-6">
+          <nav aria-label="Legal" className="flex flex-wrap gap-x-4 gap-y-2">
+            {legalLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-xs text-background/60 hover:text-accent underline-offset-4 hover:underline transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
 
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
             <p className="text-xs text-background/50">
